@@ -71,7 +71,7 @@
         <document-item nom="Fran&#231;ais" href="../doc/draft/refresh-fr.png"/>
       </document-format>
     </document>
-    <pointeur nom="Watch [12 Mo]" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/doc/draft/toutdoux-doc-watch.tar.gz"/>
+    <pointeur nom="Watch [12 Mo]" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/doc/toutdoux-doc-watch.tar.gz"/>
   </cadre>
 <!-- Licence -->
   <cadre nom="License">
@@ -88,7 +88,7 @@
       <document-format nom="html">
         <document-item nom="English" href="../doc/user/en/x43.html"/>
         <document-item nom="Espa&#241;ol" href="../doc/user/es/x43.html"/>
-        <document-item nom="Fran&#231;ais" href="../doc/user/fr/x70.html"/>
+        <document-item nom="Fran&#231;ais" href="../doc/user/fr/x68.html"/>
       </document-format>
     </document>
   </cadre>
