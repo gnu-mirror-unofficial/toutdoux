@@ -1,7 +1,9 @@
 char *s = N_("Autres choses");
 char *s = N_("Ressources");
 char *s = N_("Graphisme [949 kb]");
-char *s = N_("Scripts");
+char *s = N_("Perl script de génération de ChangeLog");
+char *s = N_("Shell script de remplacement récursif");
+char *s = N_("Menu shell pour ToutDoux");
 char *s = N_("Configuration logiciel");
 char *s = N_("Configuration GNU Emacs");
 char *s = N_("themacs");

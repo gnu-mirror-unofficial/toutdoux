@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2001-08-31 20:34+0200\n"
+"POT-Creation-Date: 2001-08-31 21:12+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,170 +56,178 @@ msgid "Graphisme [949 kb]"
 msgstr ""
 
 #: xml/autres.xml.in.h:4
-msgid "Scripts"
+msgid "Perl script de génération de ChangeLog"
 msgstr ""
 
 #: xml/autres.xml.in.h:5
-msgid "Configuration logiciel"
+msgid "Shell script de remplacement récursif"
 msgstr ""
 
 #: xml/autres.xml.in.h:6
-msgid "Configuration GNU Emacs"
+msgid "Menu shell pour ToutDoux"
 msgstr ""
 
 #: xml/autres.xml.in.h:7
-msgid "themacs"
+msgid "Configuration logiciel"
 msgstr ""
 
 #: xml/autres.xml.in.h:8
-msgid " : inspiré par GNU Emacs"
+msgid "Configuration GNU Emacs"
 msgstr ""
 
 #: xml/autres.xml.in.h:9
-msgid "Classe LaTeX"
+msgid "themacs"
 msgstr ""
 
 #: xml/autres.xml.in.h:10
-msgid "Lettre à la française"
+msgid " : inspiré par GNU Emacs"
 msgstr ""
 
 #: xml/autres.xml.in.h:11
-msgid "Curriculum Vitae"
+msgid "Classe LaTeX"
 msgstr ""
 
 #: xml/autres.xml.in.h:12
-msgid "Jackette pour CD-ROM"
+msgid "Lettre à la française"
 msgstr ""
 
 #: xml/autres.xml.in.h:13
-msgid "Jackette pour CD-Audio"
+msgid "Curriculum Vitae"
 msgstr ""
 
 #: xml/autres.xml.in.h:14
-msgid "Liens : quelques fondamentaux"
+msgid "Jackette pour CD-ROM"
 msgstr ""
 
 #: xml/autres.xml.in.h:15
-msgid "Amnesty international"
+msgid "Jackette pour CD-Audio"
 msgstr ""
 
 #: xml/autres.xml.in.h:16
-msgid " : les droits de l'être humain"
+msgid "Liens : quelques fondamentaux"
 msgstr ""
 
 #: xml/autres.xml.in.h:17
-msgid "Medecins sans frontières"
+msgid "Amnesty international"
 msgstr ""
 
 #: xml/autres.xml.in.h:18
-msgid " : l'action humanitaire"
+msgid " : les droits de l'être humain"
 msgstr ""
 
 #: xml/autres.xml.in.h:19
-msgid "Le Monde diplomatique"
+msgid "Medecins sans frontières"
 msgstr ""
 
 #: xml/autres.xml.in.h:20
-msgid " : l'actualité"
+msgid " : l'action humanitaire"
 msgstr ""
 
 #: xml/autres.xml.in.h:21
-msgid "Reporters sans frontières"
+msgid "Le Monde diplomatique"
 msgstr ""
 
 #: xml/autres.xml.in.h:22
-msgid " : la liberté de la presse"
+msgid " : l'actualité"
 msgstr ""
 
 #: xml/autres.xml.in.h:23
-msgid "Le projet GNU"
+msgid "Reporters sans frontières"
 msgstr ""
 
 #: xml/autres.xml.in.h:24
-msgid " : les logiciels libres"
+msgid " : la liberté de la presse"
 msgstr ""
 
 #: xml/autres.xml.in.h:25
-msgid "L'alliance EuroLinux"
+msgid "Le projet GNU"
 msgstr ""
 
 #: xml/autres.xml.in.h:26
-msgid " : l'inbrevatibilité de la pensée"
+msgid " : les logiciels libres"
 msgstr ""
 
 #: xml/autres.xml.in.h:27
-msgid "Attac"
+msgid "L'alliance EuroLinux"
 msgstr ""
 
 #: xml/autres.xml.in.h:28
-msgid " : la taxation des transactions financières"
+msgid " : l'inbrevatibilité de la pensée"
 msgstr ""
 
 #: xml/autres.xml.in.h:29
-msgid "Liens : quelques classiques"
+msgid "Attac"
 msgstr ""
 
 #: xml/autres.xml.in.h:30
-msgid "Nouvelles "
+msgid " : la taxation des transactions financières"
 msgstr ""
 
 #: xml/autres.xml.in.h:31
-msgid "l'autre portail"
+msgid "Liens : quelques classiques"
 msgstr ""
 
 #: xml/autres.xml.in.h:32
-msgid "LinuxFr"
+msgid "Nouvelles "
 msgstr ""
 
 #: xml/autres.xml.in.h:33
-msgid "Web Matin"
+msgid "l'autre portail"
 msgstr ""
 
 #: xml/autres.xml.in.h:34
-msgid "transnationale.org"
+msgid "LinuxFr"
 msgstr ""
 
 #: xml/autres.xml.in.h:35
-msgid "Forum emploi "
+msgid "Web Matin"
 msgstr ""
 
 #: xml/autres.xml.in.h:36
-msgid "Lolix"
+msgid "transnationale.org"
 msgstr ""
 
 #: xml/autres.xml.in.h:37
-msgid "Annonces logiciels"
+msgid "Forum emploi "
 msgstr ""
 
 #: xml/autres.xml.in.h:38
-msgid "Freshmeat"
+msgid "Lolix"
 msgstr ""
 
 #: xml/autres.xml.in.h:39
-msgid "Je suis libre"
+msgid "Annonces logiciels"
 msgstr ""
 
 #: xml/autres.xml.in.h:40
-msgid "Moteur de recherche"
+msgid "Freshmeat"
 msgstr ""
 
 #: xml/autres.xml.in.h:41
-msgid "tuxfinder (logiciel)"
+msgid "Je suis libre"
 msgstr ""
 
-#: xml/autres.xml.in.h:42 xml/documentation.xml.in.h:1
-msgid "Documentation"
+#: xml/autres.xml.in.h:42
+msgid "Moteur de recherche"
 msgstr ""
 
 #: xml/autres.xml.in.h:43
-msgid "Léa"
+msgid "tuxfinder (logiciel)"
 msgstr ""
 
-#: xml/autres.xml.in.h:44
-msgid "LinuxGraphic"
+#: xml/autres.xml.in.h:44 xml/documentation.xml.in.h:1
+msgid "Documentation"
 msgstr ""
 
 #: xml/autres.xml.in.h:45
+msgid "Léa"
+msgstr ""
+
+#: xml/autres.xml.in.h:46
+msgid "LinuxGraphic"
+msgstr ""
+
+#: xml/autres.xml.in.h:47
 msgid "EmacsFr"
 msgstr ""
 

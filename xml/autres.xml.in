@@ -4,7 +4,9 @@
   <!-- Ressource -->
   <cadre _nom="Ressources">
     <pointeur _nom="Graphisme [949 kb]" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/ressource/toutdoux-ressource-art.tar.gz/"/>
-    <pointeur _nom="Scripts" href="../ressource/script/"/>
+    <pointeur _nom="Perl script de génération de ChangeLog" href="../ressource/script/cvs2cl.pl"/>
+    <pointeur _nom="Shell script de remplacement récursif" href="../ressource/script/remplace.sh"/>
+    <pointeur _nom="Menu shell pour ToutDoux" href="../ressource/script/std.sh"/>
   </cadre>
 
   <!-- Configuration logiciel -->

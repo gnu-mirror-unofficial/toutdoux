@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ToutDoux 1.2.0\n"
-"POT-Creation-Date: 2001-08-31 20:34+0200\n"
+"POT-Creation-Date: 2001-08-31 21:12+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Philippe Roy <ph_roy@toutdoux.org>\n"
 "Language-Team: Philippe Roy <ph_roy@toutdoux.org>\n"
@@ -59,170 +59,178 @@ msgid "Graphisme [949 kb]"
 msgstr "Graphics [949 kb]"
 
 #: xml/autres.xml.in.h:4
-msgid "Scripts"
-msgstr "Scripts"
+msgid "Perl script de génération de ChangeLog"
+msgstr "Perl script generator for ChangeLog"
 
 #: xml/autres.xml.in.h:5
+msgid "Shell script de remplacement récursif"
+msgstr "Shell script for recursive replacement"
+
+#: xml/autres.xml.in.h:6
+msgid "Menu shell pour ToutDoux"
+msgstr "Shell menu for ToutDoux"
+
+#: xml/autres.xml.in.h:7
 msgid "Configuration logiciel"
 msgstr "Software configuration"
 
-#: xml/autres.xml.in.h:6
+#: xml/autres.xml.in.h:8
 msgid "Configuration GNU Emacs"
 msgstr "GNU Emacs configuration"
 
-#: xml/autres.xml.in.h:7
+#: xml/autres.xml.in.h:9
 msgid "themacs"
 msgstr "themacs"
 
-#: xml/autres.xml.in.h:8
+#: xml/autres.xml.in.h:10
 msgid " : inspiré par GNU Emacs"
 msgstr " : inspired by GNU Emacs"
 
-#: xml/autres.xml.in.h:9
+#: xml/autres.xml.in.h:11
 msgid "Classe LaTeX"
 msgstr "Class LaTeX"
 
-#: xml/autres.xml.in.h:10
+#: xml/autres.xml.in.h:12
 msgid "Lettre à la française"
 msgstr "French letter"
 
-#: xml/autres.xml.in.h:11
+#: xml/autres.xml.in.h:13
 msgid "Curriculum Vitae"
 msgstr "Curriculum Vitae"
 
-#: xml/autres.xml.in.h:12
+#: xml/autres.xml.in.h:14
 msgid "Jackette pour CD-ROM"
 msgstr "Cover for CD-ROM"
 
-#: xml/autres.xml.in.h:13
+#: xml/autres.xml.in.h:15
 msgid "Jackette pour CD-Audio"
 msgstr "Cover for CD-Audio"
 
-#: xml/autres.xml.in.h:14
+#: xml/autres.xml.in.h:16
 msgid "Liens : quelques fondamentaux"
 msgstr "Links : the essentials"
 
-#: xml/autres.xml.in.h:15
+#: xml/autres.xml.in.h:17
 msgid "Amnesty international"
 msgstr "Amnesty international"
 
-#: xml/autres.xml.in.h:16
+#: xml/autres.xml.in.h:18
 msgid " : les droits de l'être humain"
 msgstr " : human rights"
 
-#: xml/autres.xml.in.h:17
+#: xml/autres.xml.in.h:19
 msgid "Medecins sans frontières"
 msgstr "Medecins sans frontières"
 
-#: xml/autres.xml.in.h:18
+#: xml/autres.xml.in.h:20
 msgid " : l'action humanitaire"
 msgstr " : humanitarian action"
 
-#: xml/autres.xml.in.h:19
+#: xml/autres.xml.in.h:21
 msgid "Le Monde diplomatique"
 msgstr "Le Monde diplomatique"
 
-#: xml/autres.xml.in.h:20
+#: xml/autres.xml.in.h:22
 msgid " : l'actualité"
 msgstr " : current events"
 
-#: xml/autres.xml.in.h:21
+#: xml/autres.xml.in.h:23
 msgid "Reporters sans frontières"
 msgstr "Reporters without borders"
 
-#: xml/autres.xml.in.h:22
+#: xml/autres.xml.in.h:24
 msgid " : la liberté de la presse"
 msgstr " : press freedom"
 
-#: xml/autres.xml.in.h:23
+#: xml/autres.xml.in.h:25
 msgid "Le projet GNU"
 msgstr "The GNU project"
 
-#: xml/autres.xml.in.h:24
+#: xml/autres.xml.in.h:26
 msgid " : les logiciels libres"
 msgstr " : free software"
 
-#: xml/autres.xml.in.h:25
+#: xml/autres.xml.in.h:27
 msgid "L'alliance EuroLinux"
 msgstr "The EuroLinux alliance"
 
-#: xml/autres.xml.in.h:26
+#: xml/autres.xml.in.h:28
 msgid " : l'inbrevatibilité de la pensée"
 msgstr " : abuse of the patent system"
 
-#: xml/autres.xml.in.h:27
+#: xml/autres.xml.in.h:29
 msgid "Attac"
 msgstr "Attac"
 
-#: xml/autres.xml.in.h:28
+#: xml/autres.xml.in.h:30
 msgid " : la taxation des transactions financières"
 msgstr " : the taxation of financial transactions"
 
-#: xml/autres.xml.in.h:29
+#: xml/autres.xml.in.h:31
 msgid "Liens : quelques classiques"
 msgstr "Links : some classics"
 
-#: xml/autres.xml.in.h:30
+#: xml/autres.xml.in.h:32
 msgid "Nouvelles "
 msgstr "News"
 
-#: xml/autres.xml.in.h:31
+#: xml/autres.xml.in.h:33
 msgid "l'autre portail"
 msgstr "l'autre portail (French)"
 
-#: xml/autres.xml.in.h:32
+#: xml/autres.xml.in.h:34
 msgid "LinuxFr"
 msgstr "LinuxFr (French)"
 
-#: xml/autres.xml.in.h:33
+#: xml/autres.xml.in.h:35
 msgid "Web Matin"
 msgstr "Web Matin (French)"
 
-#: xml/autres.xml.in.h:34
+#: xml/autres.xml.in.h:36
 msgid "transnationale.org"
 msgstr "transnationale.org"
 
-#: xml/autres.xml.in.h:35
+#: xml/autres.xml.in.h:37
 msgid "Forum emploi "
 msgstr "Job forum"
 
-#: xml/autres.xml.in.h:36
+#: xml/autres.xml.in.h:38
 msgid "Lolix"
 msgstr "Lolix"
 
-#: xml/autres.xml.in.h:37
+#: xml/autres.xml.in.h:39
 msgid "Annonces logiciels"
 msgstr "Software announcements"
 
-#: xml/autres.xml.in.h:38
+#: xml/autres.xml.in.h:40
 msgid "Freshmeat"
 msgstr "Freshmeat"
 
-#: xml/autres.xml.in.h:39
+#: xml/autres.xml.in.h:41
 msgid "Je suis libre"
 msgstr "Je suis libre (french)"
 
-#: xml/autres.xml.in.h:40
+#: xml/autres.xml.in.h:42
 msgid "Moteur de recherche"
 msgstr "Search engines"
 
-#: xml/autres.xml.in.h:41
+#: xml/autres.xml.in.h:43
 msgid "tuxfinder (logiciel)"
 msgstr "tuxfinder (software)"
 
-#: xml/autres.xml.in.h:42 xml/documentation.xml.in.h:1
+#: xml/autres.xml.in.h:44 xml/documentation.xml.in.h:1
 msgid "Documentation"
 msgstr "Documentation"
 
-#: xml/autres.xml.in.h:43
+#: xml/autres.xml.in.h:45
 msgid "Léa"
 msgstr "Léa (French)"
 
-#: xml/autres.xml.in.h:44
+#: xml/autres.xml.in.h:46
 msgid "LinuxGraphic"
 msgstr "LinuxGraphic (French)"
 
-#: xml/autres.xml.in.h:45
+#: xml/autres.xml.in.h:47
 msgid "EmacsFr"
 msgstr "EmacsFr (French)"
 

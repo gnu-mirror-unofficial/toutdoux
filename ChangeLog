@@ -1,3 +1,45 @@
+2001-08-31 20:17  philou
+
+	* en/documentation.html, en/documentation.xml, en/en.po,
+	fr/documentation.html, fr/documentation.xml, fr/fr.po, intl/en.po,
+	intl/fr.po, xml/documentation.xml.in: Migration Sourceforge to
+	Savannah (continuation)
+
+2001-08-31 19:10  philou
+
+	* doc/draft/solver-en.png, doc/draft/solver-fr.png,
+	doc/draft/tables-en.png, doc/draft/tables-fr.png,
+	en/documentation.html, en/documentation.xml, en/en.po,
+	fr/documentation.html, fr/documentation.xml, fr/fr.po, intl/en.po,
+	intl/fr.po, xml/documentation.xml.in: Migration Sourceforge to
+	Savannah (continuation)
+
+2001-08-31 18:53  philou
+
+	* en/autres.html, en/autres.xml, en/documentation.html,
+	en/documentation.xml, en/en.po, en/index.html, en/nouvelles.html,
+	en/nouvelles.xml, en/telechargement.html, en/telechargement.xml,
+	fr/autres.html, fr/autres.xml, fr/documentation.html,
+	fr/documentation.xml, fr/fr.po, fr/telechargement.html,
+	fr/telechargement.xml, intl/en.po, intl/fr.po, xml/autres.xml.in,
+	xml/autres.xml.in.h, xml/documentation.xml.in,
+	xml/documentation.xml.in.h, xml/telechargement.xml.in,
+	xml/telechargement.xml.in.h: Migration Sourceforge to Savannah
+	(continuation)
+
+2001-08-31 15:13  philou
+
+	* ChangeLog, site.xsl.in, en/autres.html, en/captures.html,
+	en/documentation.html, en/en.po, en/en.xsl, en/encours.html,
+	en/greffons.html, en/index.html, en/menu.html, en/menu.xml,
+	en/nouvelles.html, en/nouvelles.xml, en/telechargement.html,
+	fr/autres.html, fr/captures.html, fr/documentation.html,
+	fr/encours.html, fr/fr.po, fr/fr.xsl, fr/greffons.html,
+	fr/index.html, fr/menu.html, fr/menu.xml, fr/nouvelles.html,
+	fr/nouvelles.xml, fr/telechargement.html, intl/en.po, intl/fr.po,
+	xml/menu.xml.in, xml/nouvelles.xml.in, xml/nouvelles.xml.in.h:
+	Migration Sourceforge to Savannah (continuation)
+
 2001-08-31 14:24  philou
 
 	* .cvsignore, Makefile, Makefile-lang, site.xsl.in, site.xsl.in.h,
