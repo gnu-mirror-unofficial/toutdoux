@@ -1,6 +1,6 @@
 char *s = N_("Autres choses");
 char *s = N_("Ressources");
-char *s = N_("Graphisme");
+char *s = N_("Graphisme [949 kb]");
 char *s = N_("Scripts");
 char *s = N_("Configuration logiciel");
 char *s = N_("Configuration GNU Emacs");

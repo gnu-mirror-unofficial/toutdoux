@@ -2,7 +2,7 @@
 <page id="autres" nom="Autres choses">
 <!-- Ressource -->
   <cadre nom="Ressources">
-    <pointeur nom="Graphisme" href="../ressource/graphisme/"/>
+    <pointeur nom="Graphisme [949 kb]" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/ressource/toutdoux-ressource-art.tar.gz/"/>
     <pointeur nom="Scripts" href="../ressource/script/"/>
   </cadre>
 <!-- Configuration logiciel -->

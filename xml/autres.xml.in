@@ -3,7 +3,7 @@
 
   <!-- Ressource -->
   <cadre _nom="Ressources">
-    <pointeur _nom="Graphisme" href="../ressource/graphisme/"/>
+    <pointeur _nom="Graphisme [949 kb]" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/ressource/toutdoux-ressource-art.tar.gz/"/>
     <pointeur _nom="Scripts" href="../ressource/script/"/>
   </cadre>
 

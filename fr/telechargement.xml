@@ -2,9 +2,9 @@
 <page id="telechargement" nom="T&#233;l&#233;chargement">
 <!-- FTP -->
   <cadre nom="Fichiers">
-    <pointeur nom="getxml-1.0.4.tar.gz [156 kb]" href="../dl/getxml-latest.tar.gz" texte=" : internationalisation des fichiers XML"/>
-    <pointeur nom="dtags-1.0.1.tar.gz [183 kb]" href="../dl/dtags-latest.tar.gz" texte=" : extracteur de balises pour documentation"/>
-    <pointeur nom="ToutDoux-1.2.7.tar.gz [1 294 kb]" href="../dl/ToutDoux-latest.tar.gz" texte=" : gestionnaire de projet"/>
+    <pointeur nom="getxml-1.0.4.tar.gz [156 kb]" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/getxml-latest.tar.gz" texte=" : internationalisation des fichiers XML"/>
+    <pointeur nom="dtags-1.0.1.tar.gz [183 kb]" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/dtags-latest.tar.gz" texte=" : extracteur de balises pour documentation"/>
+    <pointeur nom="ToutDoux-1.2.7.tar.gz [1 294 kb]" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/ToutDoux-latest.tar.gz" texte=" : gestionnaire de projet"/>
     <pointeur nom="ftp://toutdoux.sourceforge.net/pub/toutdoux/" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/"/>
   </cadre>
 <!-- APT -->
@@ -18,12 +18,12 @@
   </cadre>
 <!-- CVS -->
   <cadre nom="CVS">
-    <texte texte="L'arbre des fichiers source est h&#233;berg&#233; sur le serveur CVS de SourceForge."/>
+    <texte texte="L'arbre des fichiers source est h&#233;berg&#233; sur le serveur CVS de la Free Software Fondation."/>
     <texte texte="Pour le r&#233;cup&#233;rer en anonyme (sans mot de passe):"/>
     <texte texte="$ mkdir ToutDoux"/>
     <texte texte="$ cd ToutDoux"/>
-    <texte texte="$ cvs -d:pserver:anonymous@cvs.toutdoux.sourceforge.net:/cvsroot/toutdoux login"/>
-    <texte texte="$ cvs -z3 -d:pserver:anonymous@cvs.toutdoux.sourceforge.net:/cvsroot/toutdoux co -P ."/>
+    <texte texte="$ cvs -d:pserver:anoncvs@subversions.gnu.org:/cvsroot/toutdoux login"/>
+    <texte texte="$ cvs -z3 -d:pserver:anoncvs@subversions.gnu.org:/cvsroot/toutdoux co -P toutdoux"/>
     <texte texte="$ ./autogen.sh"/>
     <texte texte="$ make"/>
   </cadre>

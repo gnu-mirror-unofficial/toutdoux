@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ToutDoux 1.2.0\n"
-"POT-Creation-Date: 2001-08-31 15:23+0200\n"
+"POT-Creation-Date: 2001-08-31 19:09+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Philippe Roy <ph_roy@toutdoux.org>\n"
 "Language-Team: Philippe Roy <ph_roy@toutdoux.org>\n"
@@ -55,8 +55,8 @@ msgid "Ressources"
 msgstr "Ressources"
 
 #: xml/autres.xml.in.h:3
-msgid "Graphisme"
-msgstr "Graphics"
+msgid "Graphisme [949 kb]"
+msgstr "Graphics [949 kb]"
 
 #: xml/autres.xml.in.h:4
 msgid "Scripts"
@@ -330,8 +330,8 @@ msgid "Cycle de rafraîchissement"
 msgstr "Refresh cycle"
 
 #: xml/documentation.xml.in.h:13
-msgid "Veille"
-msgstr "Watch"
+msgid "Veille [12 Mo]"
+msgstr "Watch [12 Mo]"
 
 #: xml/documentation.xml.in.h:14
 msgid "Licence"
@@ -617,9 +617,8 @@ msgstr ""
 "datatables)."
 
 #: xml/nouvelles.xml.in.h:8
-#, fuzzy
 msgid "Copyright (C) 2000-2001 Philippe Roy"
-msgstr "Copyright (c) 2000-2001 Philippe Roy"
+msgstr "Copyright (C) 2000-2001 Philippe Roy"
 
 #: xml/nouvelles.xml.in.h:9
 msgid "Toutdoux fait partie du "
@@ -901,8 +900,10 @@ msgstr "superuser logout"
 
 #: xml/telechargement.xml.in.h:13
 msgid ""
-"L'arbre des fichiers source est hébergé sur le serveur CVS de SourceForge."
-msgstr "The source code tree is hosted on the SourceForge CVS server."
+"L'arbre des fichiers source est hébergé sur le serveur CVS de la Free "
+"Software Fondation."
+msgstr ""
+"The source code tree is hosted on the Free Software Fondation CVS server."
 
 #: xml/telechargement.xml.in.h:14
 msgid "Pour le récupérer en anonyme (sans mot de passe):"
@@ -991,6 +992,3 @@ msgstr " : PostScript reader"
 #: xml/telechargement.xml.in.h:36
 msgid " : lien SQL - XML (en attente)"
 msgstr " : link XML-SQL (standby)"
-
-#~ msgid "Documentation : documentation Anglaise/Française du développeur"
-#~ msgstr "Documentation : developper's documentation English/French"

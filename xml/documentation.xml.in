@@ -9,10 +9,10 @@
         <document-item nom="Español" href="../doc/user/es/index.html"/>
         <document-item nom="Français" href="../doc/user/fr/index.html"/>
       </document-format>
-      <document-format nom="tarball">
-        <document-item nom="English" href="../doc/user/ToutDoux-doc-en.tar.gz"/>
-        <document-item nom="Español" href="../doc/user/ToutDoux-doc-es.tar.gz"/>
-        <document-item nom="Français" href="../doc/user/ToutDoux-doc-fr.tar.gz"/>
+      <document-format nom="tarball [83 kb]">
+        <document-item nom="English" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/doc/user/toutdoux-doc-en.tar.gz"/>
+        <document-item nom="Español" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/doc/user/toutdoux-doc-es.tar.gz"/>
+        <document-item nom="Français" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/doc/user/toutdoux-doc-fr.tar.gz"/>
       </document-format>
     </document>
     <document _nom="Manuel de références">
@@ -21,10 +21,10 @@
         <document-item nom="Español" href="../doc/devel/es/index.html"/>
         <document-item nom="Français" href="../doc/devel/fr/index.html"/>
       </document-format>
-      <document-format nom="tarball">
-        <document-item nom="English" href="../doc/devel/ToutDoux-doc-en.tar.gz"/>
-        <document-item nom="Español" href="../doc/devel/ToutDoux-doc-es.tar.gz"/>
-        <document-item nom="Français" href="../doc/devel/ToutDoux-doc-fr.tar.gz"/>
+      <document-format nom="tarball [34 kb]">
+        <document-item nom="English" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/doc/devel/toutdoux-doc-en.tar.gz"/>
+        <document-item nom="Español" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/doc/devel/toutdoux-doc-es.tar.gz"/>
+        <document-item nom="Français" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/doc/devel/toutdoux-doc-fr.tar.gz"/>
       </document-format>
     </document>
   </cadre>
@@ -73,7 +73,7 @@
         <document-item nom="Français" href="../doc/draft/refresh-fr.png"/>
       </document-format>
     </document>
-    <pointeur _nom="Veille" href="../doc/idees/"/>
+    <pointeur _nom="Veille [12 Mo]" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/doc/draft/toutdoux-doc-watch.tar.gz"/>
   </cadre>
 
   <!-- Licence -->

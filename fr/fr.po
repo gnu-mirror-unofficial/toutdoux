@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2001-08-31 15:23+0200\n"
+"POT-Creation-Date: 2001-08-31 19:09+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,7 +52,7 @@ msgid "Ressources"
 msgstr ""
 
 #: xml/autres.xml.in.h:3
-msgid "Graphisme"
+msgid "Graphisme [949 kb]"
 msgstr ""
 
 #: xml/autres.xml.in.h:4
@@ -320,7 +320,7 @@ msgid "Cycle de rafraîchissement"
 msgstr ""
 
 #: xml/documentation.xml.in.h:13
-msgid "Veille"
+msgid "Veille [12 Mo]"
 msgstr ""
 
 #: xml/documentation.xml.in.h:14
@@ -855,7 +855,7 @@ msgid "déconnexion de l'administrateur"
 msgstr ""
 
 #: xml/telechargement.xml.in.h:13
-msgid "L'arbre des fichiers source est hébergé sur le serveur CVS de SourceForge."
+msgid "L'arbre des fichiers source est hébergé sur le serveur CVS de la Free Software Fondation."
 msgstr ""
 
 #: xml/telechargement.xml.in.h:14

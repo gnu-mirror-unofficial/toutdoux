@@ -11,7 +11,7 @@
         <texte texte="As much as possible, tasks are and will be subcontracted to front-ends (command line)."/>
         <texte texte="The file format is XML (including structure, plug-ins parameters and datatables)."/>
         <projet>
-          <texte texte="Copyright (c) 2000-2001 Philippe Roy"/>
+          <texte texte="Copyright (C) 2000-2001 Philippe Roy"/>
           <projet-nom texte1="ToutDoux is an official part of the " nom="GNU project" href="http://www.gnu.org/" texte2=", it's free software covered by the " licence-nom="GNU General Public License" licence-href="http://www.gnu.org/copyleft/gpl.html" texte3="."/>
         </projet>
       </nouvelle-cadre>

@@ -2,9 +2,9 @@
 <page id="telechargement" nom="Download">
 <!-- FTP -->
   <cadre nom="Files">
-    <pointeur nom="getxml-1.0.4.tar.gz [156 kb]" href="../dl/getxml-latest.tar.gz" texte=" : XML file internationalization"/>
-    <pointeur nom="dtags-1.0.1.tar.gz [183 kb]" href="../dl/dtags-latest.tar.gz" texte=" : tags extractor for documentation"/>
-    <pointeur nom="ToutDoux-1.2.7.tar.gz [1 294 kb]" href="../dl/ToutDoux-latest.tar.gz" texte=" : project management"/>
+    <pointeur nom="getxml-1.0.4.tar.gz [156 kb]" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/getxml-latest.tar.gz" texte=" : XML file internationalization"/>
+    <pointeur nom="dtags-1.0.1.tar.gz [183 kb]" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/dtags-latest.tar.gz" texte=" : tags extractor for documentation"/>
+    <pointeur nom="ToutDoux-1.2.7.tar.gz [1 294 kb]" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/ToutDoux-latest.tar.gz" texte=" : project management"/>
     <pointeur nom="ftp://toutdoux.sourceforge.net/pub/toutdoux/" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/"/>
   </cadre>
 <!-- APT -->
@@ -18,12 +18,12 @@
   </cadre>
 <!-- CVS -->
   <cadre nom="CVS">
-    <texte texte="The source code tree is hosted on the SourceForge CVS server."/>
+    <texte texte="The source code tree is hosted on the Free Software Fondation CVS server."/>
     <texte texte="You can get it here (no password needed):"/>
     <texte texte="$ mkdir ToutDoux"/>
     <texte texte="$ cd ToutDoux"/>
-    <texte texte="$ cvs -d:pserver:anonymous@cvs.toutdoux.sourceforge.net:/cvsroot/toutdoux login"/>
-    <texte texte="$ cvs -z3 -d:pserver:anonymous@cvs.toutdoux.sourceforge.net:/cvsroot/toutdoux co -P ."/>
+    <texte texte="$ cvs -d:pserver:anoncvs@subversions.gnu.org:/cvsroot/toutdoux login"/>
+    <texte texte="$ cvs -z3 -d:pserver:anoncvs@subversions.gnu.org:/cvsroot/toutdoux co -P toutdoux"/>
     <texte texte="$ ./autogen.sh"/>
     <texte texte="$ make"/>
   </cadre>
