@@ -13,7 +13,7 @@
     <texte _texte="Le maximum de tâches sont et seront sous-traitées par des dorsaux/frontaux (back-ends/front-ends)."/>
     <texte _texte="Le format du fichier est du XML (comprenant schéma, paramétrage des greffons et données)."/>
     <projet>
-      <texte _texte="Copyright (c) 2000-2001 Philippe Roy"/>
+      <texte _texte="Copyright (C) 2000-2001 Philippe Roy"/>
       <projet-nom _texte1="Toutdoux fait partie du " _nom="projet GNU" href="http://www.gnu.org/" _texte2=", c'est un logiciel libre, couvert part la " _licence-nom="Licence Publique Générale GNU" _licence-href="http://www.april.org/gnu/gpl_french.html" _texte3="."/>
     </projet>
   </nouvelle-cadre>
@@ -119,24 +119,24 @@
       <!-- Discussion -->
       <cadre _nom="Discussions">
         <nouvelle-menu-groupe>
-          <nouvelle-menu-item id="list" _nom="compte" href="http://lists.sourceforge.net/mailman/listinfo/toutdoux-list"/>
-          <nouvelle-menu-item id="archive1" _nom="archive" href="http://www.geocrawler.com/lists/3/SourceForge/7431/0/"/>
+          <nouvelle-menu-item id="list" _nom="compte" href="http://mail.gnu.org/mailman/listinfo/toutdoux-list"/>
+          <nouvelle-menu-item id="archive1" _nom="archive" href="http://mail.gnu.org/pipermail/toutdoux-list/"/>
         </nouvelle-menu-groupe>
       </cadre>
 
       <!-- Annonces -->
       <cadre _nom="Annonces">
         <nouvelle-menu-groupe>
-          <nouvelle-menu-item id="annonce" _nom="compte" href="http://lists.sourceforge.net/mailman/listinfo/toutdoux-announce"/>
-          <nouvelle-menu-item id="archive2" _nom="archive" href="http://www.geocrawler.com/lists/3/SourceForge/7464/0/"/>
+          <nouvelle-menu-item id="annonce" _nom="compte" href="http://mail.gnu.org/mailman/listinfo/toutdoux-announce"/>
+          <nouvelle-menu-item id="archive2" _nom="archive" href="http://mail.gnu.org/mailman/listinfo/toutdoux-announce"/>
         </nouvelle-menu-groupe>
       </cadre>
 
       <!-- Bugs -->
       <cadre _nom="Bugs">
         <nouvelle-menu-groupe>
-          <nouvelle-menu-item id="bugs" _nom="compte" href="http://lists.sourceforge.net/mailman/listinfo/toutdoux-bugs"/>
-          <nouvelle-menu-item id="archive3" _nom="archive" href="http://www.geocrawler.com/lists/3/SourceForge/7462/0/"/>
+          <nouvelle-menu-item id="bugs" _nom="compte" href="http://mail.gnu.org/mailman/listinfo/bug-toutdoux"/>
+          <nouvelle-menu-item id="archive3" _nom="archive" href="http://mail.gnu.org/mailman/listinfo/bug-toutdoux"/>
         </nouvelle-menu-groupe>
       </cadre>
     </nouvelle-menu>

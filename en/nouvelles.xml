@@ -114,22 +114,22 @@
 <!-- Discussion -->
       <cadre nom="Discussions">
         <nouvelle-menu-groupe>
-          <nouvelle-menu-item id="list" nom="account" href="http://lists.sourceforge.net/mailman/listinfo/toutdoux-list"/>
-          <nouvelle-menu-item id="archive1" nom="archive" href="http://www.geocrawler.com/lists/3/SourceForge/7431/0/"/>
+          <nouvelle-menu-item id="list" nom="account" href="http://mail.gnu.org/mailman/listinfo/toutdoux-list"/>
+          <nouvelle-menu-item id="archive1" nom="archive" href="http://mail.gnu.org/pipermail/toutdoux-list/"/>
         </nouvelle-menu-groupe>
       </cadre>
 <!-- Annonces -->
       <cadre nom="Announcements">
         <nouvelle-menu-groupe>
-          <nouvelle-menu-item id="annonce" nom="account" href="http://lists.sourceforge.net/mailman/listinfo/toutdoux-announce"/>
-          <nouvelle-menu-item id="archive2" nom="archive" href="http://www.geocrawler.com/lists/3/SourceForge/7464/0/"/>
+          <nouvelle-menu-item id="annonce" nom="account" href="http://mail.gnu.org/mailman/listinfo/toutdoux-announce"/>
+          <nouvelle-menu-item id="archive2" nom="archive" href="http://mail.gnu.org/mailman/listinfo/toutdoux-announce"/>
         </nouvelle-menu-groupe>
       </cadre>
 <!-- Bugs -->
       <cadre nom="Bugs">
         <nouvelle-menu-groupe>
-          <nouvelle-menu-item id="bugs" nom="account" href="http://lists.sourceforge.net/mailman/listinfo/toutdoux-bugs"/>
-          <nouvelle-menu-item id="archive3" nom="archive" href="http://www.geocrawler.com/lists/3/SourceForge/7462/0/"/>
+          <nouvelle-menu-item id="bugs" nom="account" href="http://mail.gnu.org/mailman/listinfo/bug-toutdoux"/>
+          <nouvelle-menu-item id="archive3" nom="archive" href="http://mail.gnu.org/mailman/listinfo/bug-toutdoux"/>
         </nouvelle-menu-groupe>
       </cadre>
     </nouvelle-menu>

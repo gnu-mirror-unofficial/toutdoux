@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ToutDoux 1.2.0\n"
-"POT-Creation-Date: 2001-08-30 19:32+0200\n"
+"POT-Creation-Date: 2001-08-31 15:23+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Philippe Roy <ph_roy@toutdoux.org>\n"
 "Language-Team: Philippe Roy <ph_roy@toutdoux.org>\n"
@@ -617,7 +617,8 @@ msgstr ""
 "datatables)."
 
 #: xml/nouvelles.xml.in.h:8
-msgid "Copyright (c) 2000-2001 Philippe Roy"
+#, fuzzy
+msgid "Copyright (C) 2000-2001 Philippe Roy"
 msgstr "Copyright (c) 2000-2001 Philippe Roy"
 
 #: xml/nouvelles.xml.in.h:9

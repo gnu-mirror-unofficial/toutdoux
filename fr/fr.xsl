@@ -19,8 +19,8 @@
 <!-- ********************************************************************** -->
 <!-- Variable globales - Globals variables -->
 <!-- ********************************************************************** -->
-  <xsl:param name="version">1.0.21</xsl:param>
-  <xsl:param name="version-date">07/08/2001 17:00</xsl:param>
+  <xsl:param name="version">1.0.22</xsl:param>
+  <xsl:param name="version-date">31/08/2001 15:00</xsl:param>
 <!-- ********************************************************************** -->
 <!-- Page -->
 <!-- ********************************************************************** -->
@@ -82,6 +82,7 @@
   </xsl:comment>
         </script>
 <!-- Menu -->
+        <a name="top"/>
         <xsl:apply-templates select="document('menu.xml')">
           <xsl:with-param name="id-page">
             <xsl:value-of select="@id"/>
@@ -127,6 +128,8 @@
       <a class="lien" href="{$lang}.xsl">XSL</a> | 
       <a class="lien" href="{$lang}.po">PO</a> | 
       <a class="lien" href="../style.css">CSS</a> |
+      <a class="lien" href="../ChangeLog">ChangeLog</a> |
+      <a class="lien" href="http://savannah.gnu.org/cgi-bin/viewcvs/software/toutdoux/?cvsroot=www.gnu.org">CVS</a> |
     </td>
           </tr>
           <tr>
@@ -138,18 +141,18 @@
       <a class="lien" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/">getxml</a>.</td>
           </tr>
           <tr>
-            <td class="body-text"><xsl:value-of select="$intl-icones-du"/><a class="lien" href="http://gnome-icons.sourceforge.net/">GISR (Gnome Icon Status Report)</a><xsl:value-of select="$intl-avec-la-fameuse-inspiration-de"/><a class="lien" href="http://tigert.gimp.org/">Tigert (Tuomas Kuosmanen)</a>.</td>
+            <td class="body-text"><xsl:value-of select="$intl-icones-du"/><a class="lien" href="http://gnome-icons.sourceforge.net/">GISR (Gnome Icon Status Report) </a><xsl:value-of select="$intl-avec-la-fameuse-inspiration-de"/><a class="lien" href="http://tigert.gimp.org/">Tigert (Tuomas Kuosmanen)</a>.
+    </td>
           </tr>
           <tr>
             <td class="body-text"><xsl:value-of select="$intl-webmestre"/> : <a class="lien" href="mailto:ph_roy@toutdoux.org">Philippe Roy &lt;ph_roy@toutdoux.org&gt;</a></td>
           </tr>
           <tr>
-            <td class="body-text">
-              <xsl:value-of select="$intl-site-heberge-par"/>
-              <a class="lien" href="http://sourceforge.net">SourceForge</a>
-            </td>
+            <td class="body-text"><xsl:value-of select="$intl-site-heberge-par"/><a class="lien" href="http://www.gnu.org">The Free Software Fondation</a>.</td>
           </tr>
-<!--  <tr><td class="body-text"> <xsl:value-of select="$intl-site-heberge-par"/><a class="lien" href="http://sourceforge.net">SourceForge</a> <img src="http://sourceforge.net/sflogo.php?group_id=6276&type=1" width="88" height="31" border="0" alt="SourceForge Logo"> -->
+          <tr>
+            <td class="body-text"> Copyright (C) 2000-2001 Philippe Roy </td>
+          </tr>
         </table>
       </body>
     </html>

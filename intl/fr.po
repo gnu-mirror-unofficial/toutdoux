@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2001-08-30 19:32+0200\n"
+"POT-Creation-Date: 2001-08-31 15:23+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -582,7 +582,7 @@ msgid "Le format du fichier est du XML (comprenant schéma, paramétrage des greff
 msgstr ""
 
 #: xml/nouvelles.xml.in.h:8
-msgid "Copyright (c) 2000-2001 Philippe Roy"
+msgid "Copyright (C) 2000-2001 Philippe Roy"
 msgstr ""
 
 #: xml/nouvelles.xml.in.h:9

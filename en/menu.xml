@@ -13,12 +13,12 @@
     <menu-item id="captures" nom="shots" href="captures.html"/>
   </menu-groupe>
   <menu-groupe>
-    <menu-item id="devel" nom="cvs" href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/toutdoux/"/>
+    <menu-item id="devel" nom="cvs" href="http://savannah.gnu.org/cgi-bin/viewcvs/toutdoux/"/>
     <menu-item id="bugzilla" nom="bugzilla" href="http://bugzilla.gnome.org/buglist.cgi?product=ToutDoux"/>
   </menu-groupe>
   <menu-groupe>
-    <menu-item id="idees" nom="ideas" href="http://sourceforge.net/tracker/?group_id=6276"/>
-    <menu-item id="taches" nom="tasks" href="http://sourceforge.net/pm/?group_id=6276"/>
+    <menu-item id="idees" nom="ideas" href="http://savannah.gnu.org/support/?group_id=427"/>
+    <menu-item id="taches" nom="tasks" href="http://savannah.gnu.org/pm/?group_id=427"/>
   </menu-groupe>
   <menu-groupe>
     <menu-item id="autres" nom="others" href="autres.html"/>
