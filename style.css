@@ -1,0 +1,107 @@
+body {
+	font-family: ARIAL,HELVETICA;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	color: #000000;
+	background-color: #eaf4eb;
+	background-image: url(http://toutdoux.sourceforge.net/zimag/fond.jpg);
+	}
+
+.body-text {
+	font-family: ARIAL,HELVETICA;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	font-size: small;
+	font-weight: normal;
+	color: #000000;
+	}
+
+.lien-page-principale {
+	font-family: ARIAL,HELVETICA;
+	font-style: italic;
+	font-variant: normal;
+	font-weight: bold;
+	color: #2a7365;
+	}
+
+.lien {
+	font-family: ARIAL,HELVETICA;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	color: #2a7365;
+	}
+
+.cadre-titre {
+	font-family: ARIAL,HELVETICA;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	color: #453a28;
+	background-color: #bfb7ac;
+	background-image: url(http://toutdoux.sourceforge.net/zimag/cadre-titre-fond.png);
+	border: 2px solid #bfb7ac;
+	}
+
+.cadre {
+	border: 2px solid #d3ded3;
+	}
+
+.cadre-texte {
+	font-family: ARIAL,HELVETICA;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	color: #000000;
+	background-color: #d3ded3;
+	background-image: url(http://toutdoux.sourceforge.net/zimag/cadre-texte-fond.png);
+	}
+
+.menu-titre {
+	font-family: ARIAL,HELVETICA;
+	font-style: normal;
+	font-size: small;
+	font-variant: normal;
+	font-weight: normal;
+	color: #453a28;
+	text-align: center;
+	}
+
+.menu-cadre {
+	font-family: ARIAL,HELVETICA;
+	font-style: normal;
+	font-size: small;
+	font-variant: normal;
+	font-weight: normal;
+	color: #453a28;
+	text-align: center;
+	background-image: url(http://toutdoux.sourceforge.net/zimag/cadre-texte-fond.png);
+	}
+
+.date {
+	text-decoration: none;
+	color: #453a28;
+	}
+
+A:link {
+	text-decoration: none;
+	color: #2a7365;
+	}
+
+A:visited { 
+	text-decoration: none;
+	color: #8b4726;
+	}
+
+A:active { 
+	text-decoration: none;
+	color: #453a28;
+	}
+
+A:hover {
+	text-decoration: underline;
+	color: #8b7500;
+	}
