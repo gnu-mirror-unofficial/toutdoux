@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<page id="telechargement" nom="Download">
+<!-- FTP -->
+  <cadre nom="Files">
+    <pointeur nom="getxml-1.0.4.tar.gz [156 kb]" href="../dl/getxml-latest.tar.gz" texte=" : XML file internationalization"/>
+    <pointeur nom="dtags-1.0.1.tar.gz [183 kb]" href="../dl/dtags-latest.tar.gz" texte=" : tags extractor for documentation"/>
+    <pointeur nom="ToutDoux-1.2.7.tar.gz [1 294 kb]" href="../dl/ToutDoux-latest.tar.gz" texte=" : project management"/>
+    <pointeur nom="ftp://toutdoux.sourceforge.net/pub/toutdoux/" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/"/>
+  </cadre>
+<!-- APT -->
+  <cadre nom="APT">
+    <commande-entete texte="Add the toutdoux packages location 'deb ftp://toutdoux.sourceforge.net/pub/toutdoux/debian/ ./' to APT configuration '/etc/apt/sources.list'"/>
+    <commande commande="$ su" texte="superuser login"/>
+    <commande commande="# apt-get update" texte="update the APT locale database"/>
+    <commande commande="# apt-get install getxml" texte="'getxml' package installation"/>
+    <commande commande="# apt-get install dtags" texte="'dtags' package installation"/>
+    <commande commande="# exit" texte="superuser logout"/>
+  </cadre>
+<!-- CVS -->
+  <cadre nom="CVS">
+    <texte texte="The source code tree is hosted on the SourceForge CVS server."/>
+    <texte texte="You can get it here (no password needed):"/>
+    <texte texte="$ mkdir ToutDoux"/>
+    <texte texte="$ cd ToutDoux"/>
+    <texte texte="$ cvs -d:pserver:anonymous@cvs.toutdoux.sourceforge.net:/cvsroot/toutdoux login"/>
+    <texte texte="$ cvs -z3 -d:pserver:anonymous@cvs.toutdoux.sourceforge.net:/cvsroot/toutdoux co -P ."/>
+    <texte texte="$ ./autogen.sh"/>
+    <texte texte="$ make"/>
+  </cadre>
+<!-- Dépendances -->
+  <cadre nom="Requirements">
+    <pointeur nom="glib-1.2.1" href="http://gtk.org" texte=" : infrastructure (C utility)"/>
+    <pointeur nom="gtk+-1.2.1" href="http://gtk.org" texte=" : X Window and widgets"/>
+    <pointeur nom="gdk-pixbuf-0.9.0" href="http://gtk.org" texte=" : image file manipulation"/>
+    <pointeur nom="gnome-libs-1.0.8" href="http://gnome.org" texte=": environment"/>
+    <pointeur nom="libxml-1.8.11" href="http://xmlsoft.org" texte=" : XML file manipulation"/>
+    <pointeur nom="gettext-0.10.35" href="http://www.gnu.org/software/gettext/" texte=" : internationalization"/>
+    <pointeur nom="getxml-1.0.3" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/" texte=" : XML file internationalization"/>
+    <pointeur nom="perl-5.6.0" href="http://www.perl.com" texte=" : interpreter"/>
+    <pointeur nom="sed-3.02" href="http://www.gnu.org/software/sed/" texte=" : text processor"/>
+  </cadre>
+<!-- Dépendances du dorsal SQL -->
+  <cadre nom="SQL back-end requirements">
+    <pointeur nom="postgresql-7.0.1" href="http://postgresql.org" texte=" : database management system"/>
+    <pointeur nom="postgresql-server-7.0.1" href="http://postgresql.org" texte=""/>
+    <pointeur nom="postgresql-devel-7.0.1" href="http://postgresql.org" texte=""/>
+  </cadre>
+<!-- Compléments -->
+  <cadre nom="Optional components">
+    <pointeur nom="xsltproc-1.1.0" href="http://xmlsoft.org" texte=" : XSLT processor"/>
+    <pointeur nom="jade-1.2.1" href="http://www.jclark.com/jade/" texte=" : DSSSL processor"/>
+    <pointeur nom="cygnus-stylesheets-0.13-4" href="http://sources.redhat.com/docbook-tools/" texte=" : collection of stylesheets (SGML/Docbook)"/>
+    <pointeur nom="exuberant-ctags-5.0.1" href="http://ctags.sourceforge.net/" texte=" : tags extractor"/>
+    <pointeur nom="dtags-1.0.1" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/" texte=" : tags extractor for documentation"/>
+    <pointeur nom="wget-1.5.3" href="http://www.cg.tuwien.ac.at/~prikryl/wget.html" texte=" : remote file retrieval (HTTP-FTP)"/>
+    <pointeur nom="gtk-doc-0.4" href="http://www.gtk.org/rdp/download.html" texte=" : documentation generator (deprecated)"/>
+    <pointeur nom="tetex-1.0.2" href="http://www.tug.org" texte=" : text formatting"/>
+    <pointeur nom="gv-3.5.8" href="http://wino.physik.uni-mainz.de/~plass/gv/" texte=" : PostScript reader"/>
+    <pointeur nom="gnome-gv-0.95" href="ftp://ftp.gnome.org/pub/GNOME/stable/sources/ggv/" texte=" : PostScript reader"/>
+    <pointeur nom="hopla-1.0.2" href="http://hopla.sourceforge.net" texte=" : link XML-SQL (standby)"/>
+  </cadre>
+</page>

@@ -1,0 +1,199 @@
+<HTML
+><HEAD
+><TITLE
+>SQL back-end</TITLE
+><META
+NAME="GENERATOR"
+CONTENT="Modular DocBook HTML Stylesheet Version 1.61
+"><LINK
+REL="HOME"
+TITLE="ToutDoux : User's manual"
+HREF="index.html"><LINK
+REL="UP"
+TITLE="Installation"
+HREF="installation.html"><LINK
+REL="PREVIOUS"
+TITLE="Installation"
+HREF="installation.html"><LINK
+REL="NEXT"
+TITLE="Optional"
+HREF="x471.html"></HEAD
+><BODY
+CLASS="SECT1"
+><DIV
+CLASS="NAVHEADER"
+><TABLE
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TH
+COLSPAN="3"
+ALIGN="center"
+>ToutDoux : User's manual</TH
+></TR
+><TR
+><TD
+WIDTH="10%"
+ALIGN="left"
+VALIGN="bottom"
+><A
+HREF="installation.html"
+>Prev</A
+></TD
+><TD
+WIDTH="80%"
+ALIGN="center"
+VALIGN="bottom"
+>Chapter 3. Installation</TD
+><TD
+WIDTH="10%"
+ALIGN="right"
+VALIGN="bottom"
+><A
+HREF="x471.html"
+>Next</A
+></TD
+></TR
+></TABLE
+><HR
+ALIGN="LEFT"
+WIDTH="100%"></DIV
+><DIV
+CLASS="SECT1"
+><H1
+CLASS="SECT1"
+><A
+NAME="AEN441"
+>SQL back-end</A
+></H1
+><P
+>ToutDoux uses an SQL back-end for tempory data storage. 
+  As a result, it can benefit from the powerful SQL language and reliable software like PostgreSQL.</P
+><P
+>ToutDoux is capable of using MySQL as a local database manager.
+  However, since MySQL doesn't support sub-queries, it imposes an SQL-specific development on modules.
+  This is unfortunate, since MySQL is better adapted than PostgreSQL for managing an SQL backend in a local application.
+  Such support may come with the next version of MySQL (v4.00).</P
+><P
+>The SQL back-end requirements are :
+    <P
+></P
+><UL
+><LI
+><P
+>postgresql-7.0.1		 : database</P
+></LI
+><LI
+><P
+>postgresql-server-7.0.1	 : database</P
+></LI
+><LI
+><P
+>postgresql-devel-7.0.1	 : database.</P
+></LI
+></UL
+>
+  </P
+><P
+>The unix user (in this case 'toto') must be able to create and delete a database :
+    <P
+></P
+><UL
+><LI
+><P
+>Add to /ect.inittab : pg:2345:respawn:/bin/su - pgsql -c "postmaster" : starts postmaster deamon at boot</P
+></LI
+><LI
+><P
+>$ /bin/su - pgsql -c "postmaster"				   : starts postmaster for the current session</P
+></LI
+><LI
+><P
+>$ su postgres						   : superuser login for database</P
+></LI
+><LI
+><P
+>$ initdb							   : initializes database</P
+></LI
+><LI
+><P
+>$ createuser toto						   : creates user 'toto'</P
+></LI
+><LI
+><P
+>Shall the new user be allowed to create database ? (y/n) y   : gives permission for user 'toto' to create databases</P
+></LI
+><LI
+><P
+>Shall the new user be allowed to create more users ? (y/n) n : denies permission for user 'toto' to create user accounts</P
+></LI
+><LI
+><P
+>$ exit				                           : superuser logout for database.</P
+></LI
+></UL
+>
+  </P
+></DIV
+><DIV
+CLASS="NAVFOOTER"
+><HR
+ALIGN="LEFT"
+WIDTH="100%"><TABLE
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+><A
+HREF="installation.html"
+>Prev</A
+></TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+><A
+HREF="index.html"
+>Home</A
+></TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+><A
+HREF="x471.html"
+>Next</A
+></TD
+></TR
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+>Installation</TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+><A
+HREF="installation.html"
+>Up</A
+></TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+>Optional</TD
+></TR
+></TABLE
+></DIV
+></BODY
+></HTML
+>

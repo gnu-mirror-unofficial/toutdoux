@@ -1,0 +1,326 @@
+-*-outline-*-
+
+# *****************************************************************************
+# HACKING-fr : Notes du programmeur
+# HACKING-fr : Programmer notes
+#
+#
+# TouxDoux : Chtit gestionnaire de projet - A littl' project manager
+# Copyright (c) 2000-2001 Philippe Roy
+# Auteur - Author : Philippe Roy <ph_roy@toutdoux.org>
+#
+#
+# Ce programme est un logiciel libre ; vous pouvez le redistribuer et/ou le modifier
+# sous les termes de la licence publique générale GNU telle qu'elle est publiée par
+# la Free Software Foundation ; soit la version 2 de la licence, ou
+# (comme vous voulez) toute version ultérieure.
+#
+# Ce programme est distribué dans l'espoir qu'il sera utile,
+# mais SANS AUCUNE GARANTIE ; même sans la garantie de
+# COMMERCIALITÉ ou d'ADÉQUATION A UN BUT PARTICULIER. Voir la
+# licence publique générale GNU pour plus de détails.
+#
+# Vous devriez avoir reçu une copie de la licence publique générale GNU
+# avec ce programme ; si ce n'est pas le cas, écrivez à la Free Software
+# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+#
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA. 
+# *****************************************************************************
+
+* 1. Convention des noms
+** 1. Répertoires
+** 2. Fichiers standards des greffons
+** 3. Types - Objets - Macros - Variables
+** 4. Fonctions 
+** 5. mots réservés
+** 6. donnée associée
+* 2. Paramétrage
+** 1. Schéma
+** 2. Modules
+** 3. Symboles
+* 4. Protocoles
+** 1. Drag'n'Drop en mode Xdnd
+* 5. Limites
+* 6. Réservations
+** 1. mots réservés
+** 2. MOD_CORE[i] : module noyaux chargés au démarrage
+* 7. Environnement
+** 1. Commandes externes requises
+** 2. Commandes externes optionnelles
+** 3. Variables 
+
+* 1. Convention des noms
+ 
+** 1. Répertoires
+
+  	- lib				: fonctions communes aux greffons utilisant des données communes
+  	- app				: application
+  	- core-plugins			: greffons noyaux
+  	- data-plugins			: greffons pouvant traiter les fichiers
+  	- backends			: dorsaux
+  	- scripts			: scripts (Shell, Perl, ...)
+  	- pixmaps			: images (xpm, xbm)
+  	- doc				: documentation (SGML)
+
+** 2. Fichiers standards des greffons
+
+  	- main.c			: données et fonctions de base
+  	- main.h			: données et fonctions de base
+  	- tables.xml			: schéma et paramétrage
+  	- symbols.xml			: symbôles du cavenas
+  	- customize.xml			: personnalisation
+  	- presto.xml			: documentation
+  	- faq.xml			: foire aux questions
+  	- commands			: commands access
+
+** 3. Types - Objets - Macros - Variables
+      
+	- Td_*				: types : ex. Td_about
+	- Td*				: types et objets : ex. TdAbout
+	- TD_*(majuscule)		: macros d'objet : ex. TD_ABOUT(...)
+	- *(majuscule)			: valeurs communes (lib) : ex. FLAG_DRAG_ROW_OLD
+
+	- TD_CURRENT (champs)		: SQL cache
+
+** 4. Fonctions 
+
+	- gtdk_*			: fonctions complémentaires aux widgets standards
+	- td_*				: fonctions communes sur les objects
+
+	- plugins_about_def		: definition du à propos du greffon
+	- plugins_init			: initialisation du greffon
+
+** 5. mots réservés
+
+	- '(null)'				: valeur nulle
+	- '(bud)'				: valeur indéfinis
+	- '(lambda)'				: valeur anonyme
+	- '(separator)'				: separateur de menu
+	- '(default value)'			: valeur par défaut du menu
+	- 'TD_CURRENT x;'			: cache SQL : valeur du champs x de la node couurante
+	- 'TD_CURRENT x WHERE [...];'		: cache SQL : valeur du champs x de la node couurante avec une condition positive
+	- 'TD_CURRENT x WHERE NOT [...];'	: cache SQL : valeur du champs x de la node couurante avec une condition négative
+	- 'TD_CURRENT_ID			: cache SQL : identificateur de la node courante pour une requète du type SELECT.
+	- 'TD_CURRENT_ID_PARENT			: cache SQL : identificateur du parent de la node courante pour une requète du type SELECT.
+	- 'msgid'				: identificateur d'un message po
+	- 'msgstr'				: traduction d'un message po
+
+** 6. donnée associée
+
+	- item de cavenas			: td_id
+	- item de menu 			        : requette de visibilité
+	- entrée d'établi 		        : table/champs
+	- entrée de personnalisation 	        : completion
+
+* 2. Paramétrage
+
+** 1. Schéma
+
+	- base de données (nom, commentaire)
+	- table (nom, commentaire)
+	 	- champs (nom, commentaire)
+		* td_id : identificateur
+		* td_obso : donnée obsolète (champs en prévision)
+		         - propriétées (nom, valeur)
+			 * type
+			          * bool
+				  * int2
+				  * int4
+				  * int8
+				  * numeric(p,s) (TODO)
+				  * serial
+				  * float4
+				  * float8
+				  * decimal(p,s) (TODO)
+				  * char
+				  * char(n)
+				  * varchar(n)
+				  * text (TODO)
+				  * blob (TODO)
+				  * enum() (TODO)
+				  * set()
+				  * time (TODO)
+				  * timez (TODO)
+				  * date
+				  * timestamp (TODO)
+				  * timestampz (TODO)
+				  * interval
+			* type option
+				  * unsigned
+				  * zero fill
+				  * binary
+			* constraint
+				  * not null
+				  * unique
+				  * primary key
+			* default
+
+** 2. Modules
+
+	- module (nom, nom de paramétrage, commentaire, icone)
+		- table (nom, table)
+			- champs (nom, champs de la table)
+				  - propriétées (nom, valeur)
+				  * column name
+				  * column size
+				           * automatic
+					   * hidden
+				  * column editpropmenu
+		- palette
+			- propriétées (nom, valeur)
+			* palette name
+			* palette icon
+		- établi
+			- propriétées (nom, valeur)
+			* editprop name
+			* editprop visibility
+				  * hidden
+				  * uneditable
+			* editprop list item
+			* editprop list query
+			* editprop list static query
+			* editprop editor
+				  * hidden
+		- menu
+
+** 3. Symboles (TODO)
+
+	- symbole (nom, requete de visibilité)
+		- primitive de dessin (nom, type)
+		         - propriétées (nom, type, valeur)
+		* color
+			 * foreground
+			 * background
+		* pencil
+			 * line width
+			 * line style
+			 * line cap
+			 * line join
+		* font
+			 * font
+		* text
+			 * text
+			 * x
+			 * y
+		* point
+			 * x
+			 * y
+		* points
+			 * x
+			 * y
+		* line
+			 * x
+			 * y
+			 * x
+			 * y
+		* lines
+			 * x
+			 * y
+			 * x
+			 * y
+		* segments
+			 * x
+			 * y
+			 * x
+			 * y
+		* rectangle
+			 * filled
+			 * x
+			 * y
+			 * width
+			 * height
+		* polygon
+			 * filled
+			 * x
+			 * y
+		* arc
+			 * filled
+			 * x
+			 * y
+			 * width
+			 * height
+			 * angle1
+			 * angle2
+
+	Les propriétés peuvent être
+	      - statique: static
+	      - dynamique par requete SQL: query
+	      - paramétrée: param
+
+* 4. Protocoles
+
+** 1. Drag'n'Drop en mode Xdnd
+   
+	La donnée tampon est une chaîne de caractère.
+
+		- '\\' sépare les lignes
+		- la dernière valeur de la ligne représente le niveau de la node dans l'arbre 
+
+* 5. Limites
+
+	- champs
+	        - 50 champs maxi par table
+
+	- greffons
+		- répertoire : 1 (situation temporaire)
+		- chargés : 50
+
+	- dictionnaire des greffons
+		- langues : 50
+		- mots : 50
+
+	- drag'n'drop en mode Xdnd
+		- données : 6000
+
+	- menu
+	        - fichiers récents : 10
+	        - greffons statiques : 50
+
+	- fichier support XML
+	        - 4 niveaux en mode normal (branch, petal, foliole et stomate)
+		- pour le momment l'association de "mode_one_column" et de "mode_level" n'existe pas
+
+	- fichier csv
+	        - caractères maxi par lignes : 100 000
+
+	- fonction 
+		- uniquement pour le premier enfant du module
+		- uniquement sur la node courante
+
+* 7. Environnement
+
+** 1. Commandes externes requises
+
+  	- 'cp' : copie de fichier
+  	- 'mv' : déplacement de fichier
+  	- 'sed' : éditeur shell
+
+** 2. Commandes externes optionnelles
+
+  	- 'wget' : recupérateur HTTP ou FTP
+  	- 'gcolorsel : navigateur de la palette des couleurs du serveur X
+  	- 'hopla' : lien XML/SQL
+  	- 'emacs' : éditeur GNU Emacs
+  	- 'emacsclient' : éditeur GNU Emacs en mode serveur
+  	- 'xwininfo' : descripteur de fenêtres x
+  	- 'createdb' : création de base de données PostgreSQL
+  	- 'dropdb' : destruction de base de données PostgreSQL
+
+** 3. Variables 
+
+  	- 'HOSTNAME' : hôte
+  	- 'LANGUAGE' : language
+  	- 'BROWSER' : navigateur

@@ -1,0 +1,2171 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<diagram xmlns:dia="http://www.lysator.liu.se/~alla/dia/">
+  <diagramdata>
+    <attribute name="background">
+      <color val="#296055"/>
+    </attribute>
+    <attribute name="paper">
+      <composite type="paper">
+        <attribute name="name">
+          <string>#A4#</string>
+        </attribute>
+        <attribute name="tmargin">
+          <real val="2.82"/>
+        </attribute>
+        <attribute name="bmargin">
+          <real val="2.82"/>
+        </attribute>
+        <attribute name="lmargin">
+          <real val="2.82"/>
+        </attribute>
+        <attribute name="rmargin">
+          <real val="2.82"/>
+        </attribute>
+        <attribute name="is_portrait">
+          <boolean val="true"/>
+        </attribute>
+        <attribute name="scaling">
+          <real val="1"/>
+        </attribute>
+        <attribute name="fitto">
+          <boolean val="false"/>
+        </attribute>
+      </composite>
+    </attribute>
+    <attribute name="grid">
+      <composite type="grid">
+        <attribute name="width_x">
+          <real val="1"/>
+        </attribute>
+        <attribute name="width_y">
+          <real val="1"/>
+        </attribute>
+        <attribute name="visible_x">
+          <int val="1"/>
+        </attribute>
+        <attribute name="visible_y">
+          <int val="1"/>
+        </attribute>
+      </composite>
+    </attribute>
+    <attribute name="guides">
+      <composite type="guides">
+        <attribute name="hguides"/>
+        <attribute name="vguides"/>
+      </composite>
+    </attribute>
+  </diagramdata>
+  <layer name="V1" visible="true">
+    <object type="Standard - Text" version="0" id="O0">
+      <attribute name="obj_pos">
+        <point val="0.645767,-30.9868"/>
+      </attribute>
+      <attribute name="obj_bb">
+        <rectangle val="-10.3622,-32.1765;11.6538,-30.6765"/>
+      </attribute>
+      <attribute name="text">
+        <composite type="text">
+          <attribute name="string">
+            <string>#Int&#233;gration d&apos;un solveur#</string>
+          </attribute>
+          <attribute name="font">
+            <font name="Courier"/>
+          </attribute>
+          <attribute name="height">
+            <real val="1.5"/>
+          </attribute>
+          <attribute name="pos">
+            <point val="0.645767,-30.9868"/>
+          </attribute>
+          <attribute name="color">
+            <color val="#ffabb9"/>
+          </attribute>
+          <attribute name="alignment">
+            <enum val="1"/>
+          </attribute>
+        </composite>
+      </attribute>
+    </object>
+    <group>
+      <object type="Standard - Line" version="0" id="O1">
+        <attribute name="obj_pos">
+          <point val="4.14119,-14.8472"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="0.38124,-15.6972;4.99119,-11.3008"/>
+        </attribute>
+        <attribute name="conn_endpoints">
+          <point val="4.14119,-14.8472"/>
+          <point val="1.23124,-12.1508"/>
+        </attribute>
+        <attribute name="numcp">
+          <int val="1"/>
+        </attribute>
+        <attribute name="line_color">
+          <color val="#d2c4e7"/>
+        </attribute>
+        <attribute name="start_arrow">
+          <enum val="1"/>
+        </attribute>
+        <attribute name="start_arrow_length">
+          <real val="0.8"/>
+        </attribute>
+        <attribute name="start_arrow_width">
+          <real val="0.8"/>
+        </attribute>
+        <connections>
+          <connection handle="0" to="O2" connection="14"/>
+          <connection handle="1" to="O3" connection="2"/>
+        </connections>
+      </object>
+      <object type="Flowchart - Transaction File" version="0" id="O2">
+        <attribute name="obj_pos">
+          <point val="-0.13363,-18.0543"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="-0.18363,-18.1043;7.24463,-14.7972"/>
+        </attribute>
+        <attribute name="elem_corner">
+          <point val="-0.13363,-18.0543"/>
+        </attribute>
+        <attribute name="elem_width">
+          <real val="7.32826"/>
+        </attribute>
+        <attribute name="elem_height">
+          <real val="3.20711"/>
+        </attribute>
+        <attribute name="show_background">
+          <boolean val="true"/>
+        </attribute>
+        <attribute name="flip_horizontal">
+          <boolean val="false"/>
+        </attribute>
+        <attribute name="flip_vertical">
+          <boolean val="false"/>
+        </attribute>
+        <attribute name="padding">
+          <real val="0.353553"/>
+        </attribute>
+        <attribute name="text">
+          <composite type="text">
+            <attribute name="string">
+              <string>#fichier
+de
+ donn&#233;es#</string>
+            </attribute>
+            <attribute name="font">
+              <font name="Courier"/>
+            </attribute>
+            <attribute name="height">
+              <real val="0.8"/>
+            </attribute>
+            <attribute name="pos">
+              <point val="3.5305,-17.0163"/>
+            </attribute>
+            <attribute name="color">
+              <color val="#000000"/>
+            </attribute>
+            <attribute name="alignment">
+              <enum val="1"/>
+            </attribute>
+          </composite>
+        </attribute>
+      </object>
+      <object type="Flowchart - Display" version="0" id="O3">
+        <attribute name="obj_pos">
+          <point val="-4.96876,-12.1508"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="-5.01876,-12.2008;7.48124,-10.1008"/>
+        </attribute>
+        <attribute name="elem_corner">
+          <point val="-4.96876,-12.1508"/>
+        </attribute>
+        <attribute name="elem_width">
+          <real val="12.4"/>
+        </attribute>
+        <attribute name="elem_height">
+          <real val="2"/>
+        </attribute>
+        <attribute name="inner_color">
+          <color val="#c1f0ff"/>
+        </attribute>
+        <attribute name="show_background">
+          <boolean val="true"/>
+        </attribute>
+        <attribute name="flip_horizontal">
+          <boolean val="false"/>
+        </attribute>
+        <attribute name="flip_vertical">
+          <boolean val="false"/>
+        </attribute>
+        <attribute name="padding">
+          <real val="0.353553"/>
+        </attribute>
+        <attribute name="text">
+          <composite type="text">
+            <attribute name="string">
+              <string>#ToutDoux#</string>
+            </attribute>
+            <attribute name="font">
+              <font name="Courier"/>
+            </attribute>
+            <attribute name="height">
+              <real val="0.8"/>
+            </attribute>
+            <attribute name="pos">
+              <point val="1.23124,-10.9163"/>
+            </attribute>
+            <attribute name="color">
+              <color val="#000000"/>
+            </attribute>
+            <attribute name="alignment">
+              <enum val="1"/>
+            </attribute>
+          </composite>
+        </attribute>
+      </object>
+      <object type="Standard - Line" version="0" id="O4">
+        <attribute name="obj_pos">
+          <point val="10.2067,-18.1341"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="4.66351,-22.2508;11.0567,-17.2841"/>
+        </attribute>
+        <attribute name="conn_endpoints">
+          <point val="10.2067,-18.1341"/>
+          <point val="5.51351,-21.4008"/>
+        </attribute>
+        <attribute name="numcp">
+          <int val="1"/>
+        </attribute>
+        <attribute name="line_color">
+          <color val="#d2c4e7"/>
+        </attribute>
+        <attribute name="start_arrow">
+          <enum val="1"/>
+        </attribute>
+        <attribute name="start_arrow_length">
+          <real val="0.8"/>
+        </attribute>
+        <attribute name="start_arrow_width">
+          <real val="0.8"/>
+        </attribute>
+        <connections>
+          <connection handle="0" to="O15" connection="2"/>
+          <connection handle="1" to="O7" connection="14"/>
+        </connections>
+      </object>
+      <object type="Standard - Line" version="0" id="O5">
+        <attribute name="obj_pos">
+          <point val="2.39579,-21.4008"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="1.54579,-22.2508;4.99119,-17.2043"/>
+        </attribute>
+        <attribute name="conn_endpoints">
+          <point val="2.39579,-21.4008"/>
+          <point val="4.14119,-18.0543"/>
+        </attribute>
+        <attribute name="numcp">
+          <int val="1"/>
+        </attribute>
+        <attribute name="line_color">
+          <color val="#d2c4e7"/>
+        </attribute>
+        <attribute name="start_arrow">
+          <enum val="1"/>
+        </attribute>
+        <attribute name="start_arrow_length">
+          <real val="0.8"/>
+        </attribute>
+        <attribute name="start_arrow_width">
+          <real val="0.8"/>
+        </attribute>
+        <connections>
+          <connection handle="0" to="O7" connection="13"/>
+          <connection handle="1" to="O2" connection="2"/>
+        </connections>
+      </object>
+      <object type="Standard - Line" version="0" id="O6">
+        <attribute name="obj_pos">
+          <point val="5.65981,-12.1508"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="4.80981,-15.777;11.0567,-11.3008"/>
+        </attribute>
+        <attribute name="conn_endpoints">
+          <point val="5.65981,-12.1508"/>
+          <point val="10.2067,-14.927"/>
+        </attribute>
+        <attribute name="numcp">
+          <int val="1"/>
+        </attribute>
+        <attribute name="line_color">
+          <color val="#d2c4e7"/>
+        </attribute>
+        <attribute name="start_arrow">
+          <enum val="1"/>
+        </attribute>
+        <attribute name="start_arrow_length">
+          <real val="0.8"/>
+        </attribute>
+        <attribute name="start_arrow_width">
+          <real val="0.8"/>
+        </attribute>
+        <connections>
+          <connection handle="0" to="O3" connection="4"/>
+          <connection handle="1" to="O15" connection="14"/>
+        </connections>
+      </object>
+      <object type="Flowchart - Box" version="0" id="O7">
+        <attribute name="obj_pos">
+          <point val="-3.83966,-23.3008"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="-3.88966,-23.3508;8.68124,-21.3508"/>
+        </attribute>
+        <attribute name="elem_corner">
+          <point val="-3.83966,-23.3008"/>
+        </attribute>
+        <attribute name="elem_width">
+          <real val="12.4709"/>
+        </attribute>
+        <attribute name="elem_height">
+          <real val="1.9"/>
+        </attribute>
+        <attribute name="inner_color">
+          <color val="#ebffbb"/>
+        </attribute>
+        <attribute name="show_background">
+          <boolean val="true"/>
+        </attribute>
+        <attribute name="padding">
+          <real val="0.5"/>
+        </attribute>
+        <attribute name="text">
+          <composite type="text">
+            <attribute name="string">
+              <string>#executable oz#</string>
+            </attribute>
+            <attribute name="font">
+              <font name="Courier"/>
+            </attribute>
+            <attribute name="height">
+              <real val="0.8"/>
+            </attribute>
+            <attribute name="pos">
+              <point val="2.39579,-22.1163"/>
+            </attribute>
+            <attribute name="color">
+              <color val="#000000"/>
+            </attribute>
+            <attribute name="alignment">
+              <enum val="1"/>
+            </attribute>
+          </composite>
+        </attribute>
+      </object>
+      <object type="Standard - Text" version="0" id="O8">
+        <attribute name="obj_pos">
+          <point val="0.61034,-12.7664"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="0.17704,-13.6388;1.04364,-12.5388"/>
+        </attribute>
+        <attribute name="text">
+          <composite type="text">
+            <attribute name="string">
+              <string>#1#</string>
+            </attribute>
+            <attribute name="font">
+              <font name="Courier"/>
+            </attribute>
+            <attribute name="height">
+              <real val="1.1"/>
+            </attribute>
+            <attribute name="pos">
+              <point val="0.61034,-12.7664"/>
+            </attribute>
+            <attribute name="color">
+              <color val="#eaf7ff"/>
+            </attribute>
+            <attribute name="alignment">
+              <enum val="1"/>
+            </attribute>
+          </composite>
+        </attribute>
+      </object>
+      <object type="Standard - Text" version="0" id="O9">
+        <attribute name="obj_pos">
+          <point val="-6.73166,-19.8641"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="-10.1647,-20.7365;-3.29866,-18.5365"/>
+        </attribute>
+        <attribute name="text">
+          <composite type="text">
+            <attribute name="string">
+              <string>#1&#176;
+traitement#</string>
+            </attribute>
+            <attribute name="font">
+              <font name="Courier"/>
+            </attribute>
+            <attribute name="height">
+              <real val="1.1"/>
+            </attribute>
+            <attribute name="pos">
+              <point val="-6.73166,-19.8641"/>
+            </attribute>
+            <attribute name="color">
+              <color val="#ffe100"/>
+            </attribute>
+            <attribute name="alignment">
+              <enum val="1"/>
+            </attribute>
+          </composite>
+        </attribute>
+      </object>
+      <object type="Standard - Text" version="0" id="O10">
+        <attribute name="obj_pos">
+          <point val="2.76034,-18.4465"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="2.32704,-19.3189;3.19364,-18.2189"/>
+        </attribute>
+        <attribute name="text">
+          <composite type="text">
+            <attribute name="string">
+              <string>#3#</string>
+            </attribute>
+            <attribute name="font">
+              <font name="Courier"/>
+            </attribute>
+            <attribute name="height">
+              <real val="1.1"/>
+            </attribute>
+            <attribute name="pos">
+              <point val="2.76034,-18.4465"/>
+            </attribute>
+            <attribute name="color">
+              <color val="#eaf7ff"/>
+            </attribute>
+            <attribute name="alignment">
+              <enum val="1"/>
+            </attribute>
+          </composite>
+        </attribute>
+      </object>
+      <object type="Standard - Text" version="0" id="O11">
+        <attribute name="obj_pos">
+          <point val="-1.73166,-12.8141"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="-2.16496,-13.6865;-1.29836,-12.5865"/>
+        </attribute>
+        <attribute name="text">
+          <composite type="text">
+            <attribute name="string">
+              <string>#2#</string>
+            </attribute>
+            <attribute name="font">
+              <font name="Courier"/>
+            </attribute>
+            <attribute name="height">
+              <real val="1.1"/>
+            </attribute>
+            <attribute name="pos">
+              <point val="-1.73166,-12.8141"/>
+            </attribute>
+            <attribute name="color">
+              <color val="#eaf7ff"/>
+            </attribute>
+            <attribute name="alignment">
+              <enum val="1"/>
+            </attribute>
+          </composite>
+        </attribute>
+      </object>
+      <object type="Standard - Text" version="0" id="O12">
+        <attribute name="obj_pos">
+          <point val="8.19186,-20.1791"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="7.75856,-21.0515;8.62516,-19.9515"/>
+        </attribute>
+        <attribute name="text">
+          <composite type="text">
+            <attribute name="string">
+              <string>#4#</string>
+            </attribute>
+            <attribute name="font">
+              <font name="Courier"/>
+            </attribute>
+            <attribute name="height">
+              <real val="1.1"/>
+            </attribute>
+            <attribute name="pos">
+              <point val="8.19186,-20.1791"/>
+            </attribute>
+            <attribute name="color">
+              <color val="#eaf7ff"/>
+            </attribute>
+            <attribute name="alignment">
+              <enum val="1"/>
+            </attribute>
+          </composite>
+        </attribute>
+      </object>
+      <object type="Standard - Line" version="0" id="O13">
+        <attribute name="obj_pos">
+          <point val="-0.721935,-21.4008"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="-1.83304,-22.2508;0.128065,-11.3008"/>
+        </attribute>
+        <attribute name="conn_endpoints">
+          <point val="-0.721935,-21.4008"/>
+          <point val="-0.983043,-12.1508"/>
+        </attribute>
+        <attribute name="numcp">
+          <int val="1"/>
+        </attribute>
+        <attribute name="line_color">
+          <color val="#d2c4e7"/>
+        </attribute>
+        <attribute name="start_arrow">
+          <enum val="1"/>
+        </attribute>
+        <attribute name="start_arrow_length">
+          <real val="0.8"/>
+        </attribute>
+        <attribute name="start_arrow_width">
+          <real val="0.8"/>
+        </attribute>
+        <connections>
+          <connection handle="0" to="O7" connection="12"/>
+          <connection handle="1" to="O3" connection="1"/>
+        </connections>
+      </object>
+      <object type="Standard - Text" version="0" id="O14">
+        <attribute name="obj_pos">
+          <point val="11.0919,-13.7791"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="10.6586,-14.6515;11.5252,-13.5515"/>
+        </attribute>
+        <attribute name="text">
+          <composite type="text">
+            <attribute name="string">
+              <string>#5#</string>
+            </attribute>
+            <attribute name="font">
+              <font name="Courier"/>
+            </attribute>
+            <attribute name="height">
+              <real val="1.1"/>
+            </attribute>
+            <attribute name="pos">
+              <point val="11.0919,-13.7791"/>
+            </attribute>
+            <attribute name="color">
+              <color val="#eaf7ff"/>
+            </attribute>
+            <attribute name="alignment">
+              <enum val="1"/>
+            </attribute>
+          </composite>
+        </attribute>
+      </object>
+      <object type="Flowchart - Transaction File" version="0" id="O15">
+        <attribute name="obj_pos">
+          <point val="5.93186,-18.1341"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="5.88186,-18.1841;13.3101,-14.877"/>
+        </attribute>
+        <attribute name="elem_corner">
+          <point val="5.93186,-18.1341"/>
+        </attribute>
+        <attribute name="elem_width">
+          <real val="7.32826"/>
+        </attribute>
+        <attribute name="elem_height">
+          <real val="3.20711"/>
+        </attribute>
+        <attribute name="show_background">
+          <boolean val="true"/>
+        </attribute>
+        <attribute name="flip_horizontal">
+          <boolean val="false"/>
+        </attribute>
+        <attribute name="flip_vertical">
+          <boolean val="false"/>
+        </attribute>
+        <attribute name="padding">
+          <real val="0.353553"/>
+        </attribute>
+        <attribute name="text">
+          <composite type="text">
+            <attribute name="string">
+              <string>#fichier
+de
+ donn&#233;es#</string>
+            </attribute>
+            <attribute name="font">
+              <font name="Courier"/>
+            </attribute>
+            <attribute name="height">
+              <real val="0.8"/>
+            </attribute>
+            <attribute name="pos">
+              <point val="9.59599,-17.0961"/>
+            </attribute>
+            <attribute name="color">
+              <color val="#000000"/>
+            </attribute>
+            <attribute name="alignment">
+              <enum val="1"/>
+            </attribute>
+          </composite>
+        </attribute>
+      </object>
+    </group>
+    <object type="Standard - Line" version="0" id="O16">
+      <attribute name="obj_pos">
+        <point val="26.8137,-11.877"/>
+      </attribute>
+      <attribute name="obj_bb">
+        <rectangle val="24.4103,-12.727;27.6637,-8.1"/>
+      </attribute>
+      <attribute name="conn_endpoints">
+        <point val="26.8137,-11.877"/>
+        <point val="25.2603,-8.95"/>
+      </attribute>
+      <attribute name="numcp">
+        <int val="1"/>
+      </attribute>
+      <attribute name="line_color">
+        <color val="#d2c4e7"/>
+      </attribute>
+      <attribute name="start_arrow">
+        <enum val="1"/>
+      </attribute>
+      <attribute name="start_arrow_length">
+        <real val="0.8"/>
+      </attribute>
+      <attribute name="start_arrow_width">
+        <real val="0.8"/>
+      </attribute>
+      <connections>
+        <connection handle="0" to="O31" connection="13"/>
+        <connection handle="1" to="O17" connection="2"/>
+      </connections>
+    </object>
+    <object type="Flowchart - Display" version="0" id="O17">
+      <attribute name="obj_pos">
+        <point val="19.1103,-8.95"/>
+      </attribute>
+      <attribute name="obj_bb">
+        <rectangle val="19.0603,-9;31.4603,-7.29289"/>
+      </attribute>
+      <attribute name="elem_corner">
+        <point val="19.1103,-8.95"/>
+      </attribute>
+      <attribute name="elem_width">
+        <real val="12.3"/>
+      </attribute>
+      <attribute name="elem_height">
+        <real val="1.60711"/>
+      </attribute>
+      <attribute name="inner_color">
+        <color val="#c1f0ff"/>
+      </attribute>
+      <attribute name="show_background">
+        <boolean val="true"/>
+      </attribute>
+      <attribute name="flip_horizontal">
+        <boolean val="false"/>
+      </attribute>
+      <attribute name="flip_vertical">
+        <boolean val="false"/>
+      </attribute>
+      <attribute name="padding">
+        <real val="0.353553"/>
+      </attribute>
+      <attribute name="text">
+        <composite type="text">
+          <attribute name="string">
+            <string>#ToutDoux#</string>
+          </attribute>
+          <attribute name="font">
+            <font name="Courier"/>
+          </attribute>
+          <attribute name="height">
+            <real val="0.8"/>
+          </attribute>
+          <attribute name="pos">
+            <point val="25.2603,-7.91196"/>
+          </attribute>
+          <attribute name="color">
+            <color val="#000000"/>
+          </attribute>
+          <attribute name="alignment">
+            <enum val="1"/>
+          </attribute>
+        </composite>
+      </attribute>
+    </object>
+    <object type="Standard - Line" version="0" id="O18">
+      <attribute name="obj_pos">
+        <point val="34.3404,-15.0841"/>
+      </attribute>
+      <attribute name="obj_bb">
+        <rectangle val="29.2069,-20.3948;35.1904,-14.2341"/>
+      </attribute>
+      <attribute name="conn_endpoints">
+        <point val="34.3404,-15.0841"/>
+        <point val="30.0569,-19.5448"/>
+      </attribute>
+      <attribute name="numcp">
+        <int val="1"/>
+      </attribute>
+      <attribute name="line_color">
+        <color val="#d2c4e7"/>
+      </attribute>
+      <attribute name="start_arrow">
+        <enum val="1"/>
+      </attribute>
+      <attribute name="start_arrow_length">
+        <real val="0.8"/>
+      </attribute>
+      <attribute name="start_arrow_width">
+        <real val="0.8"/>
+      </attribute>
+      <connections>
+        <connection handle="0" to="O32" connection="2"/>
+        <connection handle="1" to="O26" connection="15"/>
+      </connections>
+    </object>
+    <object type="Standard - Line" version="0" id="O19">
+      <attribute name="obj_pos">
+        <point val="27.2535,-19.5448"/>
+      </attribute>
+      <attribute name="obj_bb">
+        <rectangle val="25.9637,-20.3948;28.1035,-14.2341"/>
+      </attribute>
+      <attribute name="conn_endpoints">
+        <point val="27.2535,-19.5448"/>
+        <point val="26.8137,-15.0841"/>
+      </attribute>
+      <attribute name="numcp">
+        <int val="1"/>
+      </attribute>
+      <attribute name="line_color">
+        <color val="#d2c4e7"/>
+      </attribute>
+      <attribute name="start_arrow">
+        <enum val="1"/>
+      </attribute>
+      <attribute name="start_arrow_length">
+        <real val="0.8"/>
+      </attribute>
+      <attribute name="start_arrow_width">
+        <real val="0.8"/>
+      </attribute>
+      <connections>
+        <connection handle="0" to="O26" connection="14"/>
+        <connection handle="1" to="O31" connection="1"/>
+      </connections>
+    </object>
+    <object type="Standard - Line" version="0" id="O20">
+      <attribute name="obj_pos">
+        <point val="29.6532,-8.95"/>
+      </attribute>
+      <attribute name="obj_bb">
+        <rectangle val="28.8032,-12.727;35.1904,-8.1"/>
+      </attribute>
+      <attribute name="conn_endpoints">
+        <point val="29.6532,-8.95"/>
+        <point val="34.3404,-11.877"/>
+      </attribute>
+      <attribute name="numcp">
+        <int val="1"/>
+      </attribute>
+      <attribute name="line_color">
+        <color val="#d2c4e7"/>
+      </attribute>
+      <attribute name="start_arrow">
+        <enum val="1"/>
+      </attribute>
+      <attribute name="start_arrow_length">
+        <real val="0.8"/>
+      </attribute>
+      <attribute name="start_arrow_width">
+        <real val="0.8"/>
+      </attribute>
+      <connections>
+        <connection handle="0" to="O17" connection="4"/>
+        <connection handle="1" to="O32" connection="14"/>
+      </connections>
+    </object>
+    <object type="Standard - Text" version="0" id="O21">
+      <attribute name="obj_pos">
+        <point val="25.1103,-9.58705"/>
+      </attribute>
+      <attribute name="obj_bb">
+        <rectangle val="24.677,-10.4595;25.5436,-9.35946"/>
+      </attribute>
+      <attribute name="text">
+        <composite type="text">
+          <attribute name="string">
+            <string>#1#</string>
+          </attribute>
+          <attribute name="font">
+            <font name="Courier"/>
+          </attribute>
+          <attribute name="height">
+            <real val="1.1"/>
+          </attribute>
+          <attribute name="pos">
+            <point val="25.1103,-9.58705"/>
+          </attribute>
+          <attribute name="color">
+            <color val="#eaf7ff"/>
+          </attribute>
+          <attribute name="alignment">
+            <enum val="1"/>
+          </attribute>
+        </composite>
+      </attribute>
+    </object>
+    <object type="Standard - Text" version="0" id="O22">
+      <attribute name="obj_pos">
+        <point val="18.3974,-24.7133"/>
+      </attribute>
+      <attribute name="obj_bb">
+        <rectangle val="16.2976,-25.5857;20.4972,-23.3857"/>
+      </attribute>
+      <attribute name="text">
+        <composite type="text">
+          <attribute name="string">
+            <string>#2&#176;
+en vol#</string>
+          </attribute>
+          <attribute name="font">
+            <font name="Courier"/>
+          </attribute>
+          <attribute name="height">
+            <real val="1.1"/>
+          </attribute>
+          <attribute name="pos">
+            <point val="18.3974,-24.7133"/>
+          </attribute>
+          <attribute name="color">
+            <color val="#ffe100"/>
+          </attribute>
+          <attribute name="alignment">
+            <enum val="1"/>
+          </attribute>
+        </composite>
+      </attribute>
+    </object>
+    <object type="Standard - Text" version="0" id="O23">
+      <attribute name="obj_pos">
+        <point val="26.1474,-15.6133"/>
+      </attribute>
+      <attribute name="obj_bb">
+        <rectangle val="25.7141,-16.4857;26.5807,-15.3857"/>
+      </attribute>
+      <attribute name="text">
+        <composite type="text">
+          <attribute name="string">
+            <string>#3#</string>
+          </attribute>
+          <attribute name="font">
+            <font name="Courier"/>
+          </attribute>
+          <attribute name="height">
+            <real val="1.1"/>
+          </attribute>
+          <attribute name="pos">
+            <point val="26.1474,-15.6133"/>
+          </attribute>
+          <attribute name="color">
+            <color val="#eaf7ff"/>
+          </attribute>
+          <attribute name="alignment">
+            <enum val="1"/>
+          </attribute>
+        </composite>
+      </attribute>
+    </object>
+    <object type="Standard - Text" version="0" id="O24">
+      <attribute name="obj_pos">
+        <point val="22.5474,-9.36334"/>
+      </attribute>
+      <attribute name="obj_bb">
+        <rectangle val="22.1141,-10.2358;22.9807,-9.13575"/>
+      </attribute>
+      <attribute name="text">
+        <composite type="text">
+          <attribute name="string">
+            <string>#2#</string>
+          </attribute>
+          <attribute name="font">
+            <font name="Courier"/>
+          </attribute>
+          <attribute name="height">
+            <real val="1.1"/>
+          </attribute>
+          <attribute name="pos">
+            <point val="22.5474,-9.36334"/>
+          </attribute>
+          <attribute name="color">
+            <color val="#eaf7ff"/>
+          </attribute>
+          <attribute name="alignment">
+            <enum val="1"/>
+          </attribute>
+        </composite>
+      </attribute>
+    </object>
+    <object type="Standard - Text" version="0" id="O25">
+      <attribute name="obj_pos">
+        <point val="31.8967,-18.4291"/>
+      </attribute>
+      <attribute name="obj_bb">
+        <rectangle val="31.4634,-19.3015;32.33,-18.2015"/>
+      </attribute>
+      <attribute name="text">
+        <composite type="text">
+          <attribute name="string">
+            <string>#4#</string>
+          </attribute>
+          <attribute name="font">
+            <font name="Courier"/>
+          </attribute>
+          <attribute name="height">
+            <real val="1.1"/>
+          </attribute>
+          <attribute name="pos">
+            <point val="31.8967,-18.4291"/>
+          </attribute>
+          <attribute name="color">
+            <color val="#eaf7ff"/>
+          </attribute>
+          <attribute name="alignment">
+            <enum val="1"/>
+          </attribute>
+        </composite>
+      </attribute>
+    </object>
+    <object type="Flowchart - Predefined Process" version="0" id="O26">
+      <attribute name="obj_pos">
+        <point val="21.6467,-21.1519"/>
+      </attribute>
+      <attribute name="obj_bb">
+        <rectangle val="21.5967,-21.2019;32.9103,-19.4948"/>
+      </attribute>
+      <attribute name="elem_corner">
+        <point val="21.6467,-21.1519"/>
+      </attribute>
+      <attribute name="elem_width">
+        <real val="11.2136"/>
+      </attribute>
+      <attribute name="elem_height">
+        <real val="1.60711"/>
+      </attribute>
+      <attribute name="inner_color">
+        <color val="#afffdc"/>
+      </attribute>
+      <attribute name="show_background">
+        <boolean val="true"/>
+      </attribute>
+      <attribute name="flip_horizontal">
+        <boolean val="false"/>
+      </attribute>
+      <attribute name="flip_vertical">
+        <boolean val="false"/>
+      </attribute>
+      <attribute name="padding">
+        <real val="0.353553"/>
+      </attribute>
+      <attribute name="text">
+        <composite type="text">
+          <attribute name="string">
+            <string>#client oz#</string>
+          </attribute>
+          <attribute name="font">
+            <font name="Courier"/>
+          </attribute>
+          <attribute name="height">
+            <real val="0.8"/>
+          </attribute>
+          <attribute name="pos">
+            <point val="27.2535,-20.1139"/>
+          </attribute>
+          <attribute name="color">
+            <color val="#000000"/>
+          </attribute>
+          <attribute name="alignment">
+            <enum val="1"/>
+          </attribute>
+        </composite>
+      </attribute>
+    </object>
+    <object type="Standard - Line" version="0" id="O27">
+      <attribute name="obj_pos">
+        <point val="27.3173,-23.0983"/>
+      </attribute>
+      <attribute name="obj_bb">
+        <rectangle val="26.4035,-23.9483;28.1673,-20.3019"/>
+      </attribute>
+      <attribute name="conn_endpoints">
+        <point val="27.3173,-23.0983"/>
+        <point val="27.2535,-21.1519"/>
+      </attribute>
+      <attribute name="numcp">
+        <int val="1"/>
+      </attribute>
+      <attribute name="line_color">
+        <color val="#d2c4e7"/>
+      </attribute>
+      <attribute name="start_arrow">
+        <enum val="1"/>
+      </attribute>
+      <attribute name="start_arrow_length">
+        <real val="0.8"/>
+      </attribute>
+      <attribute name="start_arrow_width">
+        <real val="0.8"/>
+      </attribute>
+      <attribute name="end_arrow">
+        <enum val="1"/>
+      </attribute>
+      <attribute name="end_arrow_length">
+        <real val="0.8"/>
+      </attribute>
+      <attribute name="end_arrow_width">
+        <real val="0.8"/>
+      </attribute>
+      <connections>
+        <connection handle="0" to="O28" connection="13"/>
+        <connection handle="1" to="O26" connection="2"/>
+      </connections>
+    </object>
+    <object type="Flowchart - Box" version="0" id="O28">
+      <attribute name="obj_pos">
+        <point val="24.4857,-25.7983"/>
+      </attribute>
+      <attribute name="obj_bb">
+        <rectangle val="24.4357,-25.8483;30.1989,-23.0483"/>
+      </attribute>
+      <attribute name="elem_corner">
+        <point val="24.4857,-25.7983"/>
+      </attribute>
+      <attribute name="elem_width">
+        <real val="5.6632"/>
+      </attribute>
+      <attribute name="elem_height">
+        <real val="2.7"/>
+      </attribute>
+      <attribute name="inner_color">
+        <color val="#ebffbb"/>
+      </attribute>
+      <attribute name="show_background">
+        <boolean val="true"/>
+      </attribute>
+      <attribute name="padding">
+        <real val="0.5"/>
+      </attribute>
+      <attribute name="text">
+        <composite type="text">
+          <attribute name="string">
+            <string>#serveur
+oz#</string>
+          </attribute>
+          <attribute name="font">
+            <font name="Courier"/>
+          </attribute>
+          <attribute name="height">
+            <real val="0.8"/>
+          </attribute>
+          <attribute name="pos">
+            <point val="27.3173,-24.6138"/>
+          </attribute>
+          <attribute name="color">
+            <color val="#000000"/>
+          </attribute>
+          <attribute name="alignment">
+            <enum val="1"/>
+          </attribute>
+        </composite>
+      </attribute>
+    </object>
+    <object type="Standard - Line" version="0" id="O29">
+      <attribute name="obj_pos">
+        <point val="24.4501,-19.5448"/>
+      </attribute>
+      <attribute name="obj_bb">
+        <rectangle val="22.2139,-20.3948;25.3001,-8.1"/>
+      </attribute>
+      <attribute name="conn_endpoints">
+        <point val="24.4501,-19.5448"/>
+        <point val="23.0639,-8.95"/>
+      </attribute>
+      <attribute name="numcp">
+        <int val="1"/>
+      </attribute>
+      <attribute name="line_color">
+        <color val="#d2c4e7"/>
+      </attribute>
+      <attribute name="start_arrow">
+        <enum val="1"/>
+      </attribute>
+      <attribute name="start_arrow_length">
+        <real val="0.8"/>
+      </attribute>
+      <attribute name="start_arrow_width">
+        <real val="0.8"/>
+      </attribute>
+      <connections>
+        <connection handle="0" to="O26" connection="13"/>
+        <connection handle="1" to="O17" connection="1"/>
+      </connections>
+    </object>
+    <object type="Standard - Text" version="0" id="O30">
+      <attribute name="obj_pos">
+        <point val="34.8686,-10.6635"/>
+      </attribute>
+      <attribute name="obj_bb">
+        <rectangle val="34.4353,-11.5359;35.3019,-10.4359"/>
+      </attribute>
+      <attribute name="text">
+        <composite type="text">
+          <attribute name="string">
+            <string>#5#</string>
+          </attribute>
+          <attribute name="font">
+            <font name="Courier"/>
+          </attribute>
+          <attribute name="height">
+            <real val="1.1"/>
+          </attribute>
+          <attribute name="pos">
+            <point val="34.8686,-10.6635"/>
+          </attribute>
+          <attribute name="color">
+            <color val="#eaf7ff"/>
+          </attribute>
+          <attribute name="alignment">
+            <enum val="1"/>
+          </attribute>
+        </composite>
+      </attribute>
+    </object>
+    <object type="Flowchart - Transaction File" version="0" id="O31">
+      <attribute name="obj_pos">
+        <point val="24.0656,-15.0841"/>
+      </attribute>
+      <attribute name="obj_bb">
+        <rectangle val="24.0156,-15.1341;31.4439,-11.827"/>
+      </attribute>
+      <attribute name="elem_corner">
+        <point val="24.0656,-15.0841"/>
+      </attribute>
+      <attribute name="elem_width">
+        <real val="7.32826"/>
+      </attribute>
+      <attribute name="elem_height">
+        <real val="3.20711"/>
+      </attribute>
+      <attribute name="show_background">
+        <boolean val="true"/>
+      </attribute>
+      <attribute name="flip_horizontal">
+        <boolean val="false"/>
+      </attribute>
+      <attribute name="flip_vertical">
+        <boolean val="false"/>
+      </attribute>
+      <attribute name="padding">
+        <real val="0.353553"/>
+      </attribute>
+      <attribute name="text">
+        <composite type="text">
+          <attribute name="string">
+            <string>#fichier
+de
+ donn&#233;es#</string>
+          </attribute>
+          <attribute name="font">
+            <font name="Courier"/>
+          </attribute>
+          <attribute name="height">
+            <real val="0.8"/>
+          </attribute>
+          <attribute name="pos">
+            <point val="27.7297,-14.0461"/>
+          </attribute>
+          <attribute name="color">
+            <color val="#000000"/>
+          </attribute>
+          <attribute name="alignment">
+            <enum val="1"/>
+          </attribute>
+        </composite>
+      </attribute>
+    </object>
+    <object type="Flowchart - Transaction File" version="0" id="O32">
+      <attribute name="obj_pos">
+        <point val="30.0656,-15.0841"/>
+      </attribute>
+      <attribute name="obj_bb">
+        <rectangle val="30.0156,-15.1341;37.4439,-11.827"/>
+      </attribute>
+      <attribute name="elem_corner">
+        <point val="30.0656,-15.0841"/>
+      </attribute>
+      <attribute name="elem_width">
+        <real val="7.32826"/>
+      </attribute>
+      <attribute name="elem_height">
+        <real val="3.20711"/>
+      </attribute>
+      <attribute name="show_background">
+        <boolean val="true"/>
+      </attribute>
+      <attribute name="flip_horizontal">
+        <boolean val="false"/>
+      </attribute>
+      <attribute name="flip_vertical">
+        <boolean val="false"/>
+      </attribute>
+      <attribute name="padding">
+        <real val="0.353553"/>
+      </attribute>
+      <attribute name="text">
+        <composite type="text">
+          <attribute name="string">
+            <string>#fichier
+de
+ donn&#233;es#</string>
+          </attribute>
+          <attribute name="font">
+            <font name="Courier"/>
+          </attribute>
+          <attribute name="height">
+            <real val="0.8"/>
+          </attribute>
+          <attribute name="pos">
+            <point val="33.7297,-14.0461"/>
+          </attribute>
+          <attribute name="color">
+            <color val="#000000"/>
+          </attribute>
+          <attribute name="alignment">
+            <enum val="1"/>
+          </attribute>
+        </composite>
+      </attribute>
+    </object>
+    <group>
+      <object type="Flowchart - Document" version="0" id="O33">
+        <attribute name="obj_pos">
+          <point val="49.0043,-5.77332"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="48.9543,-5.82332;53.455,-3.47337"/>
+        </attribute>
+        <attribute name="elem_corner">
+          <point val="49.0043,-5.77332"/>
+        </attribute>
+        <attribute name="elem_width">
+          <real val="4.40071"/>
+        </attribute>
+        <attribute name="elem_height">
+          <real val="2.24995"/>
+        </attribute>
+        <attribute name="show_background">
+          <boolean val="true"/>
+        </attribute>
+        <attribute name="flip_horizontal">
+          <boolean val="false"/>
+        </attribute>
+        <attribute name="flip_vertical">
+          <boolean val="false"/>
+        </attribute>
+        <attribute name="padding">
+          <real val="0.353553"/>
+        </attribute>
+        <attribute name="text">
+          <composite type="text">
+            <attribute name="string">
+              <string>#fichier#</string>
+            </attribute>
+            <attribute name="font">
+              <font name="Courier"/>
+            </attribute>
+            <attribute name="height">
+              <real val="0.8"/>
+            </attribute>
+            <attribute name="pos">
+              <point val="51.2047,-4.73528"/>
+            </attribute>
+            <attribute name="color">
+              <color val="#000000"/>
+            </attribute>
+            <attribute name="alignment">
+              <enum val="1"/>
+            </attribute>
+          </composite>
+        </attribute>
+      </object>
+      <object type="Standard - Line" version="0" id="O34">
+        <attribute name="obj_pos">
+          <point val="52.5137,-13.727"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="50.398,-14.577;53.3637,-10.1681"/>
+        </attribute>
+        <attribute name="conn_endpoints">
+          <point val="52.5137,-13.727"/>
+          <point val="51.248,-11.0181"/>
+        </attribute>
+        <attribute name="numcp">
+          <int val="1"/>
+        </attribute>
+        <attribute name="line_color">
+          <color val="#d2c4e7"/>
+        </attribute>
+        <attribute name="start_arrow">
+          <enum val="1"/>
+        </attribute>
+        <attribute name="start_arrow_length">
+          <real val="0.8"/>
+        </attribute>
+        <attribute name="start_arrow_width">
+          <real val="0.8"/>
+        </attribute>
+        <connections>
+          <connection handle="0" to="O54" connection="13"/>
+          <connection handle="1" to="O35" connection="2"/>
+        </connections>
+      </object>
+      <object type="Flowchart - Display" version="0" id="O35">
+        <attribute name="obj_pos">
+          <point val="45.048,-11.0181"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="44.998,-11.0681;57.498,-8.9681"/>
+        </attribute>
+        <attribute name="elem_corner">
+          <point val="45.048,-11.0181"/>
+        </attribute>
+        <attribute name="elem_width">
+          <real val="12.4"/>
+        </attribute>
+        <attribute name="elem_height">
+          <real val="2"/>
+        </attribute>
+        <attribute name="inner_color">
+          <color val="#c1f0ff"/>
+        </attribute>
+        <attribute name="show_background">
+          <boolean val="true"/>
+        </attribute>
+        <attribute name="flip_horizontal">
+          <boolean val="false"/>
+        </attribute>
+        <attribute name="flip_vertical">
+          <boolean val="false"/>
+        </attribute>
+        <attribute name="padding">
+          <real val="0.353553"/>
+        </attribute>
+        <attribute name="text">
+          <composite type="text">
+            <attribute name="string">
+              <string>#ToutDoux#</string>
+            </attribute>
+            <attribute name="font">
+              <font name="Courier"/>
+            </attribute>
+            <attribute name="height">
+              <real val="0.8"/>
+            </attribute>
+            <attribute name="pos">
+              <point val="51.248,-9.78362"/>
+            </attribute>
+            <attribute name="color">
+              <color val="#000000"/>
+            </attribute>
+            <attribute name="alignment">
+              <enum val="1"/>
+            </attribute>
+          </composite>
+        </attribute>
+      </object>
+      <object type="Standard - Line" version="0" id="O36">
+        <attribute name="obj_pos">
+          <point val="58.6454,-16.9841"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="54.7955,-22.0129;59.4954,-16.1341"/>
+        </attribute>
+        <attribute name="conn_endpoints">
+          <point val="58.6454,-16.9841"/>
+          <point val="55.6455,-21.1629"/>
+        </attribute>
+        <attribute name="numcp">
+          <int val="1"/>
+        </attribute>
+        <attribute name="line_color">
+          <color val="#d2c4e7"/>
+        </attribute>
+        <attribute name="start_arrow">
+          <enum val="1"/>
+        </attribute>
+        <attribute name="start_arrow_length">
+          <real val="0.8"/>
+        </attribute>
+        <attribute name="start_arrow_width">
+          <real val="0.8"/>
+        </attribute>
+        <connections>
+          <connection handle="0" to="O53" connection="1"/>
+          <connection handle="1" to="O44" connection="15"/>
+        </connections>
+      </object>
+      <object type="Standard - Line" version="0" id="O37">
+        <attribute name="obj_pos">
+          <point val="52.4523,-21.1629"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="51.6023,-22.0129;53.3637,-16.0841"/>
+        </attribute>
+        <attribute name="conn_endpoints">
+          <point val="52.4523,-21.1629"/>
+          <point val="52.5137,-16.9341"/>
+        </attribute>
+        <attribute name="numcp">
+          <int val="1"/>
+        </attribute>
+        <attribute name="line_color">
+          <color val="#d2c4e7"/>
+        </attribute>
+        <attribute name="start_arrow">
+          <enum val="1"/>
+        </attribute>
+        <attribute name="start_arrow_length">
+          <real val="0.8"/>
+        </attribute>
+        <attribute name="start_arrow_width">
+          <real val="0.8"/>
+        </attribute>
+        <connections>
+          <connection handle="0" to="O44" connection="14"/>
+          <connection handle="1" to="O54" connection="1"/>
+        </connections>
+      </object>
+      <object type="Standard - Line" version="0" id="O38">
+        <attribute name="obj_pos">
+          <point val="55.6766,-11.0181"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="54.8266,-14.627;59.4954,-10.1681"/>
+        </attribute>
+        <attribute name="conn_endpoints">
+          <point val="55.6766,-11.0181"/>
+          <point val="58.6454,-13.777"/>
+        </attribute>
+        <attribute name="numcp">
+          <int val="1"/>
+        </attribute>
+        <attribute name="line_color">
+          <color val="#d2c4e7"/>
+        </attribute>
+        <attribute name="start_arrow">
+          <enum val="1"/>
+        </attribute>
+        <attribute name="start_arrow_length">
+          <real val="0.8"/>
+        </attribute>
+        <attribute name="start_arrow_width">
+          <real val="0.8"/>
+        </attribute>
+        <connections>
+          <connection handle="0" to="O35" connection="4"/>
+          <connection handle="1" to="O53" connection="13"/>
+        </connections>
+      </object>
+      <object type="Standard - Text" version="0" id="O39">
+        <attribute name="obj_pos">
+          <point val="50.8603,-11.3978"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="50.427,-12.2702;51.2936,-11.1702"/>
+        </attribute>
+        <attribute name="text">
+          <composite type="text">
+            <attribute name="string">
+              <string>#3#</string>
+            </attribute>
+            <attribute name="font">
+              <font name="Courier"/>
+            </attribute>
+            <attribute name="height">
+              <real val="1.1"/>
+            </attribute>
+            <attribute name="pos">
+              <point val="50.8603,-11.3978"/>
+            </attribute>
+            <attribute name="color">
+              <color val="#eaf7ff"/>
+            </attribute>
+            <attribute name="alignment">
+              <enum val="1"/>
+            </attribute>
+          </composite>
+        </attribute>
+      </object>
+      <object type="Standard - Text" version="0" id="O40">
+        <attribute name="obj_pos">
+          <point val="44.7756,-27.2622"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="41.6759,-28.1346;47.8753,-25.9346"/>
+        </attribute>
+        <attribute name="text">
+          <composite type="text">
+            <attribute name="string">
+              <string>#3&#176;
+param&#233;tr&#233;#</string>
+            </attribute>
+            <attribute name="font">
+              <font name="Courier"/>
+            </attribute>
+            <attribute name="height">
+              <real val="1.1"/>
+            </attribute>
+            <attribute name="pos">
+              <point val="44.7756,-27.2622"/>
+            </attribute>
+            <attribute name="color">
+              <color val="#ffe100"/>
+            </attribute>
+            <attribute name="alignment">
+              <enum val="1"/>
+            </attribute>
+          </composite>
+        </attribute>
+      </object>
+      <object type="Standard - Text" version="0" id="O41">
+        <attribute name="obj_pos">
+          <point val="51.8103,-17.8478"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="51.377,-18.7202;52.2436,-17.6202"/>
+        </attribute>
+        <attribute name="text">
+          <composite type="text">
+            <attribute name="string">
+              <string>#5#</string>
+            </attribute>
+            <attribute name="font">
+              <font name="Courier"/>
+            </attribute>
+            <attribute name="height">
+              <real val="1.1"/>
+            </attribute>
+            <attribute name="pos">
+              <point val="51.8103,-17.8478"/>
+            </attribute>
+            <attribute name="color">
+              <color val="#eaf7ff"/>
+            </attribute>
+            <attribute name="alignment">
+              <enum val="1"/>
+            </attribute>
+          </composite>
+        </attribute>
+      </object>
+      <object type="Standard - Text" version="0" id="O42">
+        <attribute name="obj_pos">
+          <point val="45.5851,-11.2315"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="45.1518,-12.1039;46.0184,-11.0039"/>
+        </attribute>
+        <attribute name="text">
+          <composite type="text">
+            <attribute name="string">
+              <string>#2#</string>
+            </attribute>
+            <attribute name="font">
+              <font name="Courier"/>
+            </attribute>
+            <attribute name="height">
+              <real val="1.1"/>
+            </attribute>
+            <attribute name="pos">
+              <point val="45.5851,-11.2315"/>
+            </attribute>
+            <attribute name="color">
+              <color val="#eaf7ff"/>
+            </attribute>
+            <attribute name="alignment">
+              <enum val="1"/>
+            </attribute>
+          </composite>
+        </attribute>
+      </object>
+      <object type="Standard - Text" version="0" id="O43">
+        <attribute name="obj_pos">
+          <point val="57.7134,-19.5441"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="57.2801,-20.4165;58.1467,-19.3165"/>
+        </attribute>
+        <attribute name="text">
+          <composite type="text">
+            <attribute name="string">
+              <string>#6#</string>
+            </attribute>
+            <attribute name="font">
+              <font name="Courier"/>
+            </attribute>
+            <attribute name="height">
+              <real val="1.1"/>
+            </attribute>
+            <attribute name="pos">
+              <point val="57.7134,-19.5441"/>
+            </attribute>
+            <attribute name="color">
+              <color val="#eaf7ff"/>
+            </attribute>
+            <attribute name="alignment">
+              <enum val="1"/>
+            </attribute>
+          </composite>
+        </attribute>
+      </object>
+      <object type="Flowchart - Predefined Process" version="0" id="O44">
+        <attribute name="obj_pos">
+          <point val="46.0659,-23.57"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="46.0159,-23.62;58.8888,-21.1129"/>
+        </attribute>
+        <attribute name="elem_corner">
+          <point val="46.0659,-23.57"/>
+        </attribute>
+        <attribute name="elem_width">
+          <real val="12.7729"/>
+        </attribute>
+        <attribute name="elem_height">
+          <real val="2.40711"/>
+        </attribute>
+        <attribute name="inner_color">
+          <color val="#afffdc"/>
+        </attribute>
+        <attribute name="show_background">
+          <boolean val="true"/>
+        </attribute>
+        <attribute name="flip_horizontal">
+          <boolean val="false"/>
+        </attribute>
+        <attribute name="flip_vertical">
+          <boolean val="false"/>
+        </attribute>
+        <attribute name="padding">
+          <real val="0.353553"/>
+        </attribute>
+        <attribute name="text">
+          <composite type="text">
+            <attribute name="string">
+              <string>#stockage des r&#232;gles
+(client oz)#</string>
+            </attribute>
+            <attribute name="font">
+              <font name="Courier"/>
+            </attribute>
+            <attribute name="height">
+              <real val="0.8"/>
+            </attribute>
+            <attribute name="pos">
+              <point val="52.4523,-22.532"/>
+            </attribute>
+            <attribute name="color">
+              <color val="#000000"/>
+            </attribute>
+            <attribute name="alignment">
+              <enum val="1"/>
+            </attribute>
+          </composite>
+        </attribute>
+      </object>
+      <object type="Standard - Line" version="0" id="O45">
+        <attribute name="obj_pos">
+          <point val="52.455,-25.8665"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="51.6023,-26.7165;53.305,-22.72"/>
+        </attribute>
+        <attribute name="conn_endpoints">
+          <point val="52.455,-25.8665"/>
+          <point val="52.4523,-23.57"/>
+        </attribute>
+        <attribute name="numcp">
+          <int val="1"/>
+        </attribute>
+        <attribute name="line_color">
+          <color val="#d2c4e7"/>
+        </attribute>
+        <attribute name="start_arrow">
+          <enum val="1"/>
+        </attribute>
+        <attribute name="start_arrow_length">
+          <real val="0.8"/>
+        </attribute>
+        <attribute name="start_arrow_width">
+          <real val="0.8"/>
+        </attribute>
+        <attribute name="end_arrow">
+          <enum val="1"/>
+        </attribute>
+        <attribute name="end_arrow_length">
+          <real val="0.8"/>
+        </attribute>
+        <attribute name="end_arrow_width">
+          <real val="0.8"/>
+        </attribute>
+        <connections>
+          <connection handle="0" to="O46" connection="13"/>
+          <connection handle="1" to="O44" connection="2"/>
+        </connections>
+      </object>
+      <object type="Flowchart - Box" version="0" id="O46">
+        <attribute name="obj_pos">
+          <point val="49.6234,-28.5665"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="49.5734,-28.6165;55.3366,-25.8165"/>
+        </attribute>
+        <attribute name="elem_corner">
+          <point val="49.6234,-28.5665"/>
+        </attribute>
+        <attribute name="elem_width">
+          <real val="5.6632"/>
+        </attribute>
+        <attribute name="elem_height">
+          <real val="2.7"/>
+        </attribute>
+        <attribute name="inner_color">
+          <color val="#ebffbb"/>
+        </attribute>
+        <attribute name="show_background">
+          <boolean val="true"/>
+        </attribute>
+        <attribute name="padding">
+          <real val="0.5"/>
+        </attribute>
+        <attribute name="text">
+          <composite type="text">
+            <attribute name="string">
+              <string>#serveur
+oz#</string>
+            </attribute>
+            <attribute name="font">
+              <font name="Courier"/>
+            </attribute>
+            <attribute name="height">
+              <real val="0.8"/>
+            </attribute>
+            <attribute name="pos">
+              <point val="52.455,-27.382"/>
+            </attribute>
+            <attribute name="color">
+              <color val="#000000"/>
+            </attribute>
+            <attribute name="alignment">
+              <enum val="1"/>
+            </attribute>
+          </composite>
+        </attribute>
+      </object>
+      <object type="Standard - Line" version="0" id="O47">
+        <attribute name="obj_pos">
+          <point val="46.0659,-21.1629"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="45.2159,-22.0129;47.6694,-10.1681"/>
+        </attribute>
+        <attribute name="conn_endpoints">
+          <point val="46.0659,-21.1629"/>
+          <point val="46.8194,-11.0181"/>
+        </attribute>
+        <attribute name="numcp">
+          <int val="1"/>
+        </attribute>
+        <attribute name="line_color">
+          <color val="#d2c4e7"/>
+        </attribute>
+        <attribute name="start_arrow">
+          <enum val="1"/>
+        </attribute>
+        <attribute name="start_arrow_length">
+          <real val="0.8"/>
+        </attribute>
+        <attribute name="start_arrow_width">
+          <real val="0.8"/>
+        </attribute>
+        <connections>
+          <connection handle="0" to="O44" connection="8"/>
+          <connection handle="1" to="O35" connection="0"/>
+        </connections>
+      </object>
+      <object type="Standard - Text" version="0" id="O48">
+        <attribute name="obj_pos">
+          <point val="59.1063,-12.5817"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="58.673,-13.4541;59.5396,-12.3541"/>
+        </attribute>
+        <attribute name="text">
+          <composite type="text">
+            <attribute name="string">
+              <string>#7#</string>
+            </attribute>
+            <attribute name="font">
+              <font name="Courier"/>
+            </attribute>
+            <attribute name="height">
+              <real val="1.1"/>
+            </attribute>
+            <attribute name="pos">
+              <point val="59.1063,-12.5817"/>
+            </attribute>
+            <attribute name="color">
+              <color val="#eaf7ff"/>
+            </attribute>
+            <attribute name="alignment">
+              <enum val="1"/>
+            </attribute>
+          </composite>
+        </attribute>
+      </object>
+      <object type="Standard - Line" version="0" id="O49">
+        <attribute name="obj_pos">
+          <point val="51.248,-9.0181"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="50.3547,-9.8681;52.098,-4.92332"/>
+        </attribute>
+        <attribute name="conn_endpoints">
+          <point val="51.248,-9.0181"/>
+          <point val="51.2047,-5.77332"/>
+        </attribute>
+        <attribute name="numcp">
+          <int val="1"/>
+        </attribute>
+        <attribute name="line_color">
+          <color val="#d2c4e7"/>
+        </attribute>
+        <attribute name="start_arrow">
+          <enum val="1"/>
+        </attribute>
+        <attribute name="start_arrow_length">
+          <real val="0.8"/>
+        </attribute>
+        <attribute name="start_arrow_width">
+          <real val="0.8"/>
+        </attribute>
+        <connections>
+          <connection handle="0" to="O35" connection="14"/>
+          <connection handle="1" to="O33" connection="2"/>
+        </connections>
+      </object>
+      <object type="Standard - Text" version="0" id="O50">
+        <attribute name="obj_pos">
+          <point val="50.5103,-6.34785"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="50.077,-7.22026;50.9436,-6.12026"/>
+        </attribute>
+        <attribute name="text">
+          <composite type="text">
+            <attribute name="string">
+              <string>#1#</string>
+            </attribute>
+            <attribute name="font">
+              <font name="Courier"/>
+            </attribute>
+            <attribute name="height">
+              <real val="1.1"/>
+            </attribute>
+            <attribute name="pos">
+              <point val="50.5103,-6.34785"/>
+            </attribute>
+            <attribute name="color">
+              <color val="#eaf7ff"/>
+            </attribute>
+            <attribute name="alignment">
+              <enum val="1"/>
+            </attribute>
+          </composite>
+        </attribute>
+      </object>
+      <object type="Standard - Line" version="0" id="O51">
+        <attribute name="obj_pos">
+          <point val="49.2591,-21.1629"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="48.1837,-22.0129;50.1091,-10.1681"/>
+        </attribute>
+        <attribute name="conn_endpoints">
+          <point val="49.2591,-21.1629"/>
+          <point val="49.0337,-11.0181"/>
+        </attribute>
+        <attribute name="numcp">
+          <int val="1"/>
+        </attribute>
+        <attribute name="line_color">
+          <color val="#d2c4e7"/>
+        </attribute>
+        <attribute name="start_arrow">
+          <enum val="1"/>
+        </attribute>
+        <attribute name="start_arrow_length">
+          <real val="0.8"/>
+        </attribute>
+        <attribute name="start_arrow_width">
+          <real val="0.8"/>
+        </attribute>
+        <connections>
+          <connection handle="0" to="O44" connection="13"/>
+          <connection handle="1" to="O35" connection="1"/>
+        </connections>
+      </object>
+      <object type="Standard - Text" version="0" id="O52">
+        <attribute name="obj_pos">
+          <point val="48.2603,-11.545"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="47.827,-12.4174;48.6936,-11.3174"/>
+        </attribute>
+        <attribute name="text">
+          <composite type="text">
+            <attribute name="string">
+              <string>#4#</string>
+            </attribute>
+            <attribute name="font">
+              <font name="Courier"/>
+            </attribute>
+            <attribute name="height">
+              <real val="1.1"/>
+            </attribute>
+            <attribute name="pos">
+              <point val="48.2603,-11.545"/>
+            </attribute>
+            <attribute name="color">
+              <color val="#eaf7ff"/>
+            </attribute>
+            <attribute name="alignment">
+              <enum val="1"/>
+            </attribute>
+          </composite>
+        </attribute>
+      </object>
+      <object type="Flowchart - Transaction File" version="0" id="O53">
+        <attribute name="obj_pos">
+          <point val="55.8973,-16.9841"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="55.8473,-17.0341;63.2756,-13.727"/>
+        </attribute>
+        <attribute name="elem_corner">
+          <point val="55.8973,-16.9841"/>
+        </attribute>
+        <attribute name="elem_width">
+          <real val="7.32826"/>
+        </attribute>
+        <attribute name="elem_height">
+          <real val="3.20711"/>
+        </attribute>
+        <attribute name="show_background">
+          <boolean val="true"/>
+        </attribute>
+        <attribute name="flip_horizontal">
+          <boolean val="false"/>
+        </attribute>
+        <attribute name="flip_vertical">
+          <boolean val="false"/>
+        </attribute>
+        <attribute name="padding">
+          <real val="0.353553"/>
+        </attribute>
+        <attribute name="text">
+          <composite type="text">
+            <attribute name="string">
+              <string>#fichier
+de
+ donn&#233;es#</string>
+            </attribute>
+            <attribute name="font">
+              <font name="Courier"/>
+            </attribute>
+            <attribute name="height">
+              <real val="0.8"/>
+            </attribute>
+            <attribute name="pos">
+              <point val="59.5614,-15.9461"/>
+            </attribute>
+            <attribute name="color">
+              <color val="#000000"/>
+            </attribute>
+            <attribute name="alignment">
+              <enum val="1"/>
+            </attribute>
+          </composite>
+        </attribute>
+      </object>
+      <object type="Flowchart - Transaction File" version="0" id="O54">
+        <attribute name="obj_pos">
+          <point val="49.7656,-16.9341"/>
+        </attribute>
+        <attribute name="obj_bb">
+          <rectangle val="49.7156,-16.9841;57.1439,-13.677"/>
+        </attribute>
+        <attribute name="elem_corner">
+          <point val="49.7656,-16.9341"/>
+        </attribute>
+        <attribute name="elem_width">
+          <real val="7.32826"/>
+        </attribute>
+        <attribute name="elem_height">
+          <real val="3.20711"/>
+        </attribute>
+        <attribute name="show_background">
+          <boolean val="true"/>
+        </attribute>
+        <attribute name="flip_horizontal">
+          <boolean val="false"/>
+        </attribute>
+        <attribute name="flip_vertical">
+          <boolean val="false"/>
+        </attribute>
+        <attribute name="padding">
+          <real val="0.353553"/>
+        </attribute>
+        <attribute name="text">
+          <composite type="text">
+            <attribute name="string">
+              <string>#fichier
+de
+ donn&#233;es#</string>
+            </attribute>
+            <attribute name="font">
+              <font name="Courier"/>
+            </attribute>
+            <attribute name="height">
+              <real val="0.8"/>
+            </attribute>
+            <attribute name="pos">
+              <point val="53.4297,-15.8961"/>
+            </attribute>
+            <attribute name="color">
+              <color val="#000000"/>
+            </attribute>
+            <attribute name="alignment">
+              <enum val="1"/>
+            </attribute>
+          </composite>
+        </attribute>
+      </object>
+    </group>
+    <object type="FS - Function" version="0" id="O55">
+      <attribute name="obj_pos">
+        <point val="15.0155,3.49416"/>
+      </attribute>
+      <attribute name="obj_bb">
+        <rectangle val="14.9655,3.44416;44.2142,34.1442"/>
+      </attribute>
+      <attribute name="elem_corner">
+        <point val="15.0155,3.49416"/>
+      </attribute>
+      <attribute name="elem_width">
+        <real val="29.1487"/>
+      </attribute>
+      <attribute name="elem_height">
+        <real val="30.6"/>
+      </attribute>
+      <attribute name="text">
+        <composite type="text">
+          <attribute name="string">
+            <string>#solver-fr.dia : Brouillon sur l&apos;int&#233;gration d&apos;un solveur
+solver-fr.dia : Draft about solver integration
+
+
+TouxDoux : Chtit gestionnaire de projet - A littl&apos; project manager
+Copyright (c) 2000-2001 Philippe Roy
+Auteur - Author : Philippe Roy &lt;ph_roy@toutdoux.org&gt;
+
+
+Ce programme est un logiciel libre ; vous pouvez le redistribuer et/ou le modifier
+sous les termes de la licence publique g&#233;n&#233;rale GNU telle qu&apos;elle est publi&#233;e par
+la Free Software Foundation ; soit la version 2 de la licence, ou
+(comme vous voulez) toute version ult&#233;rieure.
+
+Ce programme est distribu&#233; dans l&apos;espoir qu&apos;il sera utile,
+mais SANS AUCUNE GARANTIE ; m&#234;me sans la garantie de
+COMMERCIALIT&#201; ou d&apos;AD&#201;QUATION A UN BUT PARTICULIER. Voir la
+licence publique g&#233;n&#233;rale GNU pour plus de d&#233;tails.
+
+Vous devriez avoir re&#231;u une copie de la licence publique g&#233;n&#233;rale GNU
+avec ce programme ; si ce n&apos;est pas le cas, &#233;crivez &#224; la Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.#</string>
+          </attribute>
+          <attribute name="font">
+            <font name="Helvetica"/>
+          </attribute>
+          <attribute name="height">
+            <real val="0.8"/>
+          </attribute>
+          <attribute name="pos">
+            <point val="29.5899,4.63416"/>
+          </attribute>
+          <attribute name="color">
+            <color val="#000000"/>
+          </attribute>
+          <attribute name="alignment">
+            <enum val="1"/>
+          </attribute>
+        </composite>
+      </attribute>
+      <attribute name="is_wish">
+        <boolean val="false"/>
+      </attribute>
+      <attribute name="is_user">
+        <boolean val="false"/>
+      </attribute>
+    </object>
+  </layer>
+</diagram>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<page id="captures" nom="Screen shots">
+<!-- Application -->
+  <cadre nom="Application">
+    <capture nom="application" href="../captures/capture1-fr.png" chtit="../captures/capture1-chtit-fr.png">
+      <capture-texte texte="The 'Gantt' plug-in in action."/>
+      <capture-texte texte="All applications can be integrated by plug-in."/>
+      <capture-texte texte="In fact, the document (XML) contains structure, plug-in parameters and datatables."/>
+      <capture-texte texte="When the document is opened, the necessary plug-ins are loaded."/>
+    </capture>
+  </cadre>
+<!-- Construction -->
+  <cadre nom="Construction">
+    <capture nom="construction" href="../captures/capture2-fr.png" chtit="../captures/capture2-chtit-fr.png">
+      <capture-texte texte="The database's structure is user-defined."/>
+      <capture-texte texte="After, the user links database fields to plug-in fields."/>
+    </capture>
+  </cadre>
+<!-- Logistique -->
+  <cadre nom="Logistics">
+    <capture nom="application" href="../captures/capture3-fr.png" chtit="../captures/capture3-chtit-fr.png">
+      <capture-texte texte="Some 'logistics' windows."/>
+    </capture>
+  </cadre>
+</page>

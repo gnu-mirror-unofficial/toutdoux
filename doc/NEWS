@@ -1,0 +1,143 @@
+-*-outline-*-
+
+# *****************************************************************************
+# NEWS : Nouvelles 
+# NEWS : News
+#
+#
+# TouxDoux : Chtit gestionnaire de projet - A littl' project manager
+# Copyright (c) 2000-2001 Philippe Roy
+# Auteur - Author : Philippe Roy <ph_roy@toutdoux.org>
+#
+#
+# Ce programme est un logiciel libre ; vous pouvez le redistribuer et/ou le modifier
+# sous les termes de la licence publique générale GNU telle qu'elle est publiée par
+# la Free Software Foundation ; soit la version 2 de la licence, ou
+# (comme vous voulez) toute version ultérieure.
+#
+# Ce programme est distribué dans l'espoir qu'il sera utile,
+# mais SANS AUCUNE GARANTIE ; même sans la garantie de
+# COMMERCIALITÉ ou d'ADÉQUATION A UN BUT PARTICULIER. Voir la
+# licence publique générale GNU pour plus de détails.
+#
+# Vous devriez avoir reçu une copie de la licence publique générale GNU
+# avec ce programme ; si ce n'est pas le cas, écrivez à la Free Software
+# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+#
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA. 
+# *****************************************************************************
+
+* Version française 
+* English version 
+
+* Version française 
+
+** 10/03/2001 : version 1.2.6
+	        - correction de bugs
+
+** 27/02/2001 : version 1.2.5 
+	        - début du PERT et du GANTT
+		- paramétrage des greffons
+
+** 12/01/2001 : Achat du domaine www.toutdoux.org
+
+** 12/01/2001 : Achat du domaine www.toutdoux.org
+
+** 07/11/2000 : Mise en place des discussions par liste de diffusion (générale, annonces et bugs)
+
+** 27/10/2000 : ToutDoux fait partie, maintenant, officiellement du Projet GNU.
+                J'ai promis de fournir plus de documentation et de traduire les commentaires en Anglais.
+
+** 24/10/2000 : version 1.2.4
+		- stockage sur base de données (optionnel)
+
+** 24/08/2000 : version 1.2.3
+		- bugs critiques corrigés
+
+** 23/08/2000 : version 1.2.2 
+		- glisser-déposer de Gtk+, 
+		- édition des gabarits
+		- ouverture d'URL
+
+** 29/06/2000 : déménagement du site vers SourceForge
+
+** 31/05/2000 : hébergement du CVS chez SourceForge
+
+** 27/05/2000 : version 1.2.1 : 
+		- bibliothèque
+		- préférences
+		- aide 
+		- traduction allemande
+
+** 24/05/2000 : changement de webmestre
+
+** 20/04/2000 : version 1.2.0 : 
+		- système de greffons et de vues implementé
+
+** 20/03/2000 : version 1.1.9 : 
+		- sauvegarde sur base de donnée (PostgreSQL)
+
+** 13/02/2000 : version 1.1.8 : 
+		- bug XML corrigé
+
+
+* English version
+
+** 10/03/2001 : version 1.2.6
+		- bugfix version
+
+** 27/02/2001 : version 1.2.5 : 
+		- beginning of PERT and GANTT 
+		- plug-in's parameters
+
+** 12/01/2001 : Purchase www.toutdoux.org
+
+** 07/11/2000 : Putting into service discussions with mailing list (general, announces and bugs).
+
+** 27/10/2000 : ToutDoux is now an official part of the Projet GNU. 
+                I promised more documentation and English comments.
+
+** 24/10/2000 : version 1.2.4 
+		- storage with database (optional)
+
+** 24/08/2000 : version 1.2.3
+		- criticals bugs fixed
+
+** 23/08/2000 : version 1.2.2 : 
+		- Gtk+'s drag'n'drop
+		- template editor 
+		- URL opening
+
+** 29/06/2000 : move web site to SourceForge
+
+** 31/05/2000 : CVS hosting at SourceForge's
+
+** 27/05/2000 : version 1.2.1 : 
+	       - library
+	       - preferences
+	       - help browser 
+	       - German translation
+
+** 24/05/2000 : under new webmaster
+
+** 20/04/2000 : version 1.2.0 : 
+	       - plug-ins system added
+
+** 20/03/2000 : version 1.1.9 : 
+	       - save on database (PostgreSQL)
+
+** 13/02/2000 : version 1.1.8 : 
+		- XML bug fixed

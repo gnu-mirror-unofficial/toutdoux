@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<page id="encours" _nom="En cours">
+
+  <!-- Plan d'actions -->
+  <cadre _nom="Plan d'actions">
+    <texte _texte="Documentation : documentation Anglaise/Française des concepts (communication externe, XML DTD)"/>
+    <texte _texte="Système : Synchronisation entres vues (document avec plusieurs vues)"/>
+    <texte _texte="Gestion de projet : PERT suite (dates, règle de placement, arborescence)"/>
+    <texte _texte="Gestion de projet : GANTT suite (ascenseur horizontale, dnd)"/>
+    <texte _texte="Gestion de projet : ressources"/>
+    <texte _texte="Edition : édition par éditeur, import csv, gnumeric"/>
+    <texte _texte="Système : presse-papier, macro"/>
+    <texte _texte="Travail de groupe : contacts, flux de travail, sourceforge, narval"/>
+    <texte _texte="Dorsaux : cron, octave et perl"/>
+    <texte texte="..."/>
+  </cadre>
+
+  <!-- 08/2001 -->
+  <cadre nom="08/2001">
+    <capture href="../encours/capture15.png" chtit="../encours/capture15-chtit.png">
+      <capture-texte _texte="Historique Refaire-Défaire."/>
+    </capture>
+    <capture href="../encours/capture14.png" chtit="../encours/capture14-chtit.png">
+      <capture-texte _texte="Première version de dtags : outil de documentation entre Exubérant Ctags et xsltproc."/>
+    </capture>
+  </cadre>
+
+  <!-- 07/2001 -->
+  <cadre nom="07/2001">
+    <capture href="../encours/capture13.png" chtit="../encours/capture13-chtit.png">
+      <capture-texte _texte="Integration de Guile."/>
+    </capture>
+  </cadre>
+
+  <!-- 06/2001 -->
+  <cadre nom="06/2001">
+    <capture href="../encours/capture12.png" chtit="../encours/capture12-chtit.png">
+      <capture-texte _texte="Première version de getxml : outil d'internationalization des XML."/>
+    </capture>
+  </cadre>
+
+  <!-- 05/2001 -->
+  <cadre nom="05/2001">
+    <capture href="../encours/capture11.png" chtit="../encours/capture11-chtit.png">
+      <capture-texte _texte="Intégration de TeX."/>
+    </capture>
+    <capture href="../encours/capture10.png" chtit="../encours/capture10-chtit.png">
+      <capture-texte _texte="Ajout de l'établiste. L'établiste est similaire à l'établi, mais dédié aux listes."/>
+      <capture-texte _texte="Plusieurs listes, les arbres et les listes d'icônes sont prévues."/>
+    </capture>
+    <capture href="../encours/capture9.png" chtit="../encours/capture9-chtit.png">
+      <capture-texte _texte="Ajout des faces personnalisées."/>
+    </capture>
+  </cadre>
+
+  <!-- 04/2001 -->
+  <cadre nom="04/2001">
+    <capture href="../encours/capture8.png" chtit="../encours/capture8-chtit.png">
+      <capture-texte _texte="Ajout des fonctions."/>
+    </capture>
+    <capture href="../encours/capture7.png" chtit="../encours/capture7-chtit.png">
+      <capture-texte _texte="Ajout du greffon arbre."/>
+    </capture>
+  </cadre>
+
+  <!-- 02/2001 -->
+  <cadre nom="02/2001">
+    <capture href="../encours/capture6.png" chtit="../encours/capture6-chtit.png">
+      <capture-texte _texte="Editeur de diagramme GANTT."/>
+    </capture>
+  </cadre>
+
+  <!-- 01/2001 -->
+  <cadre nom="01/2001">
+    <capture href="../encours/capture5.png" chtit="../encours/capture5-chtit.png">
+      <capture-texte _texte="Editeur de diagramme PERT."/>
+    </capture>
+    <capture href="../encours/capture4.png" chtit="../encours/capture4-chtit.png">
+      <capture-texte _texte="Réactivation de l'exportation en csv et console SQL."/>
+    </capture>
+    <capture href="../encours/capture3.png" chtit="../encours/capture3-chtit.png">
+      <capture-texte _texte="Refonte du système de paramétrage des greffons."/>
+    </capture>
+  </cadre>
+
+  <!-- 12/2000 -->
+  <cadre nom="12/2000">
+    <capture href="../encours/capture1.png" chtit="../encours/capture1-chtit.png">
+      <capture-texte _texte="Intégration du moteur SQL (3 dans le td_id_sibling ? zarb !)."/>
+    </capture>
+    <capture href="../encours/capture2.png" chtit="../encours/capture2-chtit.png">
+      <capture-texte _texte="Refonte du système de personnalisation."/>
+    </capture>
+  </cadre>
+</page>

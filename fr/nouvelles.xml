@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<page id="nouvelles" nom="Nouvelles">
+<!-- Nouvelle -->
+  <nouvelle>
+<!-- En bref -->
+    <nouvelle-list>
+      <nouvelle-cadre nom="En bref">
+        <texte texte="ToutDoux est un gestionnaire de projet pour GNOME."/>
+        <texte texte="L'approche de la manipulation des donn&#233;es est abstraite (base de donn&#233;es libre)."/>
+        <texte texte="ToutDoux est extensible aux moyens de greffons (modules dynamiques, plug-ins)."/>
+        <texte texte="Le maximum de t&#226;ches sont et seront sous-trait&#233;es par des dorsaux/frontaux (back-ends/front-ends)."/>
+        <texte texte="Le format du fichier est du XML (comprenant sch&#233;ma, param&#233;trage des greffons et donn&#233;es)."/>
+        <projet>
+          <texte texte="Copyright (c) 2000-2001 Philippe Roy"/>
+          <projet-nom texte1="Toutdoux fait partie du " nom="projet GNU" href="http://www.gnu.org/" texte2=", c'est un logiciel libre, couvert part la " licence-nom="Licence Publique G&#233;n&#233;rale GNU" licence-href="http://www.april.org/gnu/gpl_french.html" texte3="."/>
+        </projet>
+      </nouvelle-cadre>
+<!-- Nouvelle -->
+      <nouvelle-cadre nom="Nouvelles">
+        <nouvelle-date date="07/08/2001">
+          <nouvelle-date-item texte="R&#233;alisation d'un outil de documentation 'dtags-1.0.1'"/>
+          <nouvelle-date-item texte="Il est en fait un lien entre Exub&#233;rant Ctags et xsltproc"/>
+        </nouvelle-date>
+        <nouvelle-date date="07/08/2001">
+          <nouvelle-date-item texte="getxml-1.0.4 (correction de bugs)"/>
+        </nouvelle-date>
+        <nouvelle-date date="29/06/2001">
+          <nouvelle-date-item texte="Mise en place des listes de t&#226;ches (suggestion, ...)"/>
+        </nouvelle-date>
+        <nouvelle-date date="26/06/2001">
+          <nouvelle-date-item texte="ToutDoux-1.2.7"/>
+          <nouvelle-date-item texte=" - gestion de projet : PERT et GANTT (suite)"/>
+          <nouvelle-date-item texte=" - interface : &#233;tabliste (&#233;tabli pour liste)"/>
+          <nouvelle-date-item texte=" - syst&#232;me : r&#233;cup&#233;ration de session"/>
+          <nouvelle-date-item texte=" - internationalisation : Espagnol"/>
+          <nouvelle-date-item texte=" - filtres : SVG, PSTricks"/>
+        </nouvelle-date>
+        <nouvelle-date date="26/06/2001">
+          <nouvelle-date-item texte="getxml-1.0.3 (correction de bugs)"/>
+        </nouvelle-date>
+        <nouvelle-date date="12/06/2001">
+          <nouvelle-date-item texte="Refonte du site web : xml, xslt, gettext et getxml"/>
+        </nouvelle-date>
+        <nouvelle-date date="12/06/2001">
+          <nouvelle-date-item texte="R&#233;alisation d'un outil d'internationalization des XML 'getxml-1.0.1'"/>
+          <nouvelle-date-item texte="xml-i18n-tools &#233;tait trop bugg&#233; et mes connaissances en Perl &#233;taient insuffisantes pour le fixer."/>
+        </nouvelle-date>
+        <nouvelle-date date="10/03/2001">
+          <nouvelle-date-item texte="ToutDoux-1.2.6 (correction de bugs)"/>
+        </nouvelle-date>
+        <nouvelle-date date="27/02/2001">
+          <nouvelle-date-item texte="ToutDoux-1.2.5"/>
+          <nouvelle-date-item texte=" - gestion de projet : PERT et GANTT (d&#233;but)"/>
+          <nouvelle-date-item texte=" - syst&#232;me : param&#233;trage des greffons"/>
+        </nouvelle-date>
+        <nouvelle-date date="12/01/2001">
+          <nouvelle-date-item texte="Achat du domaine www.toutdoux.org"/>
+        </nouvelle-date>
+        <nouvelle-date date="07/11/2000">
+          <nouvelle-date-item texte="Mise en place des discussions par liste de diffusion (g&#233;n&#233;rale, annonces et bugs)"/>
+        </nouvelle-date>
+        <nouvelle-date date="27/10/2000">
+          <nouvelle-date-item texte="ToutDoux fait partie, maintenant, officiellement du Projet GNU."/>
+          <nouvelle-date-item texte="J'ai promis de fournir plus de documentation et des commentaires en Anglais."/>
+        </nouvelle-date>
+        <nouvelle-date date="24/10/2000">
+          <nouvelle-date-item texte="ToutDoux-1.2.4"/>
+          <nouvelle-date-item texte=" - syst&#232;me : stockage sur base de donn&#233;es (optionnel)"/>
+        </nouvelle-date>
+        <nouvelle-date date="24/08/2000">
+          <nouvelle-date-item texte="ToutDoux-1.2.3 (correction de bugs)"/>
+        </nouvelle-date>
+        <nouvelle-date date="23/08/2000">
+          <nouvelle-date-item texte="ToutDoux-1.2.2"/>
+          <nouvelle-date-item texte=" - syst&#232;me : tirer-l&#226;cher"/>
+          <nouvelle-date-item texte=" - syst&#232;me : &#233;dition des gabarits"/>
+          <nouvelle-date-item texte=" - communication : ouverture d'URL"/>
+        </nouvelle-date>
+        <nouvelle-date date="29/06/2000">
+          <nouvelle-date-item texte="D&#233;m&#233;nagement du site vers SourceForge"/>
+        </nouvelle-date>
+        <nouvelle-date date="31/05/2000">
+          <nouvelle-date-item texte="H&#233;bergement du CVS chez SourceForge"/>
+        </nouvelle-date>
+        <nouvelle-date date="27/05/2000">
+          <nouvelle-date-item texte="ToutDoux-1.2.1"/>
+          <nouvelle-date-item texte=" - code : biblioth&#232;que"/>
+          <nouvelle-date-item texte=" - syst&#232;me : pr&#233;f&#233;rences et aide"/>
+          <nouvelle-date-item texte=" - internationalisation : Allemand"/>
+        </nouvelle-date>
+        <nouvelle-date date="24/05/2000">
+          <nouvelle-date-item texte="Changement de webmestre"/>
+        </nouvelle-date>
+        <nouvelle-date date="20/04/2000">
+          <nouvelle-date-item texte="ToutDoux-1.2.0"/>
+          <nouvelle-date-item texte=" - code : syst&#232;me de greffons"/>
+          <nouvelle-date-item texte=" - syst&#232;me : vues"/>
+        </nouvelle-date>
+        <nouvelle-date date="20/03/2000">
+          <nouvelle-date-item texte="ToutDoux-1.1.9"/>
+          <nouvelle-date-item texte=" - syst&#232;me : sauvegarde sur base de donn&#233;e (PostgreSQL)"/>
+        </nouvelle-date>
+        <nouvelle-date date="13/02/2000">
+          <nouvelle-date-item texte="ToutDoux-1.1.8 (correction de bugs)"/>
+        </nouvelle-date>
+      </nouvelle-cadre>
+    </nouvelle-list>
+<!-- Fichiers -->
+    <nouvelle-menu>
+      <cadre nom="Rapport">
+        <nouvelle-menu-item id="changelog" nom="ChangeLog" href="../doc/ChangeLog"/>
+        <nouvelle-menu-item id="toutdoux" nom="ToutDoux.td" href="../doc/ToutDoux.td"/>
+      </cadre>
+<!-- Discussion -->
+      <cadre nom="Discussions">
+        <nouvelle-menu-groupe>
+          <nouvelle-menu-item id="list" nom="compte" href="http://lists.sourceforge.net/mailman/listinfo/toutdoux-list"/>
+          <nouvelle-menu-item id="archive1" nom="archive" href="http://www.geocrawler.com/lists/3/SourceForge/7431/0/"/>
+        </nouvelle-menu-groupe>
+      </cadre>
+<!-- Annonces -->
+      <cadre nom="Annonces">
+        <nouvelle-menu-groupe>
+          <nouvelle-menu-item id="annonce" nom="compte" href="http://lists.sourceforge.net/mailman/listinfo/toutdoux-announce"/>
+          <nouvelle-menu-item id="archive2" nom="archive" href="http://www.geocrawler.com/lists/3/SourceForge/7464/0/"/>
+        </nouvelle-menu-groupe>
+      </cadre>
+<!-- Bugs -->
+      <cadre nom="Bugs">
+        <nouvelle-menu-groupe>
+          <nouvelle-menu-item id="bugs" nom="compte" href="http://lists.sourceforge.net/mailman/listinfo/toutdoux-bugs"/>
+          <nouvelle-menu-item id="archive3" nom="archive" href="http://www.geocrawler.com/lists/3/SourceForge/7462/0/"/>
+        </nouvelle-menu-groupe>
+      </cadre>
+    </nouvelle-menu>
+  </nouvelle>
+</page>

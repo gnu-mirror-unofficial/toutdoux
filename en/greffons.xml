@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<page id="greffons" nom="Plug-ins">
+<!-- Gestion de projet -->
+  <cadre nom="General">
+    <capture href="../greffons/capture1.png" chtit="../greffons/capture1-chtit.png">
+      <capture-texte texte="Tree structure"/>
+    </capture>
+    <capture href="../greffons/capture2.png" chtit="../greffons/capture2-chtit.png">
+      <capture-texte texte="Network"/>
+    </capture>
+  </cadre>
+<!-- Gestion de projet -->
+  <cadre nom="Project management">
+    <capture href="../greffons/capture3.png" chtit="../greffons/capture3-chtit.png">
+      <capture-texte texte="Gantt"/>
+    </capture>
+  </cadre>
+</page>

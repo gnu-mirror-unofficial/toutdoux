@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<menu>
+  <menu-groupe>
+    <menu-item id="nouvelles" nom="news" href="nouvelles.html"/>
+    <menu-item id="encours" nom="progress" href="encours.html"/>
+  </menu-groupe>
+  <menu-groupe>
+    <menu-item id="greffons" nom="plug-ins" href="greffons.html"/>
+    <menu-item id="telechargement" nom="package" href="telechargement.html"/>
+  </menu-groupe>
+  <menu-groupe>
+    <menu-item id="documentation" nom="doc" href="documentation.html"/>
+    <menu-item id="captures" nom="shots" href="captures.html"/>
+  </menu-groupe>
+  <menu-groupe>
+    <menu-item id="devel" nom="cvs" href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/toutdoux/"/>
+    <menu-item id="bugzilla" nom="bugzilla" href="http://bugzilla.gnome.org/buglist.cgi?product=ToutDoux"/>
+  </menu-groupe>
+  <menu-groupe>
+    <menu-item id="idees" nom="ideas" href="http://sourceforge.net/tracker/?group_id=6276"/>
+    <menu-item id="taches" nom="tasks" href="http://sourceforge.net/pm/?group_id=6276"/>
+  </menu-groupe>
+  <menu-groupe>
+    <menu-item id="autres" nom="others" href="autres.html"/>
+    <menu-item id="vide" nom="." href="nouvelles.html"/>
+  </menu-groupe>
+</menu>

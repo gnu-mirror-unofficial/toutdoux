@@ -1,0 +1,9 @@
+site.xsl.in.h
+xml/autres.xml.in.h
+xml/captures.xml.in.h
+xml/documentation.xml.in.h
+xml/encours.xml.in.h
+xml/greffons.xml.in.h
+xml/menu.xml.in.h
+xml/nouvelles.xml.in.h
+xml/telechargement.xml.in.h

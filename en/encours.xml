@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<page id="encours" nom="In progress">
+<!-- Plan d'actions -->
+  <cadre nom="Actions plan">
+    <texte texte="Documentation : concept's documentation English/French (external communication, XML DTD)"/>
+    <texte texte="System : Views synchronized (multi-views document)"/>
+    <texte texte="Project management : PERT continuation (dates, placement rules, tree structure)"/>
+    <texte texte="Project management : GANTT continuation (horizontal scrollbar, dnd)"/>
+    <texte texte="Project management : resources"/>
+    <texte texte="Publishing : editor, csv import, gnumeric"/>
+    <texte texte="System : clipboard, macro"/>
+    <texte texte="Groupware : contacts, workflow, sourceforge, narval"/>
+    <texte texte="Back-ends : cron, octave and perl"/>
+    <texte texte="..."/>
+  </cadre>
+<!-- 08/2001 -->
+  <cadre nom="08/2001">
+    <capture href="../encours/capture15.png" chtit="../encours/capture15-chtit.png">
+      <capture-texte texte="Undo-Redo history"/>
+    </capture>
+    <capture href="../encours/capture14.png" chtit="../encours/capture14-chtit.png">
+      <capture-texte texte="First version of dtags : documentation generator between Exuberant Ctags and xsltproc"/>
+    </capture>
+  </cadre>
+<!-- 07/2001 -->
+  <cadre nom="07/2001">
+    <capture href="../encours/capture13.png" chtit="../encours/capture13-chtit.png">
+      <capture-texte texte="Guile integration."/>
+    </capture>
+  </cadre>
+<!-- 06/2001 -->
+  <cadre nom="06/2001">
+    <capture href="../encours/capture12.png" chtit="../encours/capture12-chtit.png">
+      <capture-texte texte="First version of getxml : tool for XML internationnalization"/>
+    </capture>
+  </cadre>
+<!-- 05/2001 -->
+  <cadre nom="05/2001">
+    <capture href="../encours/capture11.png" chtit="../encours/capture11-chtit.png">
+      <capture-texte texte="TeX integration."/>
+    </capture>
+    <capture href="../encours/capture10.png" chtit="../encours/capture10-chtit.png">
+      <capture-texte texte="Add the etabliste. The etabliste is similar to the bench, but used exclusively for lists."/>
+      <capture-texte texte="Several lists, trees and icon lists are planned."/>
+    </capture>
+    <capture href="../encours/capture9.png" chtit="../encours/capture9-chtit.png">
+      <capture-texte texte="Adding customized faces."/>
+    </capture>
+  </cadre>
+<!-- 04/2001 -->
+  <cadre nom="04/2001">
+    <capture href="../encours/capture8.png" chtit="../encours/capture8-chtit.png">
+      <capture-texte texte="Adding functions."/>
+    </capture>
+    <capture href="../encours/capture7.png" chtit="../encours/capture7-chtit.png">
+      <capture-texte texte="Adding the tree plug-in."/>
+    </capture>
+  </cadre>
+<!-- 02/2001 -->
+  <cadre nom="02/2001">
+    <capture href="../encours/capture6.png" chtit="../encours/capture6-chtit.png">
+      <capture-texte texte="GANTT diagram editor."/>
+    </capture>
+  </cadre>
+<!-- 01/2001 -->
+  <cadre nom="01/2001">
+    <capture href="../encours/capture5.png" chtit="../encours/capture5-chtit.png">
+      <capture-texte texte="PERT diagram editor."/>
+    </capture>
+    <capture href="../encours/capture4.png" chtit="../encours/capture4-chtit.png">
+      <capture-texte texte="Exporting to csv and SQL console reintroduced"/>
+    </capture>
+    <capture href="../encours/capture3.png" chtit="../encours/capture3-chtit.png">
+      <capture-texte texte="Reworking plug-in parameters system"/>
+    </capture>
+  </cadre>
+<!-- 12/2000 -->
+  <cadre nom="12/2000">
+    <capture href="../encours/capture1.png" chtit="../encours/capture1-chtit.png">
+      <capture-texte texte="SQL engine integration (3 in td_id_sibling ? zarb !)"/>
+    </capture>
+    <capture href="../encours/capture2.png" chtit="../encours/capture2-chtit.png">
+      <capture-texte texte="Reworking customization system"/>
+    </capture>
+  </cadre>
+</page>

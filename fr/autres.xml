@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<page id="autres" nom="Autres choses">
+<!-- Ressource -->
+  <cadre nom="Ressources">
+    <pointeur nom="Graphisme" href="../ressource/graphisme/"/>
+    <pointeur nom="Scripts" href="../ressource/script/"/>
+  </cadre>
+<!-- Configuration logiciel -->
+  <cadre nom="Configuration logiciel">
+    <pointeur nom="Configuration GNU Emacs" href="../others/emacs"/>
+    <pointeur nom="themacs" href="http://gtk.themes.org/themes.phtml?themeid=968362360" texte=" : inspir&#233; par GNU Emacs"/>
+  </cadre>
+<!-- Classe LaTeX -->
+  <cadre nom="Classe LaTeX">
+    <pointeur nom="Lettre &#224; la fran&#231;aise" href="../others/latex_lettre.tar.gz"/>
+    <pointeur nom="Curriculum Vitae" href="../others/latex_cv.tar.gz"/>
+    <pointeur nom="Jackette pour CD-ROM" href="../others/latex_cdrom.tar.gz"/>
+    <pointeur nom="Jackette pour CD-Audio" href="../others/latex_cdaudio.tar.gz"/>
+  </cadre>
+<!-- Liens : quelques fondamentaux -->
+  <cadre nom="Liens : quelques fondamentaux">
+    <pointeur nom="Amnesty international" href="http://www.amnesty.org/" texte=" : les droits de l'&#234;tre humain"/>
+    <pointeur nom="Medecins sans fronti&#232;res" href="http://www.msf.org/" texte=" : l'action humanitaire"/>
+    <pointeur nom="Le Monde diplomatique" href="http://www.monde-diplomatique.fr/" texte=" : l'actualit&#233;"/>
+    <pointeur nom="Reporters sans fronti&#232;res" href="http://www.rsf.fr/" texte=" : la libert&#233; de la presse"/>
+    <pointeur nom="Le projet GNU" href="http://www.gnu.org/" texte=" : les logiciels libres"/>
+    <pointeur nom="L'alliance EuroLinux" href="http://www.eurolinux.org/" texte=" : l'inbrevatibilit&#233; de la pens&#233;e"/>
+    <pointeur nom="Attac" href="http://attac.org/" texte=" : la taxation des transactions financi&#232;res"/>
+  </cadre>
+<!-- Liens : quelques classiques -->
+  <cadre nom="Liens : quelques classiques">
+    <document nom="Nouvelles ">
+      <document-groupe>
+        <document-item nom="l'autre portail" href="http://www.rezo.net"/>
+        <document-item nom="LinuxFr" href="http://linuxfr.org/"/>
+        <document-item nom="Web Matin" href="http://www.webmatin.com"/>
+        <document-item nom="transnationale.org" href="http://www.transnationale.org"/>
+      </document-groupe>
+    </document>
+    <document nom="Forum emploi ">
+      <document-groupe>
+        <document-item nom="Lolix" href="http://lolix.org/"/>
+      </document-groupe>
+    </document>
+    <document nom="Annonces logiciels">
+      <document-groupe>
+        <document-item nom="Freshmeat" href="http://freshmeat.net/"/>
+        <document-item nom="Je suis libre" href="http://www.jesuislibre.org/"/>
+      </document-groupe>
+    </document>
+    <document nom="Moteur de recherche">
+      <document-groupe>
+        <document-item nom="tuxfinder (logiciel)" href="http://tuxfinder.com/"/>
+      </document-groupe>
+    </document>
+    <document nom="Documentation">
+      <document-groupe>
+        <document-item nom="L&#233;a" href="http://www.lea-linux.org/"/>
+        <document-item nom="LinuxGraphic" href="http://www.linuxgraphic.org/"/>
+        <document-item nom="EmacsFr" href="http://www.emacsfr.org/"/>
+      </document-groupe>
+    </document>
+  </cadre>
+</page>

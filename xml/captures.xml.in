@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<page id="captures" _nom="Captures d'écran">
+
+  <!-- Application -->
+  <cadre _nom="Application">
+    <capture _nom="application" href="../captures/capture1-fr.png" chtit="../captures/capture1-chtit-fr.png">
+      <capture-texte _texte="Le greffon 'Gantt' en action."/>
+      <capture-texte _texte="Toute application est intégrable en tant que greffon (module dynamique)."/>
+      <capture-texte _texte="En effet, le document (format XML) comporte schéma, paramétrage des greffons et enfin les données."/>
+      <capture-texte _texte="Lors de l'ouverture d'un document, les greffons requis sont chargés."/>
+    </capture>
+  </cadre>
+
+  <!-- Construction -->
+  <cadre _nom="Construction">
+    <capture _nom="construction" href="../captures/capture2-fr.png" chtit="../captures/capture2-chtit-fr.png">
+      <capture-texte _texte="La structure de la base de données est définis par l'utilisateur."/>
+      <capture-texte _texte="Puis, l'utilisateur relis les champs de la base de données aux champs des greffons."/>
+    </capture>
+  </cadre>
+
+  <!-- Logistique -->
+  <cadre _nom="Logistique">
+    <capture _nom="application" href="../captures/capture3-fr.png" chtit="../captures/capture3-chtit-fr.png">
+      <capture-texte _texte="Quelques fenêtres de logistique."/>
+    </capture>
+  </cadre>
+</page>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<page id="documentation" nom="Documentation">
+<!-- Manuels -->
+  <cadre nom="Manuals">
+    <document nom="User's manual">
+      <document-format nom="html">
+        <document-item nom="English" href="../doc/user/en/index.html"/>
+        <document-item nom="Espa&#241;ol" href="../doc/user/es/index.html"/>
+        <document-item nom="Fran&#231;ais" href="../doc/user/fr/index.html"/>
+      </document-format>
+      <document-format nom="tarball">
+        <document-item nom="English" href="../doc/user/ToutDoux-doc-en.tar.gz"/>
+        <document-item nom="Espa&#241;ol" href="../doc/user/ToutDoux-doc-es.tar.gz"/>
+        <document-item nom="Fran&#231;ais" href="../doc/user/ToutDoux-doc-fr.tar.gz"/>
+      </document-format>
+    </document>
+    <document nom="Reference manual">
+      <document-format nom="html">
+        <document-item nom="English" href="../doc/devel/en/index.html"/>
+        <document-item nom="Espa&#241;ol" href="../doc/devel/es/index.html"/>
+        <document-item nom="Fran&#231;ais" href="../doc/devel/fr/index.html"/>
+      </document-format>
+      <document-format nom="tarball">
+        <document-item nom="English" href="../doc/devel/ToutDoux-doc-en.tar.gz"/>
+        <document-item nom="Espa&#241;ol" href="../doc/devel/ToutDoux-doc-es.tar.gz"/>
+        <document-item nom="Fran&#231;ais" href="../doc/devel/ToutDoux-doc-fr.tar.gz"/>
+      </document-format>
+    </document>
+  </cadre>
+<!-- Notes -->
+  <cadre nom="Notes">
+    <document nom="General information">
+      <document-format nom="txt">
+        <document-item nom="English" href="../doc/README-en"/>
+        <document-item nom="Espa&#241;ol" href="../doc/README-es"/>
+        <document-item nom="Fran&#231;ais" href="../doc/README-fr"/>
+      </document-format>
+    </document>
+    <document nom="Hacking notes">
+      <document-format nom="txt">
+        <document-item nom="French" href="../doc/devel/HACKING-fr"/>
+      </document-format>
+    </document>
+    <document nom="Data modeling">
+      <document-format nom="dia">
+        <document-item nom="English" href="../doc/draft/tables-en.dia"/>
+        <document-item nom="Fran&#231;ais" href="../doc/draft/tables-fr.dia"/>
+      </document-format>
+      <document-format nom="png">
+        <document-item nom="English" href="../doc/draft/tables-en.png"/>
+        <document-item nom="Fran&#231;ais" href="../doc/draft/tables-fr.png"/>
+      </document-format>
+    </document>
+    <document nom="Solver integration">
+      <document-format nom="dia">
+        <document-item nom="English" href="../doc/draft/solver-en.dia"/>
+        <document-item nom="Fran&#231;ais" href="../doc/draft/solver-fr.dia"/>
+      </document-format>
+      <document-format nom="png">
+        <document-item nom="English" href="../doc/draft/solver-en.png"/>
+        <document-item nom="Fran&#231;ais" href="../doc/draft/solver-fr.png"/>
+      </document-format>
+    </document>
+    <document nom="Refresh cycle">
+      <document-format nom="dia">
+        <document-item nom="English" href="../doc/draft/refresh-en.dia"/>
+        <document-item nom="Fran&#231;ais" href="../doc/draft/refresh-fr.dia"/>
+      </document-format>
+      <document-format nom="png">
+        <document-item nom="English" href="../doc/draft/refresh-en.png"/>
+        <document-item nom="Fran&#231;ais" href="../doc/draft/refresh-fr.png"/>
+      </document-format>
+    </document>
+    <pointeur nom="Watch" href="../doc/idees/"/>
+  </cadre>
+<!-- Licence -->
+  <cadre nom="License">
+    <document nom="GNU General Public License">
+      <document-format nom="html">
+        <document-item nom="English" href="http://www.gnu.org/copyleft/gpl.html"/>
+        <document-item nom="Fran&#231;ais" href="http://www.april.org/gnu/gpl_french.html"/>
+      </document-format>
+    </document>
+  </cadre>
+<!-- Liens -->
+  <cadre nom="Links">
+    <document nom="ToutDoux : User manual : Existing Software">
+      <document-format nom="html">
+        <document-item nom="English" href="../doc/user/en/x43.html"/>
+        <document-item nom="Espa&#241;ol" href="../doc/user/es/x43.html"/>
+        <document-item nom="Fran&#231;ais" href="../doc/user/fr/x70.html"/>
+      </document-format>
+    </document>
+  </cadre>
+<!-- Techniques -->
+  <cadre nom="Technical">
+    <pointeur avant="Main language : " href="http://www.gnu.org/software/libc/" nom="C"/>
+    <pointeur avant="Extension language (commands engine and application scripting) : " href="http://www.gnu.org/software/guile/" nom="Guile"/>
+    <pointeur avant="Objects models and widgets : " href="http://www.gtk.org" nom="GTK+"/>
+    <pointeur avant="Environnement : " href="http://www.gnome.org" nom="GNOME"/>
+    <pointeur avant="Query language : " href="http://www.sql.org/" nom="SQL"/>
+    <pointeur avant="File format : " href="http://xmlsoft.org/" nom="XML"/>
+    <pointeur avant="Text formatting language : " href="http://www.tug.org/" nom="TeX"/>
+  </cadre>
+</page>

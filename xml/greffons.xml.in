@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<page id="greffons" _nom="Greffons">
+
+  <!-- Gestion de projet -->
+  <cadre _nom="Générale">
+    <capture href="../greffons/capture1.png" chtit="../greffons/capture1-chtit.png">
+      <capture-texte _texte="Arborescence"/>
+    </capture>
+    <capture href="../greffons/capture2.png" chtit="../greffons/capture2-chtit.png">
+      <capture-texte _texte="Réseau"/>
+    </capture>
+  </cadre>
+
+  <!-- Gestion de projet -->
+  <cadre _nom="Gestion de projet">
+    <capture href="../greffons/capture3.png" chtit="../greffons/capture3-chtit.png">
+      <capture-texte _texte="Gantt"/>
+    </capture>
+  </cadre>
+</page>

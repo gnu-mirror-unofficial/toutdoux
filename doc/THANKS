@@ -1,0 +1,190 @@
+-*-outline-*-
+
+# *****************************************************************************
+# THANKS : Remerciements
+# THANKS : Thanks
+#
+#
+# TouxDoux : Chtit gestionnaire de projet - A littl' project manager
+# Copyright (c) 2000-2001 Philippe Roy
+# Auteur - Author : Philippe Roy <ph_roy@toutdoux.org>
+#
+#
+# Ce programme est un logiciel libre ; vous pouvez le redistribuer et/ou le modifier
+# sous les termes de la licence publique générale GNU telle qu'elle est publiée par
+# la Free Software Foundation ; soit la version 2 de la licence, ou
+# (comme vous voulez) toute version ultérieure.
+#
+# Ce programme est distribué dans l'espoir qu'il sera utile,
+# mais SANS AUCUNE GARANTIE ; même sans la garantie de
+# COMMERCIALITÉ ou d'ADÉQUATION A UN BUT PARTICULIER. Voir la
+# licence publique générale GNU pour plus de détails.
+#
+# Vous devriez avoir reçu une copie de la licence publique générale GNU
+# avec ce programme ; si ce n'est pas le cas, écrivez à la Free Software
+# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+#
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA. 
+# *****************************************************************************
+
+* 1. Code
+** 1. Patch
+** 2. Réutilisation de code - Code reusing
+** 3. Lecture de code - Code reading
+* 2. Documentation
+* 3. Traducteurs - Translators
+* 4. Logistique - Logistic
+** 1. Empaqueteurs - Packagers
+** 2. Réseau - Network
+* 5. Graphismes - Graphics
+* 6. Idées - Ideas
+** 1. Suggestions & Tests
+** 2. Inspirations
+* 7. Techniques - Technics
+* 8. Outils - Tools
+
+* 1. Code
+
+** 1. Contributeurs - Contributers (patch)
+
+  Guy Zürcher <gzuercher@raptus.com>
+    * Copyright (C) 1998 The Free Software Foundation
+    - toutdoux/lib/database.c/td_database_adaptvalue
+    - toutdoux/lib/database.c/td_database_strescape
+
+** 2. Réutilisation de code - Code reusing
+
+  GTK+ Team (http://www.gtk.org)
+    * Copyright (C) 1995-1997 Peter Mattis, Spencer Kimball, Josh MacDonald, 
+    * Copyright (C) 1997-1998 Jay Painter <jpaint@serv.net><jpaint@gimp.org>  
+    - gtk/gtkctree.c
+
+  Federico Mena <federico@nuclecu.unam.mx>
+    * Copyright (C) 1998 The Free Software Foundation
+    - libgnomeui/gnome-canvas-line.c
+
+** 3. Lecture de code - Code reading
+
+  Giram : Modeleur 3D - 3D modeler : David Odin <David.Odin@bigfoot.com> : Base GTK+ - GTK+ basis
+  Dia : Editeur de diagramme - Diagram editor : Alexander Larsson <alla@lysator.liu.se> : Base GTK+ et XML - XML and GTK+ basis
+  GDK/GTK+ : Gimp ToolKit : Peter Mattis, Spencer Kimball, Josh MacDonald : GTK+ avancé - GTK+ advanced
+  GNOME : Environnement - Environment : Federico Mena <federico@nuclecu.unam.mx> : Modèle objet de GTK+ - GTK+ object model
+  Gmc : Gestionnaire de fichier - File manager : Miguel De Icaza <miguel@gnu.org> & Federico Mena Quintero <federico@redhat.com> : Base tirer-lâcher - Drag'n'drop basis
+  GDK/GTK+ : Gimp ToolKit : Lars Hamann <lars@gtk.org> & Stefan Jeske <stefan@gtk.org> : Base tirer-lâcher - Drag'n'drop basis
+  GNOME Terminal : Terminal : Miguel De Icaza <miguel@gnu.org> : Base GNOME - GNOME basis
+  testgtk-canvas : Exemples pour gtk-canvas - Examples for gtk-canvas : Richard Hestilow <hestgray@ionet.net> : Base du cavenas GNOME - GNOME canvas basis
+  dbMetrix : Console SQL - SQL console : David E. Storey <dave@tamos.net> : Commandes SQL - SQL commands
+  GtkSQL : Console SQL - SQL console : Lionel Ulmer <bbrox@mygale.org> : Commandes SQL - SQL commands
+  Exemples pour GNU Prolog - Examples for GNU Prolog : Daniel Diaz <Daniel.Diaz@inria.fr> : Base d'intégration du Prolog - Prolog integration basis
+  LibGTop : Martin Baulig <martin@home-of-linux.org> : Système de fichier des processus - Processes file system
+  GnuCash : Gestionnaire des finances personel - Personal finance manager : Rob Browning <rlb@cs.utexas.edu> : Base Guile - Guile basis
+
+* 2. Documentation
+
+  Philippe Roy <ph_roy@toutdoux.org> : manuel utilisateur - user manual
+
+* 3. Traducteurs - Translators
+
+  Steven Watt <steven.watt@excite.ca> : Anglais - English
+  Kai Lahmann <kl@linuxfaqs.de> : Allemand - German
+  José Antonio Salgueiro <joseantsa@retemail.es> : Espagnol - Spanish
+
+* 4. Logistique - Logistic
+
+** 1. Empaqueteurs - Packagers
+
+  Manuel Menal <mmenal@netcourrier.com> : Debian
+  Matthias Saou <ms@asi.fr> : RedHat
+
+** 2. Réseau - Network
+
+  Hébergement du CVS - CVS hosting : SourceForge (VA Linux Systems) : http://www.sourceforge.net/
+  Hébergement du FTP - FTP hosting : SourceForge (VA Linux Systems) : http://www.sourceforge.net/
+  Hébergement du FTP - FTP hosting : The GNOME Project : http://www.gnome.org/
+  Hébergement des forums - Forums hosting : SourceForge (VA Linux Systems) : http://www.sourceforge.net/
+  Annonces - Announcements : Freshmeat (VA Linux Systems) : http://www.freshmeat.net/
+  Annonces - Announcements : Je suis libre : http://www.jesuislibre.org/
+  Logithèque - Software presentation : The GNU Project : http://www.gnu.org/
+  Logithèque - Software presentation : The GNOME Project : http://www.gnome.org/
+  Logithèque - Software presentation : Linas : http://www.linas.org/
+
+* 5. Graphismes - Graphics
+
+  Mathieu Roy <yeupou@coleumes.org> : icône de ToutDoux - ToutDoux's icon
+  Tigert (Tuomas Kuosmanen) <tigert@gimp.org> : la plupart des icônes - most of the icons
+  GISR : http://gnome-icons.sourceforge.net : icônes - icons
+  Orava's Icon Store : http://www.linux.gr/logos/iconstore/ : icônes - icons
+  KDE : http://kde.org : icônes - icons
+  The GIMP : http://gimp.org : curseurs - cursors
+  Philippe Roy <ph_roy@toutdoux.org> : icônes - icons
+  Kiwi (René K. Müller) <kiwi@the-labs.com> : icône (engrenage) - icon (gear)
+  James Henstridge <james@daa.com.au> : icône (paquet) - icon (package)
+  The Rasterman (Carsten Haitzler) <raster@rasterman.com> : icône (palette) - icon (palette)
+						  
+* 6. Idées - Ideas
+
+** 1. Suggestions & Tests
+
+  Mathieu Roy <yeupou@coleumes.org>
+  Fabien Merchewka <fabien.marchewka@wanadoo.fr>
+  Minh Ha Duong <haduong@centre-cired.fr>
+  Guilhem Bonnefille <guilhem.bonnefille@mail.dotcom.fr>
+  Goel Puneet <puneet@computer.org>
+  Alan Litchfield <alanl@users.sourceforge.net>
+  Denis Chalon <denis.chalon@libertysurf.fr>
+  Tomas Pospisek <tpo_hp@sourcepole.com>
+  Sébastien Dinot <sdinot@april.org>
+
+** 2. Inspirations
+
+  The GIMP : Editeur d'image - Image editor
+    * interface : plusieurs fenêtres dépouillées - interface : several simples windows
+    * extensibilité : les greffons - entensibility : the plug-ins
+    * extensibilité : script-fu - entensibility : script-fu
+  GNU Emacs : Editeur de texte - Text editor
+    * interface : vocabulaire et mini-tampon - interface : vocabulary and mini-buffer
+    * extensibilité : les modes - entensibility : the modes
+  Microsoft Access : Environnement de développement - Development framework
+    * interface : facilité de création de base de données - interface : easy way for database building
+  LaTeX : Formatage de texte - Text formating
+    * concept : séparation entre fond et forme - concept : separation between content and form
+  VisiCalc : Tableur - Spreadsheet
+    * concept : calcul à la volée - compute in fly
+
+* 7. Techniques - Technics
+
+  Languages : C, XML, SQL, Prolog, TeX
+  Bibliothèques - Libraries : GNU libc, GLib, GDK, GTK+, GDK-PixBuf, GNOME, libxml
+
+* 8. Outils - Tools
+
+  Système d'exploitation - Operating system : GNU/Linux,
+  Compilateur - Compiler : GCC, GNU Make, Autoconf, Automake, Libtool
+  Debugueur - Debuger : GDB, MemProf, Insight
+  Internationalisation - Internationalization : gettext, getxml
+  Editeur de texte - Text editor : GNU Emacs, GtkDiff
+  Editeur d'interface utilisateur - User interface builder : Glade
+  Editeur d'image - Image editor : The GIMP
+  Editeur d'image vectorielle - Vectorial image editor : Sketch
+  Editeur de diagramme - Diagram editor : Dia
+  Système de gestion de version - Version management system : CVS
+  Système de gestion de base de données - Database management system : PostgreSQL, MySQL
+  Interprète - Interpreter : Perl
+  Solveur - Solver : GNU Prolog
+  Processeur texte - Text processor : Sed, Jade
+  Formatage de texte - Text formating : TeX, LaTeX, PSTricks
+  Générateur de documentation - Documentation generator : gtk-doc
+  HTTP-FTP : GNU Wget

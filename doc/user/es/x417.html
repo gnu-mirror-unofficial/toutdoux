@@ -1,0 +1,208 @@
+<HTML
+><HEAD
+><TITLE
+>SQL back-end</TITLE
+><META
+NAME="GENERATOR"
+CONTENT="Modular DocBook HTML Stylesheet Version 1.61
+"><LINK
+REL="HOME"
+TITLE="ToutDoux : User's manual"
+HREF="index.html"><LINK
+REL="UP"
+TITLE="Instalación"
+HREF="installation.html"><LINK
+REL="PREVIOUS"
+TITLE="Instalación"
+HREF="installation.html"><LINK
+REL="NEXT"
+TITLE="Complementos"
+HREF="x447.html"></HEAD
+><BODY
+CLASS="SECT1"
+><DIV
+CLASS="NAVHEADER"
+><TABLE
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TH
+COLSPAN="3"
+ALIGN="center"
+>ToutDoux : User's manual</TH
+></TR
+><TR
+><TD
+WIDTH="10%"
+ALIGN="left"
+VALIGN="bottom"
+><A
+HREF="installation.html"
+>Prev</A
+></TD
+><TD
+WIDTH="80%"
+ALIGN="center"
+VALIGN="bottom"
+>Chapter 3. Instalación</TD
+><TD
+WIDTH="10%"
+ALIGN="right"
+VALIGN="bottom"
+><A
+HREF="x447.html"
+>Next</A
+></TD
+></TR
+></TABLE
+><HR
+ALIGN="LEFT"
+WIDTH="100%"></DIV
+><DIV
+CLASS="SECT1"
+><H1
+CLASS="SECT1"
+><A
+NAME="AEN417"
+>SQL back-end</A
+></H1
+><P
+>ToutDoux utiliza un back-end SQL para almacenar temporalmente los datos. 
+  Así nos podemos beneficiar de la potencia de un lenguaje SQL y la fiabilidad
+  de un software como PostgreSQL.</P
+><P
+>ToutDoux está preparado para  utilizar un gestor de bases de datos
+  local como MySQL. Pero MySQL no conoces las sub-peticiones, impone a los
+  módulos un desarrollo específico de SQL. Así, debemos esperar a la siguiente
+  generación de MySQL (v4.00).</P
+><P
+>Las necesidades del back-end SQL back-end son :
+    <P
+></P
+><UL
+><LI
+><P
+>postgresql-7.0.1		 : bases de datos</P
+></LI
+><LI
+><P
+>postgresql-server-7.0.1	 : bases de datos</P
+></LI
+><LI
+><P
+>postgresql-devel-7.0.1	 : bases de datos.</P
+></LI
+></UL
+>
+  </P
+><P
+>El usuario unix (aquí 'toto') debe crear y eliminar bases de datos :
+    <P
+></P
+><UL
+><LI
+><P
+>Poner en /ect.inittab : pg:2345:respawn:/bin/su - pgsql -c
+      "postmaster" : arranca el daemon postmaster en el arranque </P
+></LI
+><LI
+><P
+>$ /bin/su - pgsql -c "postmaster"				   :
+      arranca postmaster para la sesión actual</P
+></LI
+><LI
+><P
+>$ su postgres						   :
+      entrada de superusuario de base de datos</P
+></LI
+><LI
+><P
+>$ initdb							   :
+      inicialización de la base de datos</P
+></LI
+><LI
+><P
+>$ createuser toto						   :
+      crea usuario 'toto'</P
+></LI
+><LI
+><P
+>Shall the new user be allowed to create bases de datos ? (y/n)
+      y   : permisos de usuario para la creación de bases de datos creation</P
+></LI
+><LI
+><P
+>Shall the new user be allowed to create more users ? (y/n) n :
+      permisos de usuario para la creación de usuarios</P
+></LI
+><LI
+><P
+>$ exit				                           :
+      salida del superusuario de bases de datos.</P
+></LI
+></UL
+>
+  </P
+></DIV
+><DIV
+CLASS="NAVFOOTER"
+><HR
+ALIGN="LEFT"
+WIDTH="100%"><TABLE
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+><A
+HREF="installation.html"
+>Prev</A
+></TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+><A
+HREF="index.html"
+>Home</A
+></TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+><A
+HREF="x447.html"
+>Next</A
+></TD
+></TR
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+>Instalación</TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+><A
+HREF="installation.html"
+>Up</A
+></TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+>Complementos</TD
+></TR
+></TABLE
+></DIV
+></BODY
+></HTML
+>

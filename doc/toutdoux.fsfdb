@@ -1,0 +1,75 @@
+%%name: ToutDoux
+
+%%short-description: Project Manager
+
+%%full-description: 
+ToutDoux is a project manager which permits management with different views (based on plug-ins). 
+For example, you can design a plan of actions using a tree structure.
+
+%%category: productivity, project
+
+%%license: GPL
+
+%%maintainer: Philippe Roy <ph_roy@toutdoux.org>
+
+%%updated: 26 Jun 2001
+
+%%keywords: management, project, industrial, database
+
+%%interface: X
+
+%%programs: toutdoux
+
+%%GNU: yes
+
+%%web-page: http://toutdoux.sourceforge.net/
+
+%%support: 
+
+%%doc: 
+
+%%developers: Philippe Roy <ph_roy@toutdoux.org>
+
+%%contributors: Guy Zürcher <gzuercher@raptus.com>
+		Kai Lahmann <kl@linuxfaqs.de>
+		Manuel Menal <mmenal@netcourrier.com>
+		Matthias Saou <ms@asi.fr>
+%%sponsors: 
+
+%%source: ftp://toutdoux.sourceforge.net/pub/toutdoux/
+
+%%debian: ftp://toutdoux.sourceforge.net/pub/toutdoux/deb/
+
+%%redhat: ftp://toutdoux.sourceforge.net/pub/toutdoux/rpm/
+
+%%repository: cvs.toutdoux.sourceforge.net:/cvsroot/toutdoux
+
+%%related: GNOME, PostgreSQL, hOpla
+
+%%source-language: C
+
+%%supported-languages:
+
+%%use-requirements: gettext, GNOME
+
+%%build-prerequisites: Egcs, GNU Make, gettext, GNOME, stylesheets
+
+%%weak-prerequisites: 
+
+%%source-prerequisites:
+
+%%version: 1.2.7 released 26 Jun 2001
+
+%%announce-list: toutdoux-announce@lists.sourceforge.net
+
+%%announce-news: 
+
+%%help-list: toutdoux-list@lists.sourceforge.net
+
+%%help-news:
+
+%%dev-list: toutdoux-list@lists.sourceforge.net 
+
+%%dev-news: 
+
+%%bug-list: toutdoux-bugs@lists.sourceforge.net

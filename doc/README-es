@@ -1,0 +1,256 @@
+-*-outline-*-
+
+# *****************************************************************************
+# README-es : Aide de départ
+# README-es : First help
+# README-es   : Primera Ayuda
+#
+# TouxDoux : Chtit gestionnaire de projet - A littl' project manager
+# Copyright (c) 2000-2001 Philippe Roy
+# Auteur - Author : Philippe Roy <ph_roy@toutdoux.org>
+#
+#
+# Ce programme est un logiciel libre ; vous pouvez le redistribuer et/ou le modifier
+# sous les termes de la licence publique générale GNU telle qu'elle est publiée par
+# la Free Software Foundation ; soit la version 2 de la licence, ou
+# (comme vous voulez) toute version ultérieure.
+#
+# Ce programme est distribué dans l'espoir qu'il sera utile,
+# mais SANS AUCUNE GARANTIE ; même sans la garantie de
+# COMMERCIALITÉ ou d'ADÉQUATION A UN BUT PARTICULIER. Voir la
+# licence publique générale GNU pour plus de détails.
+#
+# Vous devriez avoir reçu une copie de la licence publique générale GNU
+# avec ce programme ; si ce n'est pas le cas, écrivez à la Free Software
+# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+#
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA. 
+# *****************************************************************************
+#
+# Este programa es software libre; Vd. puede redistribuirlo y/o modificarlo
+# bajo los términos de la Licencia Pública General GNU tal como publicó 
+# la Fundación del Software Libre; en su versión 2 de la Licencia, o
+# (según su voluntad) cualesquiera otras posteriores.
+#
+# Este programa se distribuye con el ánimo de que sea útil, pero SIN
+# GARANTÍA de NINGúN TIPO; incluso sin la garantía implícita de USO MERCANTIL
+# o UTILIDAD PARA UN USO ESPECÍFICO. Véase la Licencia Pública General GNU para
+# más detalles.
+# 
+# Debería haber recibido una copia de la Licencia Pública General GNU con este programa,
+# si no ha sido así, escriba a la Free Software Foundation, Inc., 59 Temple Place
+# - Suite 330, Boston, MA 02111-1307, USA.
+#
+#
+
+
+* 0. Prólogo
+* 1. Utilización
+* 2. Licencia
+* 3. Ambiciones
+* 4. Donaciones y Trabajo
+** 1. Donaciones
+** 2. Precio informativo
+** 3. Trabajo
+* 5. Requisitos
+** 1. Requisitos
+** 2. Requisitos del Back-end SQL
+** 3. Complementos
+** 4. MySQL
+* 6. Instalación
+** 1. Back-end SQL.
+** 2. Entorno UNIX.
+** 3. Compilación.
+** 4. Arrancar.
+* 7. CVS : Generando arbol del fuente.
+** 1. Acceso anónimo (no necesita clave)
+** 2. Acceso vía SSH
+
+
+* 0. Prólogo
+
+Fonéticamente "ToutDoux" y "todo" (por hacer en inglés) son equivalentes.
+"ToutDoux" en vez de "tout doux" es una expresión francesa. 
+Significa "todo perfecto" o "todo va bien", "va correcto", "es guay!" está bien".
+
+"Encantador"
+
+* 1. Utilización
+
+ ToutDoux es un pequeño gestor de proyectos.
+
+  Es:
+	- una aproximación abstracta a la organización/manipulación de datos.
+	- un árbol de acciones clasificados por carpetas (temas)
+	- un tipo de acción para un proyecto de desarrollo computacional
+
+* 2. Licencia
+
+  Toutdoux es parte del proyecto GNU,  es software libre; Vd. puede redistribuirlo y/o modificarlo
+  bajo los términos de la Licencia Pública General GNU tal como publicó 
+  la Fundación del Software Libre; en su versión 2 de la Licencia, o
+  (según su voluntad) cualesquiera otras posteriores.
+
+  Este programa se distribuye con el ánimo de que sea útil, pero SIN
+  GARANTÍA de NINGúN TIPO; incluso sin la garantía implícita de USO MERCANTIL
+  o UTILIDAD PARA UN USO ESPECÍFICO. Véase la Licencia Pública General GNU para
+  más detalles.
+
+* 3. Ambiciones
+
+	- completo como M$ Project (no "detalles" ... (Olvidaré (intentaré) olvidarme de errores y 
+   	  restricciones
+	- adaptable como base de datos
+ 	- multiusuario ("groupware", orientado a grupos)
+	- guardar hacia archivo o base de datos
+	- integración en otras aplicaciones (ERP, ... )
+
+* 4. Donaciones y Trabajo
+
+** 1. Donaciones
+
+  Los programadores y técnicos pueden contribuir escribiendo software y documentación para
+  el desarrollo de ToutDoux. Pero si Vd. no puede o no contribuye de esa forma, puede ser 
+  mecenas  del proyecto donando dinero o hardware de ordenador.
+  Al igual que la lista de autores, se incluye la lista de mecenas ("supporters") en el 
+  "Acerca" del software.
+
+  mi dirección:   Philippe ROY
+		  23, mare aux canards
+		  67500 HAGUENAU 
+		  FRANCE
+
+** 2. Precio informativo
+
+  Comparando ToutDoux con productos parecidos, podemos estimar ToutDoux en 40 Euros.
+	- BrainForest (Aportis)	       : 40 $ (4/01/2000)
+	- Project (M$)		       : 500 $ (4/01/2000
+
+** 2. Trabajo
+
+  Soy ingeniero mecánico (mi CV se hospeda en Lolix). 
+  Actualmente, estoy programando ToutDoux de forma independiente, pero deseo continuar el 
+  trabajo a tiempo completo. Toda proposición de trabajo en esa misma línea será
+  absolutamente encantadora.
+
+* 5. Requisitos
+
+** 1. Requisitos
+
+	- glib-1.2.1		        : infraestructura (utilidad C)
+	- gtk+-1.2.1		        : X Window y widgets
+	- gdk-pixbuf-0.9.0	        : manipulación de ficheros de imágenes
+	- gnome-libs-1.0.8	        : armazón (framework)
+	- libxml-1.8.11		        : manipulación de ficheros XML
+	- gettext-0.10.35	        : internacionalización
+	- getxml-1.0.3		        : fichero de internacionalización XML 
+	- perl-5.6.0		        : intérprete
+	- guile-1.3.4		        : intérprete de Scheme
+	- sed-3.02		        : procesador de textos 
+
+** 2. Requisitos del back-end SQL 
+
+	- postgresql-7.0.1	        : sistema de gestión de bases de datos 
+	- postgresql-server-7.0.1       : sistema de gestión de bases de datos
+	- postgresql-devel-7.0.1        : sistema de gestión de bases de datos
+
+** 3. Complementos
+
+	- jade-1.2.1		        : procesador de textos
+FIXME:	- xsltproc-1.1.0	        : XSLT processeur
+	- stylesheets-0.13-4	        : colección de hojas de estilo (SGML/Docbook)
+FIXME:	- exuberant-ctags-5.0.1	        : tags extractor 
+FIXME:	- dtags-1.0.1		        : tags extractor for documentation
+	- wget-1.5.3		        : recuperación de ficheros remotos (HTTP-FTP)
+	- gtk-doc-0.4		        : generador de documentación 
+	- tetex-1.0.2		        : preparador de textos 
+	- dvips-5.86		        : traductor desde dvi a postscript
+	- gcolorsel-1.4.0	        : navegador de paleta de colores 
+	- gfontsel-1.4.0	        : navegador de tipos de letra
+	- emacs-20.7.1		        : editor de textos
+	- hopla-1.0.2		        : enlace XML-SQL (Por-Hacer)
+
+** 4. MySQL
+
+   ToutDoux está preparado para utilizar MySQL como gestor de bases de datos local.
+   Pero MySQl no sabe hacer sub-búsquedas, impone, por lo tanto, un desarrollo específico
+   a SQL. Entonces, debemos esperar a la siguiente versión de MySQL (v4.00).
+
+* 6. Instalación
+
+** 1. Back-end SQL
+
+   ToutDoux utiliza un back-end SQL para el almacenamiento temporal de los datos.
+   Así nos beneficiamos de la capacidad del lenguaje SQL y fiabilidad de software como PostgreSQL.
+   El usuario unix (aquí 'toto') debe crear y eliminar la base de datos.
+
+   Póngase en /ect.inittab : pg:2345:respawn:/bin/su - pgsql -c "postmaster" : arranca los
+   	servidores de postmaster en el arranque del ordenador
+
+	$ /bin/su - pgsql -c "postmaster"			      : inicia postmaster para la sesión actual
+	$ su postgres						      : login del superusuario de la base de datos
+	$ initdb		   				      : inicialización de la base de datos
+	$ createuser toto					      : creación del usuario 'toto'
+	Shall the new user be allowed to create database ? (y/n) y    : permisos de usuario para crear bases de datos
+	Shall the new user be allowed to create more users ? (y/n) n  : permisos de usuario para crear usuarios
+	$ exit							      : logout del superusuario de la base de datos
+
+** 2. Entorno UNIX
+
+        - LINGUAS	    		: las lenguas para la compilación y documentación  (fr, en, ...)
+        - BROWSER			: el navegador para el manual de usuario (galeon, nautilus, ...)
+        - EDITOR			: el editor (emacs, vi, ...)
+
+** 3. Compilación
+
+   Las opciones de configuración son:
+
+	--enable-manuals=ARG		compilación e instalación de los manuals [por omisión=yes, no]
+
+  El procedimiento es famoso:
+
+	$ ./configure			: configuración
+	$ make				: compilación
+	$ su				: login superusuario
+	Password:			: clave
+	# make install			: instalación
+	# exit				: logout superusuario
+	
+   
+** 4. Ejecución
+
+	$ toutdoux			: gestor de proyectos
+
+* 7. CVS : Generando el arbol de los fuentes
+
+** 1. Acceso anónimo  (no necesita clave)
+
+	$ mkdir ToutDoux
+        $ cd ToutDoux
+        $ cvs -d:pserver:anonymous@cvs.toutdoux.sourceforge.net:/cvsroot/toutdoux login
+	CVS password:
+        $ cvs -z3 -d:pserver:anonymous@cvs.toutdoux.sourceforge.net:/cvsroot/toutdoux co -P .
+	$ ./autogen.sh
+	$ make
+
+** 2. Acceso vía SSH
+
+	$ export CVS_RSH=ssh 
+	$ mkdir ToutDoux
+        $ cd ToutDoux
+	$ cvs -z3 -ddevelopername@cvs.toutdoux.sourceforge.net:/cvsroot/toutdoux co -P .
+	$ ./autogen.sh
+	$ make

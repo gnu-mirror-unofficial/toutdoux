@@ -1,0 +1,200 @@
+<HTML
+><HEAD
+><TITLE
+>Le dorsal SQL</TITLE
+><META
+NAME="GENERATOR"
+CONTENT="Modular DocBook HTML Stylesheet Version 1.61
+"><LINK
+REL="HOME"
+TITLE="ToutDoux : Manuel de l'utilisateur"
+HREF="index.html"><LINK
+REL="UP"
+TITLE="L'installation"
+HREF="installation.html"><LINK
+REL="PREVIOUS"
+TITLE="L'installation"
+HREF="installation.html"><LINK
+REL="NEXT"
+TITLE="Les compléments"
+HREF="x478.html"></HEAD
+><BODY
+CLASS="SECT1"
+><DIV
+CLASS="NAVHEADER"
+><TABLE
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TH
+COLSPAN="3"
+ALIGN="center"
+>ToutDoux : Manuel de l'utilisateur</TH
+></TR
+><TR
+><TD
+WIDTH="10%"
+ALIGN="left"
+VALIGN="bottom"
+><A
+HREF="installation.html"
+>Prev</A
+></TD
+><TD
+WIDTH="80%"
+ALIGN="center"
+VALIGN="bottom"
+>Chapter 3. L'installation</TD
+><TD
+WIDTH="10%"
+ALIGN="right"
+VALIGN="bottom"
+><A
+HREF="x478.html"
+>Next</A
+></TD
+></TR
+></TABLE
+><HR
+ALIGN="LEFT"
+WIDTH="100%"></DIV
+><DIV
+CLASS="SECT1"
+><H1
+CLASS="SECT1"
+><A
+NAME="AEN448"
+>Le dorsal SQL</A
+></H1
+><P
+>ToutDoux utilise un dorsal SQL (base de données) pour tout ce qui concerne le stockage temporaire des données.
+  Ceci permet de bénéfier du puissant language SQL et de moteur de requète fiable et performant comme PostgreSQL.</P
+><P
+>Concernant le logiciel MySQL, ToutDoux est opérationnel pour l'utiliser. 
+  Or, MySQL ne supportant pas les sous-requetes, impose aux modules un développement spécifique des requètes SQL.
+  Donc, nous attendrons la prochaine version de MySQL (v4.00).
+  C'est dommage car MySQL semble être plus adapté que PostgreSQL pour gérer un petit dorsal SQL pour application locale.</P
+><P
+>Les dépendances du dorsal SQL sont :
+    <P
+></P
+><UL
+><LI
+><P
+>postgresql-7.0.1		 : base de données</P
+></LI
+><LI
+><P
+>postgresql-server-7.0.1	 : base de données</P
+></LI
+><LI
+><P
+>postgresql-devel-7.0.1	 : base de données.</P
+></LI
+></UL
+>
+  </P
+><P
+>L'utilisateur unix (ici 'toto') doit pouvoir créer et supprimer une base de données. 
+  Mise à part les instructions officielles de la documentation de PosgreSQL, voici une procédure finalisant l'installation de PostgreSQL :
+    <P
+></P
+><UL
+><LI
+><P
+>Mettre dans /ect.inittab : pg:2345:respawn:/bin/su - pgsql -c "postmaster" : lancement du serveur postmaster au démarrage de la station</P
+></LI
+><LI
+><P
+>$ /bin/su - pgsql -c "postmaster"				   : lancement du serveur postmaster pour la session courante</P
+></LI
+><LI
+><P
+>$ su postgres						   : connexion en administrateur de la base de données</P
+></LI
+><LI
+><P
+>$ initdb							   : initialisation de la base de données</P
+></LI
+><LI
+><P
+>$ createuser toto						   : création du compte utilisateur 'toto'</P
+></LI
+><LI
+><P
+>Shall the new user be allowed to create database ? (y/n) y   : permission à l'utilisateur 'toto' de créer des bases de données</P
+></LI
+><LI
+><P
+>Shall the new user be allowed to create more users ? (y/n) n : permission à l'utilisateur 'toto' de créer des compte utilisateurs</P
+></LI
+><LI
+><P
+>$ exit				                           : déconnexion de l'administrateur de la base de données.</P
+></LI
+></UL
+>
+  </P
+></DIV
+><DIV
+CLASS="NAVFOOTER"
+><HR
+ALIGN="LEFT"
+WIDTH="100%"><TABLE
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+><A
+HREF="installation.html"
+>Prev</A
+></TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+><A
+HREF="index.html"
+>Home</A
+></TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+><A
+HREF="x478.html"
+>Next</A
+></TD
+></TR
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+>L'installation</TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+><A
+HREF="installation.html"
+>Up</A
+></TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+>Les compléments</TD
+></TR
+></TABLE
+></DIV
+></BODY
+></HTML
+>

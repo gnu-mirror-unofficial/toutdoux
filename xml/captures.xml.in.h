@@ -1,0 +1,13 @@
+char *s = N_("Captures d'écran");
+char *s = N_("Application");
+char *s = N_("application");
+char *s = N_("Le greffon 'Gantt' en action.");
+char *s = N_("Toute application est intégrable en tant que greffon (module dynamique).");
+char *s = N_("En effet, le document (format XML) comporte schéma, paramétrage des greffons et enfin les données.");
+char *s = N_("Lors de l'ouverture d'un document, les greffons requis sont chargés.");
+char *s = N_("Construction");
+char *s = N_("construction");
+char *s = N_("La structure de la base de données est définis par l'utilisateur.");
+char *s = N_("Puis, l'utilisateur relis les champs de la base de données aux champs des greffons.");
+char *s = N_("Logistique");
+char *s = N_("Quelques fenêtres de logistique.");

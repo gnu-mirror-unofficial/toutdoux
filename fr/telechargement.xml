@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<page id="telechargement" nom="T&#233;l&#233;chargement">
+<!-- FTP -->
+  <cadre nom="Fichiers">
+    <pointeur nom="getxml-1.0.4.tar.gz [156 kb]" href="../dl/getxml-latest.tar.gz" texte=" : internationalisation des fichiers XML"/>
+    <pointeur nom="dtags-1.0.1.tar.gz [183 kb]" href="../dl/dtags-latest.tar.gz" texte=" : extracteur de balises pour documentation"/>
+    <pointeur nom="ToutDoux-1.2.7.tar.gz [1 294 kb]" href="../dl/ToutDoux-latest.tar.gz" texte=" : gestionnaire de projet"/>
+    <pointeur nom="ftp://toutdoux.sourceforge.net/pub/toutdoux/" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/"/>
+  </cadre>
+<!-- APT -->
+  <cadre nom="APT">
+    <commande-entete texte="Ajouter la localisation des paquets toutdoux 'deb ftp://toutdoux.sourceforge.net/pub/toutdoux/debian/ ./' &#224; la configuration de APT '/etc/apt/sources.list'"/>
+    <commande commande="$ su" texte="connexion en administrateur"/>
+    <commande commande="# apt-get update" texte="mise &#224; jour de la base locale de APT"/>
+    <commande commande="# apt-get install getxml" texte="installation du paquet 'getxml'"/>
+    <commande commande="# apt-get install dtags" texte="installation du paquet 'dtags'"/>
+    <commande commande="# exit" texte="d&#233;connexion de l'administrateur"/>
+  </cadre>
+<!-- CVS -->
+  <cadre nom="CVS">
+    <texte texte="L'arbre des fichiers source est h&#233;berg&#233; sur le serveur CVS de SourceForge."/>
+    <texte texte="Pour le r&#233;cup&#233;rer en anonyme (sans mot de passe):"/>
+    <texte texte="$ mkdir ToutDoux"/>
+    <texte texte="$ cd ToutDoux"/>
+    <texte texte="$ cvs -d:pserver:anonymous@cvs.toutdoux.sourceforge.net:/cvsroot/toutdoux login"/>
+    <texte texte="$ cvs -z3 -d:pserver:anonymous@cvs.toutdoux.sourceforge.net:/cvsroot/toutdoux co -P ."/>
+    <texte texte="$ ./autogen.sh"/>
+    <texte texte="$ make"/>
+  </cadre>
+<!-- Dépendances -->
+  <cadre nom="D&#233;pendances">
+    <pointeur nom="glib-1.2.1" href="http://gtk.org" texte=" : infrastructure (utilitaire C)"/>
+    <pointeur nom="gtk+-1.2.1" href="http://gtk.org" texte=" : X Window et widgets"/>
+    <pointeur nom="gdk-pixbuf-0.9.0" href="http://gtk.org" texte=" : manipulation de fichier d'image"/>
+    <pointeur nom="gnome-libs-1.0.8" href="http://gnome.org" texte=" : environnement"/>
+    <pointeur nom="libxml-1.8.11" href="http://xmlsoft.org" texte=" : manipulation de fichier XML"/>
+    <pointeur nom="gettext-0.10.35" href="http://www.gnu.org/software/gettext/" texte=" : internationalisation"/>
+    <pointeur nom="getxml-1.0.3" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/" texte=" : internationalisation des fichiers XML"/>
+    <pointeur nom="perl-5.6.0" href="http://www.perl.com" texte=" : interpr&#232;teur"/>
+    <pointeur nom="sed-3.02" href="http://www.gnu.org/software/sed/" texte=" : processeur texte"/>
+  </cadre>
+<!-- Dépendances du dorsal SQL -->
+  <cadre nom="D&#233;pendances du dorsal SQL">
+    <pointeur nom="postgresql-7.0.1" href="http://postgresql.org" texte=" : syst&#232;me de gestion de base de donn&#233;es"/>
+    <pointeur nom="postgresql-server-7.0.1" href="http://postgresql.org" texte=""/>
+    <pointeur nom="postgresql-devel-7.0.1" href="http://postgresql.org" texte=""/>
+  </cadre>
+<!-- Compléments -->
+  <cadre nom="Compl&#233;ments">
+    <pointeur nom="xsltproc-1.1.0" href="http://xmlsoft.org" texte=" : processeur XSLT"/>
+    <pointeur nom="jade-1.2.1" href="http://www.jclark.com/jade/" texte=" : processeur DSSSL"/>
+    <pointeur nom="cygnus-stylesheets-0.13-4" href="http://sources.redhat.com/docbook-tools/" texte=" : collection de feuilles de styles (SGML/Docbook)"/>
+    <pointeur nom="exuberant-ctags-5.0.1" href="http://ctags.sourceforge.net/" texte=" : extracteur de balises"/>
+    <pointeur nom="dtags-1.0.1" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/" texte=" : extracteur de balises pour documentation"/>
+    <pointeur nom="wget-1.5.3" href="http://www.cg.tuwien.ac.at/~prikryl/wget.html" texte=" : r&#233;cup&#233;ration de fichiers distants (HTTP/FTP)"/>
+    <pointeur nom="gtk-doc-0.4" href="http://www.gtk.org/rdp/download.html" texte=" : g&#233;n&#233;rateur de documentation (d&#233;pr&#233;ci&#233;)"/>
+    <pointeur nom="tetex-1.0.2" href="http://www.tug.org" texte=" : formattage de texte"/>
+    <pointeur nom="gv-3.5.8" href="http://wino.physik.uni-mainz.de/~plass/gv/" texte=" : lecteur PostScript"/>
+    <pointeur nom="gnome-gv-0.95" href="ftp://ftp.gnome.org/pub/GNOME/stable/sources/ggv/" texte=" : lecteur PostScript"/>
+    <pointeur nom="hopla-1.0.2" href="http://hopla.sourceforge.net" texte=" : lien SQL - XML (en attente)"/>
+  </cadre>
+</page>

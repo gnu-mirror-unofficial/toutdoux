@@ -1,0 +1,947 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#: xml/telechargement.xml.in.h:26
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2001-08-30 19:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: site.xsl.in.h:1
+msgid "'fr'"
+msgstr ""
+
+#: site.xsl.in.h:2
+msgid "'Version'"
+msgstr ""
+
+#: site.xsl.in.h:3
+msgid "'Réalisé avec '"
+msgstr ""
+
+#: site.xsl.in.h:4
+msgid "'Icônes du '"
+msgstr ""
+
+#: site.xsl.in.h:5
+msgid "'avec la fameuse inspiration de '"
+msgstr ""
+
+#: site.xsl.in.h:6
+msgid "'Webmestre'"
+msgstr ""
+
+#: site.xsl.in.h:7
+msgid "'Site hébergé par '"
+msgstr ""
+
+#: xml/autres.xml.in.h:1
+msgid "Autres choses"
+msgstr ""
+
+#: xml/autres.xml.in.h:2
+msgid "Ressources"
+msgstr ""
+
+#: xml/autres.xml.in.h:3
+msgid "Graphisme"
+msgstr ""
+
+#: xml/autres.xml.in.h:4
+msgid "Scripts"
+msgstr ""
+
+#: xml/autres.xml.in.h:5
+msgid "Configuration logiciel"
+msgstr ""
+
+#: xml/autres.xml.in.h:6
+msgid "Configuration GNU Emacs"
+msgstr ""
+
+#: xml/autres.xml.in.h:7
+msgid "themacs"
+msgstr ""
+
+#: xml/autres.xml.in.h:8
+msgid " : inspiré par GNU Emacs"
+msgstr ""
+
+#: xml/autres.xml.in.h:9
+msgid "Classe LaTeX"
+msgstr ""
+
+#: xml/autres.xml.in.h:10
+msgid "Lettre à la française"
+msgstr ""
+
+#: xml/autres.xml.in.h:11
+msgid "Curriculum Vitae"
+msgstr ""
+
+#: xml/autres.xml.in.h:12
+msgid "Jackette pour CD-ROM"
+msgstr ""
+
+#: xml/autres.xml.in.h:13
+msgid "Jackette pour CD-Audio"
+msgstr ""
+
+#: xml/autres.xml.in.h:14
+msgid "Liens : quelques fondamentaux"
+msgstr ""
+
+#: xml/autres.xml.in.h:15
+msgid "Amnesty international"
+msgstr ""
+
+#: xml/autres.xml.in.h:16
+msgid " : les droits de l'être humain"
+msgstr ""
+
+#: xml/autres.xml.in.h:17
+msgid "Medecins sans frontières"
+msgstr ""
+
+#: xml/autres.xml.in.h:18
+msgid " : l'action humanitaire"
+msgstr ""
+
+#: xml/autres.xml.in.h:19
+msgid "Le Monde diplomatique"
+msgstr ""
+
+#: xml/autres.xml.in.h:20
+msgid " : l'actualité"
+msgstr ""
+
+#: xml/autres.xml.in.h:21
+msgid "Reporters sans frontières"
+msgstr ""
+
+#: xml/autres.xml.in.h:22
+msgid " : la liberté de la presse"
+msgstr ""
+
+#: xml/autres.xml.in.h:23
+msgid "Le projet GNU"
+msgstr ""
+
+#: xml/autres.xml.in.h:24
+msgid " : les logiciels libres"
+msgstr ""
+
+#: xml/autres.xml.in.h:25
+msgid "L'alliance EuroLinux"
+msgstr ""
+
+#: xml/autres.xml.in.h:26
+msgid " : l'inbrevatibilité de la pensée"
+msgstr ""
+
+#: xml/autres.xml.in.h:27
+msgid "Attac"
+msgstr ""
+
+#: xml/autres.xml.in.h:28
+msgid " : la taxation des transactions financières"
+msgstr ""
+
+#: xml/autres.xml.in.h:29
+msgid "Liens : quelques classiques"
+msgstr ""
+
+#: xml/autres.xml.in.h:30
+msgid "Nouvelles "
+msgstr ""
+
+#: xml/autres.xml.in.h:31
+msgid "l'autre portail"
+msgstr ""
+
+#: xml/autres.xml.in.h:32
+msgid "LinuxFr"
+msgstr ""
+
+#: xml/autres.xml.in.h:33
+msgid "Web Matin"
+msgstr ""
+
+#: xml/autres.xml.in.h:34
+msgid "transnationale.org"
+msgstr ""
+
+#: xml/autres.xml.in.h:35
+msgid "Forum emploi "
+msgstr ""
+
+#: xml/autres.xml.in.h:36
+msgid "Lolix"
+msgstr ""
+
+#: xml/autres.xml.in.h:37
+msgid "Annonces logiciels"
+msgstr ""
+
+#: xml/autres.xml.in.h:38
+msgid "Freshmeat"
+msgstr ""
+
+#: xml/autres.xml.in.h:39
+msgid "Je suis libre"
+msgstr ""
+
+#: xml/autres.xml.in.h:40
+msgid "Moteur de recherche"
+msgstr ""
+
+#: xml/autres.xml.in.h:41
+msgid "tuxfinder (logiciel)"
+msgstr ""
+
+#: xml/autres.xml.in.h:42 xml/documentation.xml.in.h:1
+msgid "Documentation"
+msgstr ""
+
+#: xml/autres.xml.in.h:43
+msgid "Léa"
+msgstr ""
+
+#: xml/autres.xml.in.h:44
+msgid "LinuxGraphic"
+msgstr ""
+
+#: xml/autres.xml.in.h:45
+msgid "EmacsFr"
+msgstr ""
+
+#: xml/captures.xml.in.h:1
+msgid "Captures d'écran"
+msgstr ""
+
+#: xml/captures.xml.in.h:2
+msgid "Application"
+msgstr ""
+
+#: xml/captures.xml.in.h:3
+msgid "application"
+msgstr ""
+
+#: xml/captures.xml.in.h:4
+msgid "Le greffon 'Gantt' en action."
+msgstr ""
+
+#: xml/captures.xml.in.h:5
+msgid "Toute application est intégrable en tant que greffon (module dynamique)."
+msgstr ""
+
+#: xml/captures.xml.in.h:6
+msgid "En effet, le document (format XML) comporte schéma, paramétrage des greffons et enfin les données."
+msgstr ""
+
+#: xml/captures.xml.in.h:7
+msgid "Lors de l'ouverture d'un document, les greffons requis sont chargés."
+msgstr ""
+
+#: xml/captures.xml.in.h:8
+msgid "Construction"
+msgstr ""
+
+#: xml/captures.xml.in.h:9
+msgid "construction"
+msgstr ""
+
+#: xml/captures.xml.in.h:10
+msgid "La structure de la base de données est définis par l'utilisateur."
+msgstr ""
+
+#: xml/captures.xml.in.h:11
+msgid "Puis, l'utilisateur relis les champs de la base de données aux champs des greffons."
+msgstr ""
+
+#: xml/captures.xml.in.h:12
+msgid "Logistique"
+msgstr ""
+
+#: xml/captures.xml.in.h:13
+msgid "Quelques fenêtres de logistique."
+msgstr ""
+
+#: xml/documentation.xml.in.h:2
+msgid "Manuels"
+msgstr ""
+
+#: xml/documentation.xml.in.h:3
+msgid "Manuel utilisateur"
+msgstr ""
+
+#: xml/documentation.xml.in.h:4
+msgid "Manuel de références"
+msgstr ""
+
+#: xml/documentation.xml.in.h:5
+msgid "Notes"
+msgstr ""
+
+#: xml/documentation.xml.in.h:6
+msgid "Informations générales"
+msgstr ""
+
+#: xml/documentation.xml.in.h:7
+msgid "Notes de développement"
+msgstr ""
+
+#: xml/documentation.xml.in.h:8
+msgid "Français"
+msgstr ""
+
+#: xml/documentation.xml.in.h:9
+msgid "Modélisation des données"
+msgstr ""
+
+#: xml/documentation.xml.in.h:10
+msgid "Intégration d'un solveur"
+msgstr ""
+
+#: xml/documentation.xml.in.h:11
+msgid "png"
+msgstr ""
+
+#: xml/documentation.xml.in.h:12
+msgid "Cycle de rafraîchissement"
+msgstr ""
+
+#: xml/documentation.xml.in.h:13
+msgid "Veille"
+msgstr ""
+
+#: xml/documentation.xml.in.h:14
+msgid "Licence"
+msgstr ""
+
+#: xml/documentation.xml.in.h:15
+msgid "Licence Public Générale GNU"
+msgstr ""
+
+#: xml/documentation.xml.in.h:16
+msgid "Liens"
+msgstr ""
+
+#: xml/documentation.xml.in.h:17
+msgid "ToutDoux : Manuel de l'utilisateur : L'existant"
+msgstr ""
+
+#: xml/documentation.xml.in.h:18
+msgid "Techniques"
+msgstr ""
+
+#: xml/documentation.xml.in.h:19
+msgid "Language de base : "
+msgstr ""
+
+#: xml/documentation.xml.in.h:20
+msgid "Language des extensions (moteur des commandes, script d'application) : "
+msgstr ""
+
+#: xml/documentation.xml.in.h:21
+msgid "Modèle objet et widgets : "
+msgstr ""
+
+#: xml/documentation.xml.in.h:22
+msgid "Environnement : "
+msgstr ""
+
+#: xml/documentation.xml.in.h:23
+msgid "Language de requête : "
+msgstr ""
+
+#: xml/documentation.xml.in.h:24
+msgid "Format des fichiers : "
+msgstr ""
+
+#: xml/documentation.xml.in.h:25
+msgid "Language de formatage de texte : "
+msgstr ""
+
+#: xml/encours.xml.in.h:1
+msgid "En cours"
+msgstr ""
+
+#: xml/encours.xml.in.h:2
+msgid "Plan d'actions"
+msgstr ""
+
+#: xml/encours.xml.in.h:3
+msgid "Documentation : documentation Anglaise/Française des concepts (communication externe, XML DTD)"
+msgstr ""
+
+#: xml/encours.xml.in.h:4
+msgid "Système : Synchronisation entres vues (document avec plusieurs vues)"
+msgstr ""
+
+#: xml/encours.xml.in.h:5
+msgid "Gestion de projet : PERT suite (dates, règle de placement, arborescence)"
+msgstr ""
+
+#: xml/encours.xml.in.h:6
+msgid "Gestion de projet : GANTT suite (ascenseur horizontale, dnd)"
+msgstr ""
+
+#: xml/encours.xml.in.h:7
+msgid "Gestion de projet : ressources"
+msgstr ""
+
+#: xml/encours.xml.in.h:8
+msgid "Edition : édition par éditeur, import csv, gnumeric"
+msgstr ""
+
+#: xml/encours.xml.in.h:9
+msgid "Système : presse-papier, macro"
+msgstr ""
+
+#: xml/encours.xml.in.h:10
+msgid "Travail de groupe : contacts, flux de travail, sourceforge, narval"
+msgstr ""
+
+#: xml/encours.xml.in.h:11
+msgid "Dorsaux : cron, octave et perl"
+msgstr ""
+
+#: xml/encours.xml.in.h:12
+msgid "Historique Refaire-Défaire."
+msgstr ""
+
+#: xml/encours.xml.in.h:13
+msgid "Première version de dtags : outil de documentation entre Exubérant Ctags et xsltproc."
+msgstr ""
+
+#: xml/encours.xml.in.h:14
+msgid "Integration de Guile."
+msgstr ""
+
+#: xml/encours.xml.in.h:15
+msgid "Première version de getxml : outil d'internationalization des XML."
+msgstr ""
+
+#: xml/encours.xml.in.h:16
+msgid "Intégration de TeX."
+msgstr ""
+
+#: xml/encours.xml.in.h:17
+msgid "Ajout de l'établiste. L'établiste est similaire à l'établi, mais dédié aux listes."
+msgstr ""
+
+#: xml/encours.xml.in.h:18
+msgid "Plusieurs listes, les arbres et les listes d'icônes sont prévues."
+msgstr ""
+
+#: xml/encours.xml.in.h:19
+msgid "Ajout des faces personnalisées."
+msgstr ""
+
+#: xml/encours.xml.in.h:20
+msgid "Ajout des fonctions."
+msgstr ""
+
+#: xml/encours.xml.in.h:21
+msgid "Ajout du greffon arbre."
+msgstr ""
+
+#: xml/encours.xml.in.h:22
+msgid "Editeur de diagramme GANTT."
+msgstr ""
+
+#: xml/encours.xml.in.h:23
+msgid "Editeur de diagramme PERT."
+msgstr ""
+
+#: xml/encours.xml.in.h:24
+msgid "Réactivation de l'exportation en csv et console SQL."
+msgstr ""
+
+#: xml/encours.xml.in.h:25
+msgid "Refonte du système de paramétrage des greffons."
+msgstr ""
+
+#: xml/encours.xml.in.h:26
+msgid "Intégration du moteur SQL (3 dans le td_id_sibling ? zarb !)."
+msgstr ""
+
+#: xml/encours.xml.in.h:27
+msgid "Refonte du système de personnalisation."
+msgstr ""
+
+#: xml/greffons.xml.in.h:1
+msgid "Greffons"
+msgstr ""
+
+#: xml/greffons.xml.in.h:2
+msgid "Générale"
+msgstr ""
+
+#: xml/greffons.xml.in.h:3
+msgid "Arborescence"
+msgstr ""
+
+#: xml/greffons.xml.in.h:4
+msgid "Réseau"
+msgstr ""
+
+#: xml/greffons.xml.in.h:5
+msgid "Gestion de projet"
+msgstr ""
+
+#: xml/greffons.xml.in.h:6
+msgid "Gantt"
+msgstr ""
+
+#: xml/menu.xml.in.h:1
+msgid "nouvelles"
+msgstr ""
+
+#: xml/menu.xml.in.h:2
+msgid "encours"
+msgstr ""
+
+#: xml/menu.xml.in.h:3
+msgid "greffons"
+msgstr ""
+
+#: xml/menu.xml.in.h:4
+msgid "paquet"
+msgstr ""
+
+#: xml/menu.xml.in.h:5
+msgid "doc"
+msgstr ""
+
+#: xml/menu.xml.in.h:6
+msgid "captures"
+msgstr ""
+
+#: xml/menu.xml.in.h:7
+msgid "cvs"
+msgstr ""
+
+#: xml/menu.xml.in.h:8
+msgid "bugzilla"
+msgstr ""
+
+#: xml/menu.xml.in.h:9
+msgid "idées"
+msgstr ""
+
+#: xml/menu.xml.in.h:10
+msgid "tâches"
+msgstr ""
+
+#: xml/menu.xml.in.h:11
+msgid "autres"
+msgstr ""
+
+#: xml/menu.xml.in.h:12 xml/nouvelles.xml.in.h:14
+msgid "."
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:1
+msgid "Nouvelles"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:2
+msgid "En bref"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:3
+msgid "ToutDoux est un gestionnaire de projet pour GNOME."
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:4
+msgid "L'approche de la manipulation des données est abstraite (base de données libre)."
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:5
+msgid ""
+"ToutDoux est extensible aux moyens de greffons (modules dynamiques, plug-"
+"ins)."
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:6
+msgid "Le maximum de tâches sont et seront sous-traitées par des dorsaux/frontaux (back-ends/front-ends)."
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:7
+msgid "Le format du fichier est du XML (comprenant schéma, paramétrage des greffons et données)."
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:8
+msgid "Copyright (c) 2000-2001 Philippe Roy"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:9
+msgid "Toutdoux fait partie du "
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:10
+msgid "projet GNU"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:11
+msgid ", c'est un logiciel libre, couvert part la "
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:12
+msgid "Licence Publique Générale GNU"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:13
+msgid "http://www.april.org/gnu/gpl_french.html"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:15
+msgid "Réalisation d'un outil de documentation 'dtags-1.0.1'"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:16
+msgid "Il est en fait un lien entre Exubérant Ctags et xsltproc"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:17
+msgid "getxml-1.0.4 (correction de bugs)"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:18
+msgid "Mise en place des listes de tâches (suggestion, ...)"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:19
+msgid "ToutDoux-1.2.7"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:20
+msgid " - gestion de projet : PERT et GANTT (suite)"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:21
+msgid " - interface : établiste (établi pour liste)"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:22
+msgid " - système : récupération de session"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:23
+msgid " - internationalisation : Espagnol"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:24
+msgid " - filtres : SVG, PSTricks"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:25
+msgid "getxml-1.0.3 (correction de bugs)"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:26
+msgid "Refonte du site web : xml, xslt, gettext et getxml"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:27
+msgid "Réalisation d'un outil d'internationalization des XML 'getxml-1.0.1'"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:28
+msgid "xml-i18n-tools était trop buggé et mes connaissances en Perl étaient insuffisantes pour le fixer."
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:29
+msgid "ToutDoux-1.2.6 (correction de bugs)"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:30
+msgid "ToutDoux-1.2.5"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:31
+msgid " - gestion de projet : PERT et GANTT (début)"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:32
+msgid " - système : paramétrage des greffons"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:33
+msgid "Achat du domaine www.toutdoux.org"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:34
+msgid "Mise en place des discussions par liste de diffusion (générale, annonces et bugs)"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:35
+msgid "ToutDoux fait partie, maintenant, officiellement du Projet GNU."
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:36
+msgid ""
+"J'ai promis de fournir plus de documentation et des commentaires en Anglais."
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:37
+msgid "ToutDoux-1.2.4"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:38
+msgid " - système : stockage sur base de données (optionnel)"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:39
+msgid "ToutDoux-1.2.3 (correction de bugs)"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:40
+msgid "ToutDoux-1.2.2"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:41
+msgid " - système : tirer-lâcher"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:42
+msgid " - système : édition des gabarits"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:43
+msgid " - communication : ouverture d'URL"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:44
+msgid "Déménagement du site vers SourceForge"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:45
+msgid "Hébergement du CVS chez SourceForge"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:46
+msgid "ToutDoux-1.2.1"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:47
+msgid " - code : bibliothèque"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:48
+msgid " - système : préférences et aide"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:49
+msgid " - internationalisation : Allemand"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:50
+msgid "Changement de webmestre"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:51
+msgid "ToutDoux-1.2.0"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:52
+msgid " - code : système de greffons"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:53
+msgid " - système : vues"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:54
+msgid "ToutDoux-1.1.9"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:55
+msgid " - système : sauvegarde sur base de donnée (PostgreSQL)"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:56
+msgid "ToutDoux-1.1.8 (correction de bugs)"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:57
+msgid "Rapport"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:58
+msgid "ChangeLog"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:59
+msgid "ToutDoux.td"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:60
+msgid "Discussions"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:61
+msgid "compte"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:62
+msgid "archive"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:63
+msgid "Annonces"
+msgstr ""
+
+#: xml/nouvelles.xml.in.h:64
+msgid "Bugs"
+msgstr ""
+
+#: xml/telechargement.xml.in.h:1
+msgid "Téléchargement"
+msgstr ""
+
+#: xml/telechargement.xml.in.h:2
+msgid "Fichiers"
+msgstr ""
+
+#: xml/telechargement.xml.in.h:3
+msgid " : internationalisation des fichiers XML"
+msgstr ""
+
+#: xml/telechargement.xml.in.h:4
+msgid " : extracteur de balises pour documentation"
+msgstr ""
+
+#: xml/telechargement.xml.in.h:5
+msgid " : gestionnaire de projet"
+msgstr ""
+
+#: xml/telechargement.xml.in.h:6
+msgid "APT"
+msgstr ""
+
+#: xml/telechargement.xml.in.h:7
+msgid "Ajouter la localisation des paquets toutdoux 'deb ftp://toutdoux.sourceforge.net/pub/toutdoux/debian/ ./' à la configuration de APT '/etc/apt/sources.list'"
+msgstr ""
+
+#: xml/telechargement.xml.in.h:8
+msgid "connexion en administrateur"
+msgstr ""
+
+#: xml/telechargement.xml.in.h:9
+msgid "mise à jour de la base locale de APT"
+msgstr ""
+
+#: xml/telechargement.xml.in.h:10
+msgid "installation du paquet 'getxml'"
+msgstr ""
+
+#: xml/telechargement.xml.in.h:11
+msgid "installation du paquet 'dtags'"
+msgstr ""
+
+#: xml/telechargement.xml.in.h:12
+msgid "déconnexion de l'administrateur"
+msgstr ""
+
+#: xml/telechargement.xml.in.h:13
+msgid "L'arbre des fichiers source est hébergé sur le serveur CVS de SourceForge."
+msgstr ""
+
+#: xml/telechargement.xml.in.h:14
+msgid "Pour le récupérer en anonyme (sans mot de passe):"
+msgstr ""
+
+#: xml/telechargement.xml.in.h:15
+msgid "Dépendances"
+msgstr ""
+
+#: xml/telechargement.xml.in.h:16
+msgid " : infrastructure (utilitaire C)"
+msgstr ""
+
+#: xml/telechargement.xml.in.h:17
+msgid " : X Window et widgets"
+msgstr ""
+
+#: xml/telechargement.xml.in.h:18
+msgid " : manipulation de fichier d'image"
+msgstr ""
+
+#: xml/telechargement.xml.in.h:19
+msgid " : environnement"
+msgstr ""
+
+#: xml/telechargement.xml.in.h:20
+msgid " : manipulation de fichier XML"
+msgstr ""
+
+#: xml/telechargement.xml.in.h:21
+msgid " : internationalisation"
+msgstr ""
+
+#: xml/telechargement.xml.in.h:22
+msgid " : interprèteur"
+msgstr ""
+
+#: xml/telechargement.xml.in.h:23
+msgid " : processeur texte"
+msgstr ""
+
+#: xml/telechargement.xml.in.h:24
+msgid "Dépendances du dorsal SQL"
+msgstr ""
+
+#: xml/telechargement.xml.in.h:25
+msgid " : système de gestion de base de données"
+msgstr ""
+
+#: xml/telechargement.xml.in.h:27
+msgid "Compléments"
+msgstr ""
+
+#: xml/telechargement.xml.in.h:28
+msgid " : processeur XSLT"
+msgstr ""
+
+#: xml/telechargement.xml.in.h:29
+msgid " : processeur DSSSL"
+msgstr ""
+
+#: xml/telechargement.xml.in.h:30
+msgid " : collection de feuilles de styles (SGML/Docbook)"
+msgstr ""
+
+#: xml/telechargement.xml.in.h:31
+msgid " : extracteur de balises"
+msgstr ""
+
+#: xml/telechargement.xml.in.h:32
+msgid " : récupération de fichiers distants (HTTP/FTP)"
+msgstr ""
+
+#: xml/telechargement.xml.in.h:33
+msgid " : générateur de documentation (déprécié)"
+msgstr ""
+
+#: xml/telechargement.xml.in.h:34
+msgid " : formattage de texte"
+msgstr ""
+
+#: xml/telechargement.xml.in.h:35
+msgid " : lecteur PostScript"
+msgstr ""
+
+#: xml/telechargement.xml.in.h:36
+msgid " : lien SQL - XML (en attente)"
+msgstr ""

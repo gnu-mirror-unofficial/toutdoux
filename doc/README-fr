@@ -1,0 +1,242 @@
+-*-outline-*-
+
+# *****************************************************************************
+# README-fr : Aide de départ
+# README-fr : First help
+#
+#
+# TouxDoux : Chtit gestionnaire de projet - A littl' project manager
+# Copyright (c) 2000-2001 Philippe Roy
+# Auteur - Author : Philippe Roy <ph_roy@toutdoux.org>
+#
+#
+# Ce programme est un logiciel libre ; vous pouvez le redistribuer et/ou le modifier
+# sous les termes de la licence publique générale GNU telle qu'elle est publiée par
+# la Free Software Foundation ; soit la version 2 de la licence, ou
+# (comme vous voulez) toute version ultérieure.
+#
+# Ce programme est distribué dans l'espoir qu'il sera utile,
+# mais SANS AUCUNE GARANTIE ; même sans la garantie de
+# COMMERCIALITÉ ou d'ADÉQUATION A UN BUT PARTICULIER. Voir la
+# licence publique générale GNU pour plus de détails.
+#
+# Vous devriez avoir reçu une copie de la licence publique générale GNU
+# avec ce programme ; si ce n'est pas le cas, écrivez à la Free Software
+# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+#
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA. 
+# *****************************************************************************
+
+* 0. Préface
+* 1. Usage
+* 2. Licence
+* 3. Ambitions
+* 4. Donations & Emploi
+** 1. Donations
+** 2. Prix informatif
+** 3. Emploi
+* 5. Dépendances
+** 1. Dépendances d'utilisation
+** 2. Dépendances du dorsal SQL
+** 3. Compléments
+** 4. MySQL
+* 6. Installation
+** 1. Dorsal SQL
+** 2. Environnement UNIX
+** 3. Compilation
+** 4. Lancement
+* 7. CVS : Génération de l'arbre source
+** 1. Accès anonyme
+** 2. Accès via SSH
+
+* 0. Préface
+
+Phonétiquement "ToutDoux" et "TODO" sont équivalent.
+"TODO" ou plutôt "to do" est la traduction anglaise du verbe "faire".
+
+* 1. Usage
+
+ToutDoux est un gestionnaire de projet.
+L'approche se veut être orientée métier, 
+ce qui implique une base de données libre et une extensibilitée accrue (greffons, frontaux et scripts).
+
+* 2. Licence
+
+  Toutdoux fait partie du projet GNU, c'est un logiciel libre ; vous pouvez le redistribuer et/ou le modifier
+  sous les termes de la License Publique Générale GNU telle qu'elle est publiée par la Free Software Foundation; 
+  soit la version 2 de la licence, ou (comme vous voulez) toute version ultérieure. 
+   
+  Ce programme est distribué dans l'espoir qu'il sera utile, mais SANS AUCUNE GARANTIE; 
+  même sans la garantie de COMMERCIALITÉ ou d'ADÉQUATION A UN BUT PARTICULIER. 
+  Voir la Licence Publique Générale GNU pour plus de détails.
+
+* 3. Ambitions
+
+	- complet comme M$ Project (à quelques "détails" près ... (je vais (tâcher d')oublier bugs et restrictions))
+	- adaptable comme une base de données
+	- multi-utilisateur (travail de groupe)
+	- sauvegarde sur fichier et bases de données
+	- intégration sur d'autres applications (SGI, ... )
+
+* 4. Donations & Emploi
+
+** 1. Donations
+
+  Programmeurs et techniciens par leurs programmes ou documentations peuvent contribuer
+  au développement de ToutDoux. 
+  Cependant si vous ne pouvez ou ne voulez contribuer de cette manière, vous pouvez soutenir le
+  projet par une donation monétaire ou matériel (informatique).
+  Comme la liste des auteurs, la liste des supporters est inclue dans le "A propos" du logiciel.
+
+  mon adresse :    Philippe ROY
+		   23, mare aux canards
+		   67500 HAGUENAU 
+		   FRANCE
+
+** 2. Prix informatif
+
+   Par comparaison aux produits concurents, on peut estimer ToutDoux à 40 Euros.
+
+	- BrainForest (Aportis)	        : 40 $ (4/01/2000)
+	- Project (M$)		        : 500 $ (4/01/2000)
+
+** 3. Emploi
+
+  De formation, je suis plutôt un industriel (ingénieur mécanicien) (mon cv est sur le site Lolix). 
+  Cependant dans l'industrie (comme pour d'autres secteurs), la maîtrise de l'outil informatique est déterminant
+  et dans cette optique le concept de logiciels libres est extrêment puissant : 
+
+  - l'utilisateur peut réellement intervenir dans la conception/réalisation du logiciel,
+  - la concurrence entre logiciels est uniquement basée sur les performances, les fonctionnalitées et l'ergonomie,
+  - couplés à internet, les logiciels libres sont un *vrai* mouvement (voir le seul) de standardisation,
+  - ayant le choix de son équipement logiciel et de ses fournisseurs, l'utilisateur n'est plus soumis à une rente financière,
+  - enfin les structures attentives à leurs clients sont favorisées.
+
+  Par contre, le point faible du modèle économique est sans doute sur la prééminance des services associés sur le développement.
+  En effet, je programme ToutDoux de manière indépendante, or, je souhaite poursuivre ce travail à temps complet.
+  Toute proposition d'emploi dans ce sens serait pour moi un réel enchantement.
+  
+* 5. Dépendances
+
+** 1. Dépendances d'utilisation
+
+	- glib-1.2.1		        : infrastructure (utilitaire C)
+	- gtk+-1.2.1		        : X Window et widgets
+	- gdk-pixbuf-0.9.0	        : manipulation de fichier d'image
+	- gnome-libs-1.0.8	        : environnement
+	- libxml-1.8.11		        : manipulation de fichier XML
+	- gettext-0.10.35	        : internationalisation
+	- getxml-1.0.3		        : internationalisation des fichiers XML
+	- perl-5.6.0		        : interpréteur
+	- guile-1.3.4		        : interpréteur Scheme
+	- sed-3.02		        : processeur texte
+
+** 2. Dépendances du dorsal SQL
+
+	- postgresql-7.0.1	        : système de gestion de base de données
+	- postgresql-server-7.0.1       : système de gestion de base de données
+	- postgresql-devel-7.0.1        : système de gestion de base de données
+
+** 3. Compléments
+
+	- jade-1.2.1		        : processeur texte
+	- xsltproc-1.1.0	        : processeur XSLT
+	- stylesheets-0.13-4	        : collection de feuilles de styles (SGML/Docbook)
+	- exuberant-ctags-5.0.1	        : extracteur de balises
+	- dtags-1.0.1		        : extracteur de balises pour documentation
+	- wget-1.5.3		        : récupération de fichier distant
+	- tetex-1.0.2		        : formatage de texte
+	- dvips-5.86		        : traducteur dvi vers postscript
+	- gcolorsel-1.4.0	        : navigateur de palette
+	- gfontsel-1.4.0	        : navigateur de polices de caractère
+	- emacs-20.7.1		        : editeur texte
+	- hopla-1.0.2		        : lien XML-SQL (A FAIRE)
+
+** 4. MySQL
+
+   ToutDoux est opérationnel pour utiliser MySQL comme gestionnaire de base de données locale. 
+   Or, MySQL ne supportant pas les sous-requetes, impose aux modules un développement spécifique des requètes SQL.
+   Donc, nous attendrons la prochaine version de MySQL (v4.00).
+
+* 6. Installation 
+
+** 1. Dorsal SQL
+
+  ToutDoux utilise un dorsal SQL (base de données) pour tout ce qui concerne le stockage temporaire des données.
+  Ceci permet de bénéfier du puissant language SQL et de moteur de requète fiable et performant comme PostgreSQL.
+  L'utilisateur unix (ici 'toto') doit pouvoir créer et supprimer une base de données.
+
+  Mettre dans /ect.inittab : pg:2345:respawn:/bin/su - pgsql -c "postmaster" : lancement du serveur postmaster au démarrage de la station.
+
+	$ /bin/su - pgsql -c "postmaster"			      : lancement du postmaster pour la session courante
+	$ su postgres						      : connexion en administrateur de la base de données
+	$ initdb		   				      : initialisation de la base de données
+	$ createuser toto					      : création du compte utilisateur 'toto'
+	Shall the new user be allowed to create database ? (y/n) y    : permission à l'utilisateur 'toto' de créer des bases de données
+	Shall the new user be allowed to create more users ? (y/n) n  : permission à l'utilisateur 'toto' de créer des compte utilisateurs
+	$ exit				                              : déconnexion de l'administrateur de la base de données
+
+** 2. Environnement UNIX
+
+        - LINGUAS	    		: les langues pour la compilation et documentation (fr, en, ...)
+        - BROWSER			: la navigateur pour le manuel de l'utilisateur (galeon, nautilus, ...)
+        - EDITOR			: l'éditeur texte (emacs, vi, ...)
+
+** 3. Compilation
+
+  Les options de configuration sont :
+  
+	--enable-manuals=ARG		compilation et installation des manuels [default=yes, no]
+
+  La procédure reste un grand classique :
+
+	$ ./configure			: configuration
+	$ make				: compilation
+	$ su				: connexion en administrateur
+	Password:			: mot de passe - password
+	# make install			: installation
+	# exit				: déconnexion de l'administrateur
+
+** 4. Lancement
+
+	$ toutdoux			: gestionnaire de projet
+
+* 7. CVS : Génération de l'arbre source
+
+** 1. Accès anonyme
+
+	$ mkdir ToutDoux
+        $ cd ToutDoux
+        $ cvs -d:pserver:anonymous@cvs.toutdoux.sourceforge.net:/cvsroot/toutdoux login
+	CVS password:
+        $ cvs -z3 -d:pserver:anonymous@cvs.toutdoux.sourceforge.net:/cvsroot/toutdoux co -P .
+	$ ./autogen.sh
+	$ make
+
+** 2. Accès via SSH
+
+	$ export CVS_RSH=ssh 
+	$ mkdir ToutDoux
+        $ cd ToutDoux
+	$ cvs -z3 -ddevelopername@cvs.toutdoux.sourceforge.net:/cvsroot/toutdoux co -P .
+	$ ./autogen.sh
+	$ make
+
+
+
+
+
+

@@ -1,0 +1,743 @@
+;; -*- Mode: Emacs-Lisp -*-
+
+;; ****************************************************************************
+;; Configuration GNU Emacs 20.7.2 (25/06/2000)
+;; Version : 1.0.4 (02/06/2001)
+;; Philippe Roy <ph_roy@toutdoux.org>
+;; ****************************************************************************
+
+;; ****************************************************************************
+;; Receptacle
+;; ****************************************************************************
+(custom-set-variables
+)
+
+;; ****************************************************************************
+;; Repertoire perso
+;; ****************************************************************************
+(setq load-path (cons "~/lib/emacs" load-path))
+
+;; ****************************************************************************
+;; Francais
+;; ****************************************************************************
+(iso-accents-mode t)
+(require 'iso-insert)
+(standard-display-european 1)
+(set-input-mode nil nil 1)
+(setq ispell-dictionary "francais")
+
+;; ****************************************************************************
+;; Abreviations
+;; ****************************************************************************
+(setq-default abbrev-mode t)
+(read-abbrev-file "~/.emacs-abbrevs")
+(setq save-abbrevs t)
+
+;; ****************************************************************************
+;; Clavier global
+;; ****************************************************************************
+
+;; Generalite
+(custom-set-variables
+ '(pc-selection-mode t nil (pc-select)))
+(global-unset-key "\C-xs")
+(global-unset-key "\C-v")
+(global-unset-key "\C-x0")
+(global-unset-key "\M-d")
+(global-unset-key "\C-z")
+(global-unset-key "\C-x\C-z")
+(global-unset-key "\C-x\C-c")
+(global-unset-key [insert])
+(global-set-key "\M-z" 'undo)
+(global-set-key "\C-k" 'kill-this-buffer)
+(global-set-key "\C-b" 'switch-to-buffer)
+(global-set-key "\M-q" 'other-window)
+(global-set-key "\M-w" 'other-window)
+(global-set-key "\C-x=" 'goto-line)
+(global-set-key "\M-g" 'grep)
+(global-set-key "\M-f" 'bookmark-jump)
+(global-set-key "\M-s" 'save-buffer)
+(global-set-key "\C-s" 'isearch-forward)
+(global-set-key "\C-*" 'dabbrev-expand)
+(global-set-key "\C-c\C-i" 'indent-region)
+(global-set-key "\C-xe" 'speedbar)
+(global-set-key "\C-r" 'point-to-register)
+(global-set-key "\M-r" 'jump-to-register)
+;;(global-set-key "\M-;" 'comment) ; rappel 'ajout de commentaire'
+
+;; Mes macros
+(fset 'macro-philou
+      [up end return ?  ?* ?\M-q down])
+(global-set-key "\M-a" 'macro-philou)
+;;(fset 'macro-philou1
+;;      [grep -n -e "/\\* " *.c])
+;;(fset 'macro-philou1
+;;   [delete delete end backspace backspace home])
+
+;; Gud
+(global-set-key "\C-d" 'gdb)
+(global-set-key "\M-d" 'gdb)
+(global-set-key "\C-p" 'gud-up)
+(global-set-key "\C-o" 'gud-down)
+
+;; Ispell
+(global-set-key "\M-$" 'ispell-buffer)
+
+
+;; ****************************************************************************
+;; Associations
+;; ****************************************************************************
+(setq auto-mode-alist
+      '( 
+        ;; Texte
+        ("\\a$" . text-mode)
+        ("\\.txt$" . text-mode)
+        ("\\.csv$" . text-mode)
+        ("\\.log$" . text-mode)
+        ("\\.cou$" . text-mode)
+        ;; Projet
+        ("\\ChangeLog[-.a-z]*" . change-log-mode)
+        ("\\changelog[-.a-z]*" . change-log-mode)
+        ("\\.cvsignore$" . text-mode)
+        ("\\.m4$" . m4-mode)
+        ("\configure\.in$" . m4-mode)
+        ("\\Makefile" . makefile-mode)
+        ("\\Makefile." . makefile-mode)
+        ("\\.fsfdb$" . text-mode)
+        ("\\README[-.a-z]*" . text-mode)
+        ("\\HACKING[-.a-z]*" . text-mode)
+        ("\\AUTHORS$" . text-mode)
+        ("\\NEWS$" . text-mode)
+        ("\\TODO$" . text-mode)
+        ("\\.po$"  . po-mode)
+        ("\\.pot$"  . po-mode)
+        ("\\.am$" . makefile-mode)
+        ("\\POTFILES.in$" . sh-mode)
+        ;; Programmation
+        ("\\.c$"  . c-mode) 
+        ("\\.h$"  . c-mode)
+        ("\\.C$"  . c++-mode) 
+        ("\\.cc$" . c++-mode)
+        ("\\.oz$" . oz-mode)
+	("\\.ozg$" . oz-gump-mode)
+        ("\\.pro$" . prolog-mode)
+        ("\\.scm$" . scheme-mode)
+        ("\\TAGS$" . text-mode)
+        ("\\tags$" . text-mode)
+        ;; Publication
+        ("\\.xsl[-.a-z]*" . sgml-mode)
+        ("\\.sgml$" . sgml-mode)
+        ("\\.dsl$" . scheme-mode)
+        ("\\.tex$" . latex-mode)
+        ("\\.cls$" . latex-mode)
+        ("\\.html$" . html-mode)
+        ("\\.shtml$" . html-mode)
+        ("\\.php3$" . html-mode)
+        ("\\.phtml$" . html-mode)
+        ;; Image
+        ("\\.xpm$"  . c-mode)
+        ("\\.xbm$"  . c-mode)
+        ("\\.svg$" . sgml-mode)
+        ;; Script
+        ("\\.sh$" . sh-mode)
+        ("\\.pl$" . perl-mode)
+        ("\\.pm$" . perl-mode)
+        ;; donnees
+        ("\\.xml[-.a-z]*" . sgml-mode)
+        ("\\.td[-.a-z]*$" . sgml-mode)
+        ("\\.dtd$" . sgml-mode)
+        ("\\.csv$" . text-mode)
+        ("\\.hopla$" . sgml-mode)
+        ("\\.dia$" . sgml-mode)
+        ("\\.gnumeric$" . sgml-mode)
+        ;; gtk-doc
+        ("\\.hierarchy$" . text-mode)
+        ("\\.signals$" . text-mode)
+        ("\\.types$" . text-mode)
+        ("\\.sections.txt$" . sgml-mode)
+        ;; Divers
+        ("\\.l$" . lisp-mode)
+        ("\\.el$" . emacs-lisp-mode)
+        ("\\.gnus$" . emacs-lisp-mode)
+        ("\\.lisp$" . lisp-mode) 
+        ("\\.f$" . fortran-mode) 
+        ("\\.awk$" . awk-mode )
+        )
+)
+
+;; ****************************************************************************
+;; Speedbar
+;; ****************************************************************************
+(custom-set-variables
+ '(speedbar-tag-split-minimum-length 40)
+ '(speedbar-supported-extension-expressions (quote ("\\.vhdl?\\'" 
+						    ;; Texte
+                                                    "^a$"
+                                                    ".log"
+                                                    ".txt"
+                                                    ".cou"
+						    ;; Projet
+                                                    ".cvsignore"
+                                                    ".p" 
+                                                    "Makefile"
+                                                    "Makefile.in"
+                                                    "Makefile.am"
+                                                    "configure.in"
+                                                    ".spec"
+                                                    ".fsfdb"
+                                                    "README[-.a-z]*"
+                                                    "AUTHORS"
+                                                    "THANKS"
+                                                    "NEWS"
+                                                    "TODO"
+                                                    "HACKING[-.a-z]*"
+                                                    "ChangeLog[-.a-z]*"
+                                                    ".po"
+						    "POTFILES.in"
+						    ;; Publication
+                                                    ".xsl[-.a-z]*"
+                                                    ".dsl"
+                                                    ".sgml"
+                                                    ".html"
+                                                    ".css"
+                                                    ".tex"
+                                                    ".cls"
+						    ;; Programmation
+                                                    ".c"
+                                                    ".cc"
+                                                    ".h"
+                                                    ".oz"
+                                                    ".pro"
+                                                    ".scm"
+						    "^TAGS"
+						    "^tags"
+						    ;; Image
+                                                    ".xpm"
+                                                    ".xbm"
+                                                    ".png"
+                                                    ".jpeg"
+                                                    ".jpg"
+                                                    ".gif"
+                                                    ".svg"
+						    ;; Données
+                                                    ".dat"
+                                                    ".xml[-.a-z]*"
+                                                    ".dtd"
+                                                    ".toutdoux"
+                                                    ".td"
+                                                    ".td.in"
+                                                    ".hopla"
+                                                    ".dia"
+                                                    ".gnumeric"
+                                                    ".csv"
+						    ;; Script
+                                                    ".sh"
+                                                    ".pl"
+                                                    ".pm"
+                                                    ".el"
+						    ;; gtk-doc
+                                                    ".hierarchy"
+                                                    ".signals"
+                                                    ".types"
+						    ;; Divers
+                                                    ".emacs"
+                                                    ))))
+
+;; ****************************************************************************
+;; Ecran
+;; ****************************************************************************
+(custom-set-variables
+ '(visible-bell t)
+ '(fill-column 100)
+ (hscroll-global-mode t))
+(setq line-number-mode t)
+(setq column-number-mode t)
+(setq frame-title-format '(buffer-file-name "Emacs: %b (%f)" "Emacs: %b"))
+(setq scroll-preserve-screen-position t)
+
+;; ****************************************************************************
+;; Colorisation
+;; ****************************************************************************
+
+;; Generalite
+(custom-set-variables
+ '(show-paren-style (quote parenthesis))
+ '(show-paren-mode t nil (paren))
+ '(font-lock-global-modes t)
+ '(global-font-lock-mode t nil (font-lock)))
+(setq font-lock-maximum-decoration t)
+
+;; Dans ta face
+(custom-set-faces
+ '(default ((t (:foreground "Wheat" :background "DarkSlateGray"))))
+ '(custom-variable-tag-face ((t (:underline t :foreground "LightBlue"))))
+ '(speedbar-button-face ((t (:foreground "Wheat"))))
+ '(font-lock-comment-face ((t (:foreground "#ff7272"))))
+ '(underline ((t (:underline t))))
+ '(speedbar-directory-face ((t (:foreground "PaleGreen"))))
+ '(speedbar-file-face ((t (:foreground "LightSalmon"))))
+ '(region ((t (:foreground "#102829" :background "#6a997b"))))
+ '(vc-default-back-end (quote RCS))
+ '(custom-saved-face ((t (:underline t :background "DarkSlateGray"))))
+ '(font-lock-constant-face ((t (:foreground "LightGoldenrod"))))
+ '(speedbar-highlight-face ((t (:foreground "Wheat" :background "DarkOliveGreen"))))
+ '(modeline ((t (:inverse-video t :foreground "Tan" :background "DarkSlateGray"))))
+ '(show-paren-match-face ((t (:background "IndianRed"))))
+ '(font-lock-variable-name-face ((t (:foreground "Aquamarine"))))
+ '(speedbar-tag-face ((t (:foreground "LightGoldenrod"))))
+ '(bold ((t (:foreground "LightSalmon"))))
+ '(speedbar-selected-face ((t (:underline t :foreground "#ff7272"))))
+ '(font-lock-builtin-face ((t (:foreground "Pink")))))
+
+
+;; ****************************************************************************
+;; C
+;; ****************************************************************************
+
+;; C : Grands classiks
+(custom-set-variables
+ '(compile-command "make && make install"))
+(add-hook 'c-mode-hook (lambda () (imenu-add-menubar-index)))
+(add-hook 'c-mode-hook '(lambda () (c-toggle-auto-hungry-state t)))
+(setq c-mode-hook
+      '(lambda ()
+	 (define-key c-mode-map "\C-l" 'compile)
+	 (define-key c-mode-map "\M-w" 'imenu)
+	 ))
+(font-lock-add-keywords 'c-mode
+                        '(
+                          ;; ("\\<\\(exit\\)\\>" . font-lock-keyword-face)
+                          ;; ("\\<\\(getc\\)\\>" . font-lock-keyword-face)
+                          ;; Maths
+                          ("\\<\\(abs\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(sqrt\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(floor\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(ceil\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(cos\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(sin\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(acos\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(asin\\)\\>" . font-lock-keyword-face)
+                          ;; Chaine de caractères
+                          ("\\<\\(printf\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(scanf\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(sscanf\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(strlen\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(strcpy\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(strncpy\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(strcmp\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(strncmp\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(strstr\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(strtok\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(strpbrk\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(atoi\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(atof\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(itop\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(ptoi\\)\\>" . font-lock-keyword-face)
+                          ;; Fichier
+			  ("\\<\\(remove\\)\\>" . font-lock-keyword-face)
+			  ("\\<\\(rename\\)\\>" . font-lock-keyword-face)
+			  ("\\<\\(stat\\)\\>" . font-lock-keyword-face)
+			  ("\\<\\(open\\)\\>" . font-lock-keyword-face)
+			  ("\\<\\(close\\)\\>" . font-lock-keyword-face)
+			  ("\\<\\(opendir\\)\\>" . font-lock-keyword-face)
+			  ("\\<\\(closedir\\)\\>" . font-lock-keyword-face)
+			  ("\\<\\(readdir\\)\\>" . font-lock-keyword-face)
+			  ("\\<\\(mkdir\\)\\>" . font-lock-keyword-face)
+			  ("\\<\\(fstat\\)\\>" . font-lock-keyword-face)
+			  ("\\<\\(fopen\\)\\>" . font-lock-keyword-face)
+			  ("\\<\\(fprintf\\)\\>" . font-lock-keyword-face)
+			  ("\\<\\(fclose\\)\\>" . font-lock-keyword-face)
+                          ;; ("\\<\\(fgets\\)\\>" . font-lock-keyword-face)
+			  ;; ("\\<\\(fgetc\\)\\>" . font-lock-keyword-face)
+			  ;; ("\\<\\(ferror\\)\\>" . font-lock-keyword-face)
+			  ;; ("\\<\\(freopen\\)\\>" . font-lock-keyword-face)
+                          ;; ("\\<\\(fflush\\)\\>" . font-lock-keyword-face)
+                          ;; ("\\<\\(fpurge\\)\\>" . font-lock-keyword-face)
+                          ;; ("\\<\\(feof\\)\\>" . font-lock-keyword-face)
+                          ;; Greffon Guile
+                          ("\\<\\(dlopen\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(dlsym\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(dlerror\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(gh_[-.a-z0-9_]*;?\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(scm_[-.a-z0-9_]*;?\\)\\>" . font-lock-keyword-face)
+                          ;; Processus
+                          ;; ("\\<\\(pthread_[-.a-z0-9_]*;?\\)\\>" . font-lock-keyword-face)
+                          ;; ("\\<\\(sem_[-.a-z0-9_]*;?\\)\\>" . font-lock-keyword-face)
+                          ;; Systeme
+			  ;; ("\\<\\(sleep;?\\)\\>" . font-lock-keyword-face)
+			  ;; ("\\<\\(setenv;?\\)\\>" . font-lock-keyword-face)
+			  ("\\<\\(system\\)\\>" . font-lock-keyword-face)
+			  ;; Glib
+                          ("\\<\\(g_[-.a-z0-9_]*;?\\)\\>" . font-lock-keyword-face)
+			  ;; gettext
+			  ;; ("\\<\\(setlocale\\)\\>" . font-lock-keyword-face)
+			  ;; ("\\<\\(gettext\\)\\>" . font-lock-keyword-face)
+			  ;; ("\\<\\(bindtextdomain\\)\\>" . font-lock-keyword-face)
+			  ;; ("\\<\\(textdomain\\)\\>" . font-lock-keyword-face)
+			  ;; Commentaires
+                          ("\\<\\(FIXME\\):" 1 font-lock-warning-face prepend)
+                          ("\\<\\(CF\\):" 1 font-lock-warning-face prepend)
+                          ("\\<\\(BIDOUILLE\\):" 1 font-lock-warning-face prepend)
+                          ))
+
+;; C : Compléments
+(font-lock-add-keywords 'c-mode
+                        '(
+			  ;; XML PostgreSQL MySQL
+			  ("\\<\\(xml[-.a-zA-Z0-9_]*;?\\)\\>" . font-lock-constant-face)
+                          ("\\<\\(PQ[-.a-zA-Z0-9_]*;?\\)\\>" . font-lock-constant-face)
+                          ("\\<\\(mysql_[-.a-z0-9_]*;?\\)\\>" . font-lock-constant-face)
+			  ;; GTK+ GNOME
+                          ("\\<\\(gdk_[-.a-z0-9_]*;?\\)\\>" . font-lock-constant-face)
+                          ("\\<\\(gtk_[-.a-z0-9_]*;?\\)\\>" . font-lock-constant-face)
+                          ("\\<\\(gnome_[-.a-z0-9_]*;?\\)\\>" . font-lock-constant-face)
+			  ;; GNU Prolog
+			  ;; ("\\<\\(Start_Prolog\\)\\>" . font-lock-constant-face)
+			  ;; ("\\<\\(Stop_Prolog\\)\\>" . font-lock-constant-face)
+			  ;; ("\\<\\(Pl_[-.a-zA-Z0-9_]*;?\\)\\>" . font-lock-constant-face)
+			  ;; ("\\<\\(Mk_[-.a-zA-Z0-9_]*;?\\)\\>" . font-lock-constant-face)
+			  ;; ("\\<\\(Rd_[-.a-zA-Z0-9_]*;?\\)\\>" . font-lock-constant-face)
+			  ;; ("\\<\\(Get_[-.a-zA-Z0-9_]*;?\\)\\>" . font-lock-constant-face)
+			  ;; ("\\<\\(Find_[-.a-zA-Z0-9_]*;?\\)\\>" . font-lock-constant-face)
+			  ;; Evolution
+                          ;; ("\\<\\(e_[-.a-z0-9_]*;?\\)\\>" . font-lock-constant-face)
+			  ;; ToutDoux hOpla
+                          ("\\<\\(td_[-.a-z0-9_]*;?\\)\\>" . font-lock-builtin-face)
+                          ("\\<\\(gtdk_[-.a-z0-9_]*;?\\)\\>" . font-lock-builtin-face)
+                          ("\\<\\(hopla_[-.a-z0-9_]*;?\\)\\>" . font-lock-builtin-face)
+                          ))
+
+;; C : Types
+(custom-set-variables
+ '(c-font-lock-extra-types (quote (
+                                   ;; C
+                                   "DIR" 
+                                   "FILE"
+                                   "pthread_t"
+				   ;; Guile
+				   "Scm"
+                                   ;; Glib
+				   "guchar"
+                                   "gchar"
+                                   "gint"
+                                   "guint"
+                                   "guint8"
+                                   "guint32"
+                                   "gboolean"
+				   "gconstpointer"
+                                   "gpointer"
+                                   "gdouble"
+				   "gfloat"
+				   "GString"
+                                   "GList"
+                                   "GSList"
+                                   "GHashTable"
+                                   "GModule"
+                                   "GIOChannel"
+                                   "GIOCondition"
+                                   "GIOError"
+                                   "GMutex"  
+                                   "GCond"
+                                   "GPrivate"
+                                   "GDate"
+				   "GHFunc"
+				   "GHRFunc"
+				   "GCompletion"
+                                   ;; XML PostgreSQL MySQL
+                                   "\\<\\(Xml[-.a-zA-Z0-9_]*;?\\)\\>"
+				   "\\<\\(PG[-.a-z]*;?\\)\\>"
+				   "\\<\\(MYSQL_[-.A-Z]*;?\\)\\>"
+				   ;; GNU Prolog
+                                   ;"WamWord"
+                                   ;; Gdk Gtk+ GNOME
+                                   "\\<\\(Gdk[-.a-zA-Z0-9_]*;?\\)\\>"
+                                   "\\<\\(Gtk[-.a-zA-Z0-9_]*;?\\)\\>"
+                                   "\\<\\(Gnome[-.a-zA-Z0-9_]*;?\\)\\>"
+                                   ;; "EShortcutModel"
+                                   ;; ToutDoux hOpla
+                                   "\\<\\(Td[-.a-zA-Z0-9_]*;?\\)\\>"
+				   "\\<\\(Hopla_[-.a-zA-Z0-9_]*;?\\)\\>"
+				   ))))
+
+;; po
+(autoload 'po-mode "po-mode")
+(setq auto-mode-alist (cons '("\\.po[tx]?\\'\\|\\.po\\." . po-mode) 
+                            auto-mode-alist))
+(autoload 'po-find-file-coding-system "po-mode") 
+(modify-coding-system-alist 'file "\\.po[tx]?\\'\\|\\.po\\." 
+			    'po-find-file-coding-system)
+
+;; ****************************************************************************
+;; Script
+;; ****************************************************************************
+
+;; Shell
+(font-lock-add-keywords 'sh-mode
+                        '(
+                          ("\\<\\(ssh\\)\\>" . font-lock-builtin-face)
+                          ("\\<\\(scp\\)\\>" . font-lock-builtin-face)
+                          ("\\<\\(mkdir\\)\\>" . font-lock-builtin-face)
+                          ("\\<\\(cp\\)\\>" . font-lock-builtin-face)
+                          ("\\<\\(tar\\)\\>" . font-lock-builtin-face)
+                          ("\\<\\(gzip\\)\\>" . font-lock-builtin-face)
+                          ("\\<\\(cat\\)\\>" . font-lock-builtin-face)
+                          ("\\<\\(ls\\)\\>" . font-lock-builtin-face)
+                          ("\\<\\(chmod\\)\\>" . font-lock-builtin-face)
+                          ("\\<\\(grep\\)\\>" . font-lock-builtin-face)
+                          ("\\<\\(perl\\)\\>" . font-lock-builtin-face)
+                          ("\\<\\(find\\)\\>" . font-lock-builtin-face)
+                          ("\\<\\(sed\\)\\>" . font-lock-builtin-face)
+                          ))
+
+;; Perl
+(custom-set-variables
+ '(perl-indent-level 2)
+ '(perl-continued-statement-offset 0)
+ '(perl-label-offset 0)
+ '(perl-continued-brace-offset 2)
+ '(perl-brace-imaginary-offset 0)
+ '(perl-tab-to-comment nil))
+(font-lock-add-keywords 'perl-mode
+                        '(
+                          ("\\<\\(print\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(grep\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(shift\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(eq\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(qw\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(undef\\)\\>" . font-lock-keyword-face)
+                          ))
+
+;; Makefile
+(setq makefile-mode-hook
+      '(lambda ()
+	 (define-key makefile-mode-map "\C-l" 'compile)
+	 ))
+(font-lock-add-keywords 'makefile-mode
+                        '(
+			  ;; Shell
+                          ("\\<\\(if\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(then\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(else\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(fi\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(endif\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(for\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(do\\)\\>" . font-lock-keyword-face)
+                          (" \\<\\(in\\)\\> " . font-lock-keyword-face)
+                          (" \\<\\(test\\)\\> " . font-lock-keyword-face)
+                          ("\\<\\(echo\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(cd\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(done\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(find\\)\\>" . font-lock-keyword-face)
+			  ;; Unix
+                          ("\\<\\(ssh\\)\\>" . font-lock-builtin-face)
+                          ("\\<\\(scp\\)\\>" . font-lock-builtin-face)
+                          ("\\<\\(mkdir\\)\\>" . font-lock-builtin-face)
+                          ("\\<\\(cp\\)\\>" . font-lock-builtin-face)
+                          ("\\<\\(mv\\)\\>" . font-lock-builtin-face)
+                          ("\\<\\(rm\\)\\>" . font-lock-builtin-face)
+                          ("\\<\\(tar\\)\\>" . font-lock-builtin-face)
+                          ("\\<\\(gzip\\)\\>" . font-lock-builtin-face)
+                          ("\\<\\(ls\\)\\>" . font-lock-builtin-face)
+                          ("\\<\\(chmod\\)\\>" . font-lock-builtin-face)
+			  ;; Manipulation de texte
+                          ("\\<\\(cat\\)\\>" . font-lock-builtin-face)
+                          ("\\<\\(grep\\)\\>" . font-lock-builtin-face)
+                          ("\\<\\(sed\\)\\>" . font-lock-builtin-face)
+                          ("\\<\\(perl\\)\\>" . font-lock-builtin-face)
+                          ("\\<\\(getxml-extract\\)\\>" . font-lock-builtin-face)
+                          ("\\<\\(getxml-merge\\)\\>" . font-lock-builtin-face)
+                          ("\\<\\(xgettext\\)\\>" . font-lock-builtin-face)
+                          ("\\<\\(msgmerge\\)\\>" . font-lock-builtin-face)
+                          ("\\<\\(xsltproc\\)\\>" . font-lock-builtin-face)
+                          ("\\<\\(dtags-tags\\)\\>" . font-lock-builtin-face)
+                          ("\\<\\(dtags-c\\)\\>" . font-lock-builtin-face)
+                          ("\\<\\(jade\\)\\>" . font-lock-builtin-face)
+                          ))
+
+;; m4
+(font-lock-add-keywords 'm4-mode
+                        '(
+			  ("\\<\\(AC_INIT\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(AC_DEFINE\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(AC_DEFINE_UNQUOTED\\)\\>" . font-lock-keyword-face)
+			  ("\\<\\(AC_SUBST\\)\\>" . font-lock-keyword-face)
+			  ("\\<\\(AC_MSG_CHECKING\\)\\>" . font-lock-keyword-face)
+			  ("\\<\\(AC_MSG_RESULT\\)\\>" . font-lock-keyword-face)
+			  ("\\<\\(AC_MSG_ERROR\\)\\>" . font-lock-keyword-face)
+			  ("\\<\\(AC_ARG_ENABLE\\)\\>" . font-lock-keyword-face)
+			  ("\\<\\(AC_OUTPUT\\)\\>" . font-lock-keyword-face)
+			  ("\\<\\(AM_CONDITIONAL\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(if\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(then\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(else\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(fi\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(do\\)\\>" . font-lock-keyword-face)
+                          (" \\<\\(in\\)\\> " . font-lock-keyword-face)
+                          (" \\<\\(test\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(echo\\)\\>" . font-lock-keyword-face)
+                          ))
+
+;; ****************************************************************************
+;; Language évolué
+;; ****************************************************************************
+
+;; Scheme
+(setq scheme-program-name "/usr/bin/guile")
+
+;; Emacs lisp
+(setq emacs-lisp-mode-hook
+      '(lambda ()
+	 (define-key emacs-lisp-mode-map "\C-l" 'byte-compile-file)
+	 ))
+(font-lock-add-keywords 'emacs-lisp-mode
+                        '(
+                          ("\\<\\(t\\)\\>" . font-lock-string-face)
+                          ("\\<\\(nil\\)\\>" . font-lock-string-face)
+			  ("\\<\\(setq\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(fset\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(custom-set-variables\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(font-lock-add-keywords\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(custom-set-faces\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(global-set-key\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(global-unset-key\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(autoload\\)\\>" . font-lock-keyword-face)
+                          ("\\<\\(define-key\\)\\>" . font-lock-keyword-face)
+			  ))
+
+;; Prolog
+(autoload 'prolog-mode "prolog" "" t)
+;;(font-lock-add-keywords 'prolog-mode
+;;                        '(
+;;                          ("\\<\\(alpha\\)\\>" . font-lock-keyword-face)
+;;                          ("\\<\\(:-\\)\\>" . font-lock-keyword-face)
+;;                          ("\\<\\(#=\\)\\>" . font-lock-keyword-face)
+;;                          ("\\<\\(label\\)\\>" . font-lock-keyword-face)
+;;                          ("\\<\\(get_fd_labeling\\)\\>" . font-lock-keyword-face)
+;;                          ("\\<\\(statistics\\)\\>" . font-lock-keyword-face)
+;;                          ("\\<\\(write\\)\\>" . font-lock-keyword-face)
+;;                          ("\\<\\(fd_[-.a-z0-9_]*;?\\)\\>" . font-lock-keyword-face)
+;;                          ("\\<\\(\/\* [-.a-z0-9_]* \*\/?\\)\\>" . font-lock-comment-face)
+;;                          ))
+;;(font-lock-add-keywords 'prolog-mode
+;;                        '(
+;;			  ("\\<\\(write\\)\\>" . font-lock-keyword-face)
+;;                          ))
+
+;; Oz
+(setq oz-mode-hook
+      '(lambda ()
+	 (define-key oz-mode-map "\C-l" 'oz-feed-buffer)
+	 (define-key oz-mode-map "\M-e" 'oz-toggle-emulator)
+	 (define-key oz-mode-map "\C-xr" 'run-oz)
+	 (define-key oz-mode-map "\C-xh" 'oz-halt)
+	 (define-key oz-mode-map "\C-c\C-c" 'oz-comment-region)
+	 (define-key oz-mode-map "\C-u\C-c\C-c" 'oz-uncomment-region)
+	 (define-key oz-mode-map "\C-c\C-i" 'oz-indent-region)
+	 ))
+(autoload 'run-oz "oz" "" t)
+(autoload 'oz-mode "oz" "" t)
+(autoload 'oz-gump-mode "oz" "" t)
+(autoload 'oz-new-buffer "oz" "" t)
+
+;; ****************************************************************************
+;; Données
+;; ****************************************************************************
+
+;; Texte
+(setq text-mode-hook
+      '(lambda ()
+	 (define-key text-mode-map "\C-l" 'compile)
+	 ))
+
+;; Info
+;(load "gc-info")
+
+;; TeX
+(custom-set-variables
+ '(ps-paper-type (quote a4) t)
+ '(tex-dvi-view-command "gv" t));; '(tex-dvi-view-command "xdvi" t)
+(setq tex-mod-hook
+      '(lambda ()
+	 (define-key tex-mod-map "\M-l" 'tex-validate-buffer)
+	 (define-key tex-mod-map "\C-l" 'tex-buffer)
+	 ))
+
+;; SGML
+(require 'sgml-mode)
+(setq sgml-indent-data t)
+(setq sgml-set-face t)
+(setq sgml-mode-hook
+      '(lambda ()
+	 (define-key sgml-mode-map "\C-l" 'compile)
+	 ))
+;;(setq sgml-validate-command "nsgmls -s")
+;;(setq sgml-name-8bit-mode nil)
+(font-lock-add-keywords 'sgml-mode
+                        '(
+			  ("\\<\\(xsl:[-.a-zA-Z0-9_]*;?\\)\\>" . font-lock-constant-face)
+			  ("\\<\\(td:[-.a-zA-Z0-9_]*;?\\)\\>" . font-lock-keyword-face)
+			  ;; Commentaires
+			  ("\\<\\(FIXME\\):" 1 font-lock-warning-face prepend)
+                          ("\\<\\(BIDOUILLE\\):" 1 font-lock-warning-face prepend)
+                          ))
+
+;; ToutDoux
+;; M-x global-auto-revert-mode
+
+;; ****************************************************************************
+;; Divers
+;; ****************************************************************************
+(fset 'yes-or-no-p 'y-or-n-p)
+(custom-set-variables
+ '(buffer-offer-save nil))
+(setq inhibit-startup-message t)
+
+;; ****************************************************************************
+;; Courriel
+;; ****************************************************************************
+(setq user-full-name "Philippe Roy")
+(setq mail-host-address "evc.net")
+(setq mail-yank-prefix "> ")
+(custom-set-variables
+ '(user-mail-address "ph_roy@toutdoux.org")
+ '(mail-use-rfc822 t)
+ '(mail-user-agent (quote sendmail-user-agent))
+ '(mail-interactive t)
+ '(rmail-highlight-face (quote bold))
+ '(rmail-display-summary t)
+ '(rmail-secondary-file-directory "~/mail")
+ '(query-user-mail-address nil)
+ '(rmail-preserve-inbox t)
+ '(rmail-primary-inbox-list (quote ("/var/spool/mail/philou"))))
+
+;(setq mail-archive-file-name "~/mail/outbox")
+;(custom-set-variables
+; '(mark-holidays-in-calendar t)
+; '(ps-paper-type (quote a4) t)
+; '(all-christian-calendar-holidays t)
+; '(query-user-mail-address nil)
+; '(user-mail-address "ph_roy@toutdoux.org"))
+;; '(message-default-headers hindy::message-default-headers))
+
+;; ****************************************************************************
+;; Calendrier
+;; ****************************************************************************
+(custom-set-variables
+ '(mark-holidays-in-calendar t)
+ '(all-christian-calendar-holidays t))
+
+;; ****************************************************************************
+;; Serveur
+;; ****************************************************************************
+;;(server-start)
+;;(custom-set-variables
+;;  '(server-temp-file-regexp "/tmp/emacs_draft")
+;;)
+;; '(server-temp-file-regexp "/tmp/emacs_draft")
+
+;;(setq load-path (cons (expand-file-name "~/elisp") load-path))
+;;(autoload 'gnuserv-start "gnuserv" "Better Emacs server support")
+;;(setq gnuserv-frame (current-frame))
+;;(gnuserv-start)
+
+(put 'narrow-to-region 'disabled nil)
