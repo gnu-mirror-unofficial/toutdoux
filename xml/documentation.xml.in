@@ -10,9 +10,9 @@
         <document-item nom="Français" href="../doc/user/fr/index.html"/>
       </document-format>
       <document-format nom="tarball [83 kb]">
-        <document-item nom="English" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/doc/user/toutdoux-doc-en.tar.gz"/>
-        <document-item nom="Español" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/doc/user/toutdoux-doc-es.tar.gz"/>
-        <document-item nom="Français" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/doc/user/toutdoux-doc-fr.tar.gz"/>
+        <document-item nom="English" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/doc/user/toutdoux-doc-user-en.tar.gz"/>
+        <document-item nom="Español" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/doc/user/toutdoux-doc-user-es.tar.gz"/>
+        <document-item nom="Français" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/doc/user/toutdoux-doc-user-fr.tar.gz"/>
       </document-format>
     </document>
     <document _nom="Manuel de références">
@@ -22,9 +22,9 @@
         <document-item nom="Français" href="../doc/devel/fr/index.html"/>
       </document-format>
       <document-format nom="tarball [34 kb]">
-        <document-item nom="English" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/doc/devel/toutdoux-doc-en.tar.gz"/>
-        <document-item nom="Español" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/doc/devel/toutdoux-doc-es.tar.gz"/>
-        <document-item nom="Français" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/doc/devel/toutdoux-doc-fr.tar.gz"/>
+        <document-item nom="English" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/doc/devel/toutdoux-doc-devel-en.tar.gz"/>
+        <document-item nom="Español" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/doc/devel/toutdoux-doc-devel-es.tar.gz"/>
+        <document-item nom="Français" href="ftp://toutdoux.sourceforge.net/pub/toutdoux/doc/devel/toutdoux-doc-devel-fr.tar.gz"/>
       </document-format>
     </document>
   </cadre>
